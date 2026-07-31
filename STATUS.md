@@ -62,7 +62,7 @@ atleta, para o reprocessamento não depender do `atletas.csv` continuar igual.
 ## 3. Bugs corrigidos
 
 Todos com teste que falha na versão antiga e passa na nova
-(`python test_parser.py`, 46 asserções).
+(`python test_parser.py`, 53 asserções).
 
 ### 3.1 Cabeçalho de competição nunca era capturado — o mais grave
 
@@ -235,7 +235,7 @@ Testado de ponta a ponta contra o torneio sintético: 180 linhas × 28 atletas �
 | `conferencia_selecoes.py` | scraper multi-fonte + reconciliação | rodável; seletores não validados |
 | `partidas_universo.py` | schema + validador + import do universo | testado |
 | `relacoes.py` | cruzamento partida × atleta | testado |
-| `test_parser.py` | 46 asserções de lógica | passa |
+| `test_parser.py` | 53 asserções de lógica | passa |
 | `test_universo.py` | invariantes do formato CONMEBOL | passa |
 | `dados/partidas_universo.csv` | universo de partidas | **VAZIO — falta coleta** |
 | `atletas.csv` | 28 atletas | URLs em branco; janelas ESTIMADAS |
