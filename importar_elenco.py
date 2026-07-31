@@ -1,45 +1,49 @@
 #!/usr/bin/env python3
 """
-importar_elenco_tm.py — lê a página de elenco do Transfermarkt salva em disco.
+importar_elenco.py — lê a página de elenco do Botafogo salva do navegador.
+
+Serve tanto ao **Transfermarkt** quanto ao **oGol**. Os dois formatos diferem no
+essencial — ver `_achar_nascimento_e_idade` e `POSICOES` —, e o script decide
+sozinho qual está lendo.
 
 POR QUE ISTO EXISTE
 -------------------
-As URLs de elenco do Transfermarkt (`/kader/verein/537?saison_id=AAAA`) são
-inalcançáveis desta sessão: a política de egresso recusa o CONNECT para o host
-`transfermarkt.*` inteiro, antes de qualquer caminho ser enviado. Testado em
-.com.br, .com, .us, .co.uk, .de e no CDN de imagens. Mandar outra URL não muda
-nada — o bloqueio não é de página, é de domínio.
+As páginas de elenco são inalcançáveis desta sessão. A política de egresso
+recusa o CONNECT para os hosts inteiros, **antes de qualquer caminho ser
+enviado**: testado em transfermarkt .com.br, .com, .us, .co.uk e .de, no CDN de
+imagens, em ogol.com.br e em zerozero.pt. Mandar outra URL não muda nada — o
+bloqueio é de domínio, não de página.
 
-O contorno é você abrir a página no seu navegador e salvar. Este script lê o
-arquivo salvo e produz as linhas de `dados/elencos.csv`.
+O contorno é abrir a página no seu navegador e salvar. Este script lê o arquivo.
 
 COMO SALVAR
 -----------
-No navegador, com a página de elenco aberta:
+Com a página aberta:  Ctrl+S  →  "Página da Web, completa" **ou** "somente
+HTML". Os dois servem; o parser só precisa do HTML. Um arquivo por temporada,
+com o ano no nome: `elenco_2023.html`, `ogol_2022.html`.
 
-  Ctrl+S  →  "Página da Web, completa" ou "Página da Web, somente HTML"
+  * Transfermarkt: use a aba **"Elenco detalhado"** (`/plus/1` na URL). Ela traz
+    nascimento, nacionalidade, altura, pé e "no clube desde". A visão em galeria
+    (`/galerie/0`) tem menos colunas.
+  * oGol: a página `/equipe/botafogo?epoca_id=NNN`, uma por temporada.
 
-Qualquer um dos dois serve — o parser só precisa do HTML. Salve um arquivo por
-temporada e nomeie com o ano, por exemplo `elenco_2023.html`.
-
-Use a aba **"Elenco detalhado"** (`/plus/1` na URL): ela traz data de
-nascimento, nacionalidade, altura, pé e "no clube desde". A visão em galeria
-(`/galerie/0`) tem menos colunas.
+Salvar das DUAS fontes para o mesmo ano é melhor do que de uma: onde elas
+divergirem, é sinal de que aquele atleta precisa de conferência — a mesma lógica
+da aba Reconciliacao do conferencia_selecoes.py.
 
 USO
 ---
-  python importar_elenco_tm.py elenco_2023.html --temporada 2023
-  python importar_elenco_tm.py *.html            # deduz o ano do nome do arquivo
+  python importar_elenco.py elenco_2023.html --temporada 2023
+  python importar_elenco.py *.html            # deduz o ano do nome do arquivo
 
-O resultado é gravado em `dados/elencos_transfermarkt.csv`, com o schema
-completo: número, nome, nascimento, idade, posição, nacionalidade (inclusive
-dupla), altura e "no clube desde".
+Grava `dados/elencos_coletados.csv` com número, nome, nascimento, idade,
+posição, nacionalidade (inclusive dupla), altura e "no clube desde".
 
 NÍVEL DE CONFIANÇA
 ------------------
-Transfermarkt é **nível 2, CONFERÊNCIA**, conforme a seção 6 do CLAUDE.md.
-Serve para montar o elenco e para saber quem investigar. A janela de registro
-que vale para o claim continua sendo a do TMS.
+Transfermarkt e oGol são **nível 2, CONFERÊNCIA**, conforme a seção 6 do
+CLAUDE.md. Servem para montar o elenco e para saber quem investigar. A janela de
+registro que vale para o claim continua sendo a do TMS.
 """
 
 from __future__ import annotations
@@ -47,12 +51,13 @@ from __future__ import annotations
 import argparse
 import csv
 import re
+from datetime import date
 from pathlib import Path
 
 from parser_tabelas import extrair_linhas, normalizar, parse_data
 
 DIR_DADOS = Path("dados")
-CSV_SAIDA = DIR_DADOS / "elencos_transfermarkt.csv"
+CSV_SAIDA = DIR_DADOS / "elencos_coletados.csv"
 
 CAMPOS = ["temporada", "numero", "nome", "nome_completo", "nascimento", "idade",
           "posicao", "nacionalidade", "altura", "pe", "no_clube_desde",
@@ -60,15 +65,29 @@ CAMPOS = ["temporada", "numero", "nome", "nome_completo", "nascimento", "idade",
 
 # "23/07/1999 (26)" — assinatura da célula de nascimento no Transfermarkt.
 RE_NASC_IDADE = re.compile(r"(\d{1,2}/\d{1,2}/\d{4})\s*\((\d{1,2})\)")
+# oGol não põe a idade colada na data; às vezes traz "26 anos" em outra célula,
+# às vezes nada. Por isso a âncora genérica é a data com cara de nascimento.
+RE_DATA_SOLTA = re.compile(r"\b(\d{1,2})[/.\-](\d{1,2})[/.\-](\d{4})\b")
+RE_ANOS = re.compile(r"\b(\d{1,2})\s*anos?\b", re.I)
 RE_ALTURA = re.compile(r"(\d[,.]\d{2})\s*m")
 RE_LEGENDA = re.compile(r"\[([^\]]+)\]")
 RE_NUMERO = re.compile(r"^\d{1,2}$")
 
+# Um atleta de elenco nasceu neste intervalo. Serve para separar a data de
+# nascimento da data de "no clube desde", que é sempre recente.
+ANO_NASC_MIN, ANO_NASC_MAX = 1970, 2012
+
 POSICOES = [
+    # Transfermarkt (pt-BR)
     "goleiro", "zagueiro", "lateral-direito", "lateral-esquerdo", "lateral",
     "volante", "meio-campo defensivo", "meia-atacante", "meio-campo central",
     "meia direita", "meia esquerda", "ponta-direita", "ponta-esquerda",
     "segundo atacante", "centroavante", "atacante", "defensor", "meio-campo",
+    # oGol / zerozero — mesmo backend, nomenclatura própria e às vezes pt-PT
+    "guarda-redes", "defesa central", "defesa direito", "defesa esquerdo",
+    "medio defensivo", "medio ofensivo", "medio centro", "medio",
+    "extremo direito", "extremo esquerdo", "extremo", "avancado",
+    "ala direito", "ala esquerdo", "ponta", "meia",
 ]
 
 # Legendas de imagem que não são nacionalidade.
@@ -104,9 +123,45 @@ def _achar_nacionalidade(celulas: list[str], nome: str) -> str:
     return "/".join(achadas[:2])
 
 
+def _achar_nascimento_e_idade(linha: str, temporada: str):
+    """Acha a data de nascimento em qualquer um dos dois formatos.
+
+    Transfermarkt cola a idade na data — "23/07/1999 (26)". oGol não: a data vem
+    sozinha e a idade, quando aparece, vem como "26 anos" noutra célula. Por isso
+    a âncora comum é a DATA cujo ano cabe num intervalo de nascimento; assim a
+    data de "no clube desde", sempre recente, não é confundida com ela.
+
+    Sem idade na página, calcula em 31/12 da temporada — que é a idade útil para
+    ler um elenco daquele ano, e não a idade de hoje.
+    """
+    m = RE_NASC_IDADE.search(linha)
+    if m:
+        d = parse_data(m.group(1))
+        if d and ANO_NASC_MIN <= d.year <= ANO_NASC_MAX:
+            return d, m.group(2)
+
+    for dia, mes, ano in RE_DATA_SOLTA.findall(linha):
+        if not (ANO_NASC_MIN <= int(ano) <= ANO_NASC_MAX):
+            continue
+        d = parse_data(f"{dia}/{mes}/{ano}")
+        if d is None:
+            continue
+        ma = RE_ANOS.search(linha)
+        if ma:
+            return d, ma.group(1)
+        if temporada.isdigit():
+            ref = date(int(temporada), 12, 31)
+            idade = ref.year - d.year - ((ref.month, ref.day) < (d.month, d.day))
+            return d, str(idade)
+        return d, ""
+    return None, ""
+
+
 def _limpar_nome(texto: str) -> str:
     t = RE_LEGENDA.sub(" ", texto)
     t = RE_NASC_IDADE.sub(" ", t)
+    t = RE_ANOS.sub(" ", t)
+    t = RE_DATA_SOLTA.sub(" ", t)
     for p in POSICOES:
         t = re.sub(re.escape(p), " ", t, flags=re.I)
     t = re.sub(r"\s{2,}", " ", t).strip(" -–|")
@@ -123,17 +178,14 @@ def extrair_elenco(html: str, temporada: str, fonte: str) -> list[dict]:
 
     for l in extrair_linhas(html):
         linha = " | ".join(l.celulas)
-        m = RE_NASC_IDADE.search(linha)
-        if not m:
-            continue                      # linha de elenco tem nascimento (idade)
-        nascimento, idade = m.group(1), m.group(2)
-        d = parse_data(nascimento)
+        d, idade = _achar_nascimento_e_idade(linha, temporada)
         if d is None:
             continue
 
         # A célula do jogador é a maior que sobra depois de tirar data e números.
         candidatos = [c for c in l.celulas
-                      if len(_limpar_nome(c)) >= 3 and not RE_NASC_IDADE.search(c)]
+                      if len(_limpar_nome(c)) >= 3
+                      and _achar_nascimento_e_idade(c, temporada)[0] is None]
         nome = _limpar_nome(max(candidatos, key=len)) if candidatos else ""
         if not nome:
             continue
@@ -189,7 +241,7 @@ def main() -> int:
         temporada = _temporada_do_nome(caminho, args.temporada)
         html = caminho.read_text(encoding="utf-8", errors="replace")
         linhas = extrair_elenco(html, temporada,
-                                f"Transfermarkt (salvo do navegador) — {caminho.name}")
+                                f"pagina de elenco salva do navegador — {caminho.name}")
         com_nac = sum(1 for r in linhas if r["nacionalidade"])
         com_pos = sum(1 for r in linhas if r["posicao"])
         print(f"  {caminho.name}: temporada {temporada} · {len(linhas)} atletas "
