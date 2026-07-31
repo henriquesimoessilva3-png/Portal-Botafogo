@@ -1,0 +1,122 @@
+partida_id,data,selecao,adversario,confederacao,rodada,resultado,n_atletas,atletas,url_fifa,status_coleta
+2024-11-19|brasil|uruguai,2024-11-19,Brasil,Uruguai,CONMEBOL,12,1:1,7,Alex Telles; Damian Suarez; Diego Hernandez; Igor Jesus; Luiz Henrique; Mateo Ponte; Vitinho,,A COLETAR
+2025-03-21|argentina|uruguai,2025-03-21,Argentina,Uruguai,CONMEBOL,13,0:1,7,Alexander Barboza; Alvaro Montoro; Damian Suarez; Diego Hernandez; Mastriani; Mateo Ponte; Santi Rodriguez,,A COLETAR
+2025-03-25|argentina|brasil,2025-03-25,Argentina,Brasil,CONMEBOL,14,1:4,7,Alex Telles; Alexander Barboza; Alvaro Montoro; Danilo Santos; Igor Jesus; Luiz Henrique; Vitinho,,A COLETAR
+2024-09-10|brasil|paraguai,2024-09-10,Brasil,Paraguai,CONMEBOL,8,1:0,6,Alex Telles; Gatito Fernandez; Igor Jesus; Luiz Henrique; Oscar Romero; Vitinho,,A COLETAR
+2025-03-20|brasil|colombia,2025-03-20,Brasil,Colombia,CONMEBOL,13,1:2,6,Alex Telles; Danilo Santos; Igor Jesus; Jordan Barrera; Luiz Henrique; Vitinho,,A COLETAR
+2025-03-25|bolivia|uruguai,2025-03-25,Bolivia,Uruguai,CONMEBOL,14,0:0,6,Damian Suarez; Diego Hernandez; Mastriani; Mateo Ponte; Santi Rodriguez; Sebastian Joffre,,A COLETAR
+2025-06-05|brasil|equador,2025-06-05,Brasil,Equador,CONMEBOL,15,0:0,6,Alex Telles; Cristhian Loor; Danilo Santos; Igor Jesus; Luiz Henrique; Vitinho,,A COLETAR
+2025-06-10|uruguai|venezuela,2025-06-10,Uruguai,Venezuela,CONMEBOL,16,0:2,6,Damian Suarez; Diego Hernandez; Jefferson Savarino; Mastriani; Mateo Ponte; Santi Rodriguez,,A COLETAR
+2024-09-06|brasil|equador,2024-09-06,Brasil,Equador,CONMEBOL,7,0:1,5,Alex Telles; Igor Jesus; Luis Segovia; Luiz Henrique; Vitinho,,A COLETAR
+2024-09-06|paraguai|uruguai,2024-09-06,Paraguai,Uruguai,CONMEBOL,7,0:0,5,Damian Suarez; Diego Hernandez; Gatito Fernandez; Mateo Ponte; Oscar Romero,,A COLETAR
+2024-11-14|brasil|venezuela,2024-11-14,Brasil,Venezuela,CONMEBOL,11,1:1,5,Alex Telles; Igor Jesus; Jefferson Savarino; Luiz Henrique; Vitinho,,A COLETAR
+2025-06-05|paraguai|uruguai,2025-06-05,Uruguai,Paraguai,CONMEBOL,15,0:2,5,Damian Suarez; Diego Hernandez; Mastriani; Mateo Ponte; Santi Rodriguez,,A COLETAR
+2025-06-10|brasil|paraguai,2025-06-10,Brasil,Paraguai,CONMEBOL,16,0:1,5,Alex Telles; Danilo Santos; Igor Jesus; Luiz Henrique; Vitinho,,A COLETAR
+2025-09-04|peru|uruguai,2025-09-04,Uruguai,Peru,CONMEBOL,17,3:0,5,Damian Suarez; Diego Hernandez; Mastriani; Mateo Ponte; Santi Rodriguez,,A COLETAR
+2025-09-09|chile|uruguai,2025-09-09,Uruguai,Chile,CONMEBOL,18,0:0,5,Damian Suarez; Diego Hernandez; Mastriani; Mateo Ponte; Santi Rodriguez,,A COLETAR
+2023-10-17|brasil|uruguai,2023-10-17,Brasil,Uruguai,CONMEBOL,4,2:0,4,Adryelson; Diego Hernandez; Lucas Perri; Mateo Ponte,,A COLETAR
+2024-09-10|uruguai|venezuela,2024-09-10,Uruguai,Venezuela,CONMEBOL,8,0:0,4,Damian Suarez; Diego Hernandez; Jefferson Savarino; Mateo Ponte,,A COLETAR
+2024-10-10|brasil|chile,2024-10-10,Brasil,Chile,CONMEBOL,9,1:2,4,Alex Telles; Igor Jesus; Luiz Henrique; Vitinho,,A COLETAR
+2024-10-15|brasil|peru,2024-10-15,Brasil,Peru,CONMEBOL,10,0:4,4,Alex Telles; Igor Jesus; Luiz Henrique; Vitinho,,A COLETAR
+2024-10-15|equador|uruguai,2024-10-15,Equador,Uruguai,CONMEBOL,10,0:0,4,Damian Suarez; Diego Hernandez; Luis Segovia; Mateo Ponte,,A COLETAR
+2024-11-14|argentina|paraguai,2024-11-14,Argentina,Paraguai,CONMEBOL,11,2:1,4,Alexander Barboza; Gatito Fernandez; Oscar Romero; Thiago Almada,,A COLETAR
+2025-06-10|argentina|colombia,2025-06-10,Argentina,Colombia,CONMEBOL,16,1:1,4,Alexander Barboza; Alvaro Montoro; Joaquin Correa; Jordan Barrera,,A COLETAR
+2025-09-04|argentina|venezuela,2025-09-04,Argentina,Venezuela,CONMEBOL,17,0:3,4,Alexander Barboza; Alvaro Montoro; Jefferson Savarino; Joaquin Correa,,A COLETAR
+2025-09-09|argentina|equador,2025-09-09,Argentina,Equador,CONMEBOL,18,1:0,4,Alexander Barboza; Alvaro Montoro; Cristhian Loor; Joaquin Correa,,A COLETAR
+2025-09-09|bolivia|brasil,2025-09-09,Bolivia,Brasil,CONMEBOL,18,0:1,4,Alex Telles; Danilo Santos; Sebastian Joffre; Vitinho,,A COLETAR
+2023-09-08|bolivia|brasil,2023-09-08,Bolivia,Brasil,CONMEBOL,1,5:1,3,Adryelson; Lucas Perri; Sebastian Joffre,,A COLETAR
+2023-09-12|equador|uruguai,2023-09-12,Equador,Uruguai,CONMEBOL,2,1:2,3,Diego Hernandez; Luis Segovia; Mateo Ponte,,A COLETAR
+2023-11-21|bolivia|uruguai,2023-11-21,Bolivia,Uruguai,CONMEBOL,6,3:0,3,Diego Hernandez; Mateo Ponte; Sebastian Joffre,,A COLETAR
+2024-10-10|argentina|venezuela,2024-10-10,Argentina,Venezuela,CONMEBOL,9,1:1,3,Alexander Barboza; Jefferson Savarino; Thiago Almada,,A COLETAR
+2024-10-10|equador|paraguai,2024-10-10,Equador,Paraguai,CONMEBOL,9,0:0,3,Gatito Fernandez; Luis Segovia; Oscar Romero,,A COLETAR
+2024-10-11|peru|uruguai,2024-10-11,Uruguai,Peru,CONMEBOL,9,0:1,3,Damian Suarez; Diego Hernandez; Mateo Ponte,,A COLETAR
+2024-10-15|argentina|bolivia,2024-10-15,Argentina,Bolivia,CONMEBOL,10,0:6,3,Alexander Barboza; Sebastian Joffre; Thiago Almada,,A COLETAR
+2024-10-15|paraguai|venezuela,2024-10-15,Paraguai,Venezuela,CONMEBOL,10,1:2,3,Gatito Fernandez; Jefferson Savarino; Oscar Romero,,A COLETAR
+2024-11-15|colombia|uruguai,2024-11-15,Uruguai,Colombia,CONMEBOL,11,3:2,3,Damian Suarez; Diego Hernandez; Mateo Ponte,,A COLETAR
+2024-11-19|bolivia|paraguai,2024-11-19,Bolivia,Paraguai,CONMEBOL,12,2:2,3,Gatito Fernandez; Oscar Romero; Sebastian Joffre,,A COLETAR
+2025-06-05|argentina|chile,2025-06-05,Argentina,Chile,CONMEBOL,15,0:1,3,Alexander Barboza; Alvaro Montoro; Joaquin Correa,,A COLETAR
+2025-09-04|brasil|chile,2025-09-04,Brasil,Chile,CONMEBOL,17,0:3,3,Alex Telles; Danilo Santos; Vitinho,,A COLETAR
+2023-09-08|chile|uruguai,2023-09-08,Uruguai,Chile,CONMEBOL,1,3:1,2,Diego Hernandez; Mateo Ponte,,A COLETAR
+2023-09-12|brasil|peru,2023-09-12,Brasil,Peru,CONMEBOL,2,0:1,2,Adryelson; Lucas Perri,,A COLETAR
+2023-10-12|bolivia|equador,2023-10-12,Bolivia,Equador,CONMEBOL,3,2:1,2,Luis Segovia; Sebastian Joffre,,A COLETAR
+2023-10-12|brasil|venezuela,2023-10-12,Brasil,Venezuela,CONMEBOL,3,1:1,2,Adryelson; Lucas Perri,,A COLETAR
+2023-10-12|colombia|uruguai,2023-10-12,Uruguai,Colombia,CONMEBOL,3,2:2,2,Diego Hernandez; Mateo Ponte,,A COLETAR
+2023-10-17|bolivia|paraguai,2023-10-17,Bolivia,Paraguai,CONMEBOL,4,1:0,2,Gatito Fernandez; Sebastian Joffre,,A COLETAR
+2023-11-16|brasil|colombia,2023-11-16,Brasil,Colombia,CONMEBOL,5,2:1,2,Adryelson; Lucas Perri,,A COLETAR
+2023-11-16|argentina|uruguai,2023-11-16,Uruguai,Argentina,CONMEBOL,5,2:0,2,Diego Hernandez; Mateo Ponte,,A COLETAR
+2023-11-21|argentina|brasil,2023-11-21,Brasil,Argentina,CONMEBOL,6,0:1,2,Adryelson; Lucas Perri,,A COLETAR
+2024-09-05|argentina|chile,2024-09-05,Argentina,Chile,CONMEBOL,7,0:3,2,Alexander Barboza; Thiago Almada,,A COLETAR
+2024-09-05|bolivia|venezuela,2024-09-05,Bolivia,Venezuela,CONMEBOL,7,0:4,2,Jefferson Savarino; Sebastian Joffre,,A COLETAR
+2024-09-10|argentina|colombia,2024-09-10,Argentina,Colombia,CONMEBOL,8,2:1,2,Alexander Barboza; Thiago Almada,,A COLETAR
+2024-11-14|bolivia|equador,2024-11-14,Bolivia,Equador,CONMEBOL,11,4:0,2,Luis Segovia; Sebastian Joffre,,A COLETAR
+2024-11-19|argentina|peru,2024-11-19,Argentina,Peru,CONMEBOL,12,0:1,2,Alexander Barboza; Thiago Almada,,A COLETAR
+2025-06-06|bolivia|venezuela,2025-06-06,Bolivia,Venezuela,CONMEBOL,15,2:0,2,Jefferson Savarino; Sebastian Joffre,,A COLETAR
+2025-06-10|nicaragua|panama,2025-06-10,Nicaragua,Panama,CONCACAF,,3:0,2,Jacob Montes; Kadir Barria,,A COLETAR
+2025-09-04|bolivia|colombia,2025-09-04,Bolivia,Colombia,CONMEBOL,17,3:0,2,Jordan Barrera; Sebastian Joffre,,A COLETAR
+2025-09-09|colombia|venezuela,2025-09-09,Colombia,Venezuela,CONMEBOL,18,3:6,2,Jefferson Savarino; Jordan Barrera,,A COLETAR
+2023-09-07|argentina|equador,2023-09-07,Equador,Argentina,CONMEBOL,1,0:1,1,Luis Segovia,,A COLETAR
+2023-09-07|paraguai|peru,2023-09-07,Paraguai,Peru,CONMEBOL,1,0:0,1,Gatito Fernandez,,A COLETAR
+2023-09-12|argentina|bolivia,2023-09-12,Bolivia,Argentina,CONMEBOL,2,0:3,1,Sebastian Joffre,,A COLETAR
+2023-09-12|paraguai|venezuela,2023-09-12,Paraguai,Venezuela,CONMEBOL,2,1:0,1,Gatito Fernandez,,A COLETAR
+2023-10-12|argentina|paraguai,2023-10-12,Paraguai,Argentina,CONMEBOL,3,0:1,1,Gatito Fernandez,,A COLETAR
+2023-10-17|colombia|equador,2023-10-17,Equador,Colombia,CONMEBOL,4,0:0,1,Luis Segovia,,A COLETAR
+2023-11-16|angola|cape verde,2023-11-16,Angola,Cape Verde,CAF,,0:0,1,Bastos,,A COLETAR
+2023-11-16|bolivia|peru,2023-11-16,Bolivia,Peru,CONMEBOL,5,0:2,1,Sebastian Joffre,,A COLETAR
+2023-11-16|equador|venezuela,2023-11-16,Equador,Venezuela,CONMEBOL,5,0:0,1,Luis Segovia,,A COLETAR
+2023-11-16|chile|paraguai,2023-11-16,Paraguai,Chile,CONMEBOL,5,0:0,1,Gatito Fernandez,,A COLETAR
+2023-11-21|angola|mauritius,2023-11-21,Angola,Mauritius,CAF,,0:0,1,Bastos,,A COLETAR
+2023-11-21|chile|equador,2023-11-21,Equador,Chile,CONMEBOL,6,1:0,1,Luis Segovia,,A COLETAR
+2023-11-21|colombia|paraguai,2023-11-21,Paraguai,Colombia,CONMEBOL,6,0:1,1,Gatito Fernandez,,A COLETAR
+2024-06-05|montserrat|nicaragua,2024-06-05,Nicaragua,Montserrat,CONCACAF,,4:1,1,Jacob Montes,,A COLETAR
+2024-06-05|grenada|trinidad e tobago,2024-06-05,Trinidad e Tobago,Grenada,CONCACAF,,2:2,1,Darius Lewis,,A COLETAR
+2024-06-07|angola|eswatini,2024-06-07,Angola,Eswatini,CAF,,1:0,1,Bastos,,A COLETAR
+2024-06-08|belize|nicaragua,2024-06-08,Nicaragua,Belize,CONCACAF,,4:0,1,Jacob Montes,,A COLETAR
+2024-06-08|bahamas|trinidad e tobago,2024-06-08,Trinidad e Tobago,Bahamas,CONCACAF,,7:1,1,Darius Lewis,,A COLETAR
+2024-06-11|angola|cameroon,2024-06-11,Angola,Cameroon,CAF,,1:1,1,Bastos,,A COLETAR
+2024-09-10|bolivia|chile,2024-09-10,Bolivia,Chile,CONMEBOL,8,1:2,1,Sebastian Joffre,,A COLETAR
+2024-09-10|equador|peru,2024-09-10,Equador,Peru,CONMEBOL,8,0:1,1,Luis Segovia,,A COLETAR
+2024-10-10|bolivia|colombia,2024-10-10,Bolivia,Colombia,CONMEBOL,9,0:1,1,Sebastian Joffre,,A COLETAR
+2024-11-19|colombia|equador,2024-11-19,Equador,Colombia,CONMEBOL,12,1:0,1,Luis Segovia,,A COLETAR
+2024-11-19|chile|venezuela,2024-11-19,Venezuela,Chile,CONMEBOL,12,2:4,1,Jefferson Savarino,,A COLETAR
+2025-03-20|angola|libya,2025-03-20,Angola,Libya,CAF,,1:1,1,Bastos,,A COLETAR
+2025-03-20|bolivia|peru,2025-03-20,Bolivia,Peru,CONMEBOL,13,3:1,1,Sebastian Joffre,,A COLETAR
+2025-03-21|equador|venezuela,2025-03-21,Venezuela,Equador,CONMEBOL,13,1:2,1,Jefferson Savarino,,A COLETAR
+2025-03-25|angola|cape verde,2025-03-25,Angola,Cape Verde,CAF,,1:2,1,Bastos,,A COLETAR
+2025-03-25|colombia|paraguai,2025-03-25,Colombia,Paraguai,CONMEBOL,14,2:2,1,Jordan Barrera,,A COLETAR
+2025-03-25|peru|venezuela,2025-03-25,Venezuela,Peru,CONMEBOL,14,1:0,1,Jefferson Savarino,,A COLETAR
+2025-06-06|colombia|peru,2025-06-06,Colombia,Peru,CONMEBOL,15,0:0,1,Jordan Barrera,,A COLETAR
+2025-06-06|guyana|nicaragua,2025-06-06,Nicaragua,Guyana,CONCACAF,,1:0,1,Jacob Montes,,A COLETAR
+2025-06-06|saint kitts and nevis|trinidad e tobago,2025-06-06,Trinidad e Tobago,Saint Kitts and Nevis,CONCACAF,,6:2,1,Darius Lewis,,A COLETAR
+2025-06-07|belize|panama,2025-06-07,Panama,Belize,CONCACAF,,2:0,1,Kadir Barria,,A COLETAR
+2025-06-10|bolivia|chile,2025-06-10,Bolivia,Chile,CONMEBOL,16,0:2,1,Sebastian Joffre,,A COLETAR
+2025-06-10|equador|peru,2025-06-10,Equador,Peru,CONMEBOL,16,0:0,1,Cristhian Loor,,A COLETAR
+2025-06-10|costa rica|trinidad e tobago,2025-06-10,Trinidad e Tobago,Costa Rica,CONCACAF,,1:2,1,Darius Lewis,,A COLETAR
+2025-09-04|angola|libya,2025-09-04,Angola,Libya,CAF,,0:1,1,Bastos,,A COLETAR
+2025-09-04|equador|paraguai,2025-09-04,Equador,Paraguai,CONMEBOL,17,0:0,1,Cristhian Loor,,A COLETAR
+2025-09-04|bulgaria|espanha,2025-09-04,Espanha,Bulgaria,UEFA,,3:0,1,Chris Ramos,,A COLETAR
+2025-09-04|panama|suriname,2025-09-04,Panama,Suriname,CONCACAF,,0:0,1,Kadir Barria,,A COLETAR
+2025-09-05|costa rica|nicaragua,2025-09-05,Nicaragua,Costa Rica,CONCACAF,,1:1,1,Jacob Montes,,A COLETAR
+2025-09-05|curacao|trinidad e tobago,2025-09-05,Trinidad e Tobago,Curaçao,CONCACAF,,0:0,1,Darius Lewis,,A COLETAR
+2025-09-07|espanha|turkey,2025-09-07,Espanha,Turkey,UEFA,,6:0,1,Chris Ramos,,A COLETAR
+2025-09-08|guatemala|panama,2025-09-08,Panama,Guatemala,CONCACAF,,1:1,1,Kadir Barria,,A COLETAR
+2025-09-09|angola|mauritius,2025-09-09,Angola,Mauritius,CAF,,3:1,1,Bastos,,A COLETAR
+2025-09-09|honduras|nicaragua,2025-09-09,Nicaragua,Honduras,CONCACAF,,0:2,1,Jacob Montes,,A COLETAR
+2025-09-09|jamaica|trinidad e tobago,2025-09-09,Trinidad e Tobago,Jamaica,CONCACAF,,0:2,1,Darius Lewis,,A COLETAR
+2025-10-08|angola|eswatini,2025-10-08,Angola,Eswatini,CAF,,2:2,1,Bastos,,A COLETAR
+2025-10-09|haiti|nicaragua,2025-10-09,Nicaragua,Haiti,CONCACAF,,0:3,1,Jacob Montes,,A COLETAR
+2025-10-10|el salvador|panama,2025-10-10,Panama,El Salvador,CONCACAF,,1:0,1,Kadir Barria,,A COLETAR
+2025-10-10|bermuda|trinidad e tobago,2025-10-10,Trinidad e Tobago,Bermuda,CONCACAF,,3:0,1,Darius Lewis,,A COLETAR
+2025-10-11|espanha|georgia,2025-10-11,Espanha,Georgia,UEFA,,2:0,1,Chris Ramos,,A COLETAR
+2025-10-13|angola|cameroon,2025-10-13,Angola,Cameroon,CAF,,0:0,1,Bastos,,A COLETAR
+2025-10-13|costa rica|nicaragua,2025-10-13,Nicaragua,Costa Rica,CONCACAF,,1:4,1,Jacob Montes,,A COLETAR
+2025-10-14|bulgaria|espanha,2025-10-14,Espanha,Bulgaria,UEFA,,4:0,1,Chris Ramos,,A COLETAR
+2025-10-14|panama|suriname,2025-10-14,Panama,Suriname,CONCACAF,,1:1,1,Kadir Barria,,A COLETAR
+2025-10-14|curacao|trinidad e tobago,2025-10-14,Trinidad e Tobago,Curaçao,CONCACAF,,1:1,1,Darius Lewis,,A COLETAR
+2025-11-13|honduras|nicaragua,2025-11-13,Nicaragua,Honduras,CONCACAF,,2:0,1,Jacob Montes,,A COLETAR
+2025-11-13|guatemala|panama,2025-11-13,Panama,Guatemala,CONCACAF,,3:2,1,Kadir Barria,,A COLETAR
+2025-11-13|jamaica|trinidad e tobago,2025-11-13,Trinidad e Tobago,Jamaica,CONCACAF,,1:1,1,Darius Lewis,,A COLETAR
+2025-11-15|espanha|georgia,2025-11-15,Espanha,Georgia,UEFA,,4:0,1,Chris Ramos,,A COLETAR
+2025-11-18|espanha|turkey,2025-11-18,Espanha,Turkey,UEFA,,2:2,1,Chris Ramos,,A COLETAR
+2025-11-18|haiti|nicaragua,2025-11-18,Nicaragua,Haiti,CONCACAF,,0:2,1,Jacob Montes,,A COLETAR
+2025-11-18|el salvador|panama,2025-11-18,Panama,El Salvador,CONCACAF,,3:0,1,Kadir Barria,,A COLETAR
+2025-11-18|bermuda|trinidad e tobago,2025-11-18,Trinidad e Tobago,Bermuda,CONCACAF,,2:2,1,Darius Lewis,,A COLETAR

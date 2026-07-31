@@ -166,6 +166,16 @@ Ressalvas de escopo, todas registradas no CSV:
   por completude. Provavelmente sem convocação à seleção principal, mas o descarte
   precisa ser documentado, não presumido.
 
+### Estado: COLETADO
+
+`dados/partidas_universo.csv` tem **216 partidas** (307 linhas seleção × partida),
+cobrindo CONMEBOL (90 partidas, as 10 seleções, 18 rodadas), CAF, CONCACAF, UEFA
+e AFC. Passa em todas as invariantes do validador.
+
+Fonte: `martj42/international_results`, dataset público — **nível 2,
+CONFERÊNCIA**. Não é a CONMEBOL nem a FIFA. Serve para montar o universo; não
+serve como documento de claim.
+
 ### Entregável desta etapa
 
 Uma tabela `partidas_universo` com uma linha por partida:
@@ -236,53 +246,69 @@ fetch. O arquivo histórico do Fogo na Rede só tem 2024 e 2025.
 
 ## 7. Artefatos no repositório
 
-| Arquivo | O que é | Status |
+### Dados
+
+| Arquivo | O que é | Estado |
 |---|---|---|
-| `FIFA_Club_Benefits_2026_Botafogo.xlsx` | Planilha mestre: regras, lista FIFA validada, claims, calendário, base de coleta, elencos 2024/2025, lacunas, veredito por atleta | Atual |
-| `tm_selecoes.py` | Scraper Playwright, fonte única (Transfermarkt) | Sintaxe validada, **parser não testado contra o site ao vivo** |
-| `conferencia_selecoes.py` | Scraper multi-fonte (Transfermarkt + oGol) com reconciliação, guarda anti-homônimo por data de nascimento e aba de divergências | Sintaxe validada, **parsers não testados**. Preferir este |
+| `dados/partidas_universo.csv` | 307 linhas, **216 partidas** de Eliminatórias das 22 seleções em escopo | COLETADO, validado |
+| `dados/relacoes.csv` | 486 linhas `(partida, atleta)` | gerado; 264 pares aguardam súmula |
+| `dados/partidas_a_conferir.csv` | **121 partidas** a buscar na FIFA, ordenadas por retorno | fila de trabalho |
+| `dados/elencos_coletados.csv` | 302 atletas, temporadas 2021/22 a 2025/26, com ID do Transfermarkt | COLETADO |
+| `dados/checagem_aritmetica.csv` | máximo possível por atleta | gerado |
+| `atletas.csv` | 30 atletas, com `tm_id` e `temporadas_tm` | janelas ainda ESTIMADAS |
+| `selecoes_escopo.csv` | 22 seleções | atualizado |
+| `FIFA_Club_Benefits_2026_Botafogo.xlsx` | planilha mestre do jurídico | desatualizada — ver §3 |
 
-`conferencia_selecoes.py` só coloca no resumo a partida em que **as duas fontes
-concordam**. O restante vai para a aba `Reconciliacao` marcado como `DIVERGENTE` ou
-`SÓ EM UMA FONTE` — essa é a fila de conferência na súmula.
+### Código
 
-### Schema de `atletas.csv`
+| Arquivo | O que faz |
+|---|---|
+| `parser_tabelas.py` | miolo de parsing, função pura de HTML. Testado |
+| `conferencia_selecoes.py` | scraper Transfermarkt+oGol com reconciliação; `--from-html` reprocessa offline |
+| `importar_elenco.py` | lê página de elenco salva do navegador (Transfermarkt e oGol) |
+| `importar_openfootball.py` | popula o universo a partir de dataset público |
+| `partidas_universo.py` | schema, id canônico e **validador das invariantes** |
+| `relacoes.py` | cruza universo × atletas |
+| `checagem_aritmetica.py` | quantas Eliminatórias cabem na janela de cada atleta |
+| `test_parser.py`, `test_universo.py` | 53 + 17 asserções. Rodar sempre antes de commitar |
 
-```csv
-atleta,nascimento,url_transfermarkt,url_ogol,registro_inicio,registro_fim
-Vitinho,1999-07-23,<url aba "Jogos pela seleção">,<url oGol>,2024-08-01,
-```
+### Documentos
 
-`registro_fim` vazio = ainda no elenco. Datas em ISO.
+`STATUS.md` — o que foi feito e por quê, com os bugs corrigidos.
+`COLETA_LOCAL.md` — roteiro para rodar o scraper numa máquina com acesso.
+`HANDOFF_FIFA.md` — **a tarefa da próxima sessão**: buscar escalações na FIFA.
 
 ### Setup
 
 ```bash
 pip install playwright pandas openpyxl
 playwright install chromium
-python conferencia_selecoes.py --debug   # salva HTML em debug_html/
+python test_parser.py && python test_universo.py
 ```
 
-`HEADLESS = False` e pausa de 4–9s entre requisições são intencionais. Não reduza.
+`HEADLESS = False` e a pausa de 4–9s são intencionais. Não reduza.
 
 ---
 
 ## 8. Backlog priorizado
 
-1. **Testar os parsers.** Rodar com `--debug`, inspecionar o HTML salvo e ajustar
-   `extrair_tabelas()`. É o gargalo de tudo abaixo.
-2. **Popular `atletas.csv`** com os 8 da lista FIFA + os 7 candidatos a claim, com
-   janelas de registro vindas do TMS (pedir ao departamento de registro, não estimar).
-3. **Abrir jogo a jogo na plataforma da FIFA.** Clicar no nome abre as partidas
-   atribuídas. Sem isso não dá para rejeitar partida específica do Almada.
-4. **Levantar calendários CAF e CONCACAF** para Bastos, Montes e Barría.
-5. **Verificar os dois pendentes:** Santi Rodríguez (set/2025) e Luis Segovia (2023–24).
-6. **Fechar a cota da Copa** do Danilo — confirmar com a FIFA a data exata de início da
-   janela de cessão.
-7. **Decisão de política, não técnica:** as partidas excedentes do Almada nos favorecem
-   financeiramente. A plataforma pede que sejam rejeitadas. Como o clube não vê a ação
-   dos outros, o Lyon deve reivindicá-las de qualquer forma. Definir com o jurídico se
-   a orientação é corrigir de ofício ou apenas não reivindicar.
+1. **Escalações na FIFA.** É o gargalo único do que sobrou. `fifa.com/pt/match-centre`
+   tem a aba ESCALAÇÃO de cada partida — é **prova**, não conferência, e fecha o
+   filtro 3. A fila está em `dados/partidas_a_conferir.csv`: 121 partidas, 264
+   pares `(atleta, partida)`. Ver `HANDOFF_FIFA.md`.
+2. **Extrato do TMS.** Todas as janelas de `atletas.csv` continuam ESTIMADAS,
+   vindas de imprensa. Pedir ao departamento de registro. Enquanto não chegar,
+   todo número sai com ressalva — inclusive o excedente do Almada.
+3. **Elenco detalhado do Transfermarkt** (`/plus/1`, não `/plus/0/galerie/0`),
+   para nome completo e data de nascimento, que a visão compacta não traz.
+4. **Abrir jogo a jogo na plataforma da FIFA** para rejeitar as 3 partidas
+   excedentes do Almada individualmente.
+5. **Cota da Copa do Danilo Santos** — confirmar com a FIFA a data exata de
+   abertura da janela de cessão.
+6. **Decisão de política, não técnica:** as partidas excedentes do Almada nos
+   favorecem. A plataforma pede que sejam rejeitadas. Como o clube não vê a ação
+   dos outros, o Lyon deve reivindicá-las de qualquer forma. Definir com o
+   jurídico se a orientação é corrigir de ofício ou apenas não reivindicar.
 
 ---
 
