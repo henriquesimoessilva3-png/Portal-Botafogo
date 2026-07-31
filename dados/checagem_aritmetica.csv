@@ -1,0 +1,29 @@
+atleta,selecao,confederacao,registro_inicio,registro_fim,janela_estimada,assigned_fifa,janelas_alcancadas,maximo_possivel,diagnostico,acao
+Thiago Almada,Argentina,CONMEBOL,2024-04-01,2025-01-31,S,9,3,6,"IMPOSSIVEL: FIFA atribuiu 9, cabem no máximo 6. Excedente de 3 [janela ESTIMADA — confirmar no TMS]","REJEITAR 3 partida(s), jogo a jogo"
+Vitinho,Brasil,CONMEBOL,2024-08-01,(ainda no elenco),S,2,6,12,2 de 12 possíveis — sobra espaço para até 10 [janela ESTIMADA — confirmar no TMS],conferir se FALTA partida (risco inverso)
+Lucas Perri,Brasil,CONMEBOL,2023-01-01,2023-12-31,S,6,3,6,no teto: 6 de 6 possíveis [janela ESTIMADA — confirmar no TMS],aceitar; nada a reivindicar
+Adryelson,Brasil,CONMEBOL,2023-01-01,2023-12-31,S,1,3,6,1 de 6 possíveis — sobra espaço para até 5 [janela ESTIMADA — confirmar no TMS],conferir se FALTA partida (risco inverso)
+Cristhian Loor,Equador,CONMEBOL,2025-06-01,(ainda no elenco),S,1,2,4,1 de 4 possíveis — sobra espaço para até 3 [janela ESTIMADA — confirmar no TMS],conferir se FALTA partida (risco inverso)
+Jacob Montes,Nicaragua,CONCACAF,,(ainda no elenco),N,2,,NAO SEI,calendário CONCACAF não levantado — impossível calcular o máximo,levantar calendário CONCACAF na fonte oficial
+Luiz Henrique,Brasil,CONMEBOL,2024-01-01,2025-07-31,S,8,5,10,8 de 10 possíveis — sobra espaço para até 2 [janela ESTIMADA — confirmar no TMS],conferir se FALTA partida (risco inverso)
+Jefferson Savarino,Venezuela,CONMEBOL,2024-01-01,(ainda no elenco),S,10,6,12,10 de 12 possíveis — sobra espaço para até 2 [janela ESTIMADA — confirmar no TMS],conferir se FALTA partida (risco inverso)
+Igor Jesus,Brasil,CONMEBOL,2024-07-01,2025-08-31,S,,5,10,fora da lista da FIFA; caberiam até 10 partidas na janela [janela ESTIMADA — confirmar no TMS],candidato a CLAIM — conferir convocação e súmula
+Alex Telles,Brasil,CONMEBOL,2024-01-01,(ainda no elenco),S,,6,12,fora da lista da FIFA; caberiam até 12 partidas na janela [janela ESTIMADA — confirmar no TMS],candidato a CLAIM — conferir convocação e súmula
+Gatito Fernandez,Paraguai,CONMEBOL,2016-01-01,2024-12-31,S,,6,12,fora da lista da FIFA; caberiam até 12 partidas na janela [janela ESTIMADA — confirmar no TMS],candidato a CLAIM — conferir convocação e súmula
+Bastos,Angola,CAF,2023-01-01,(ainda no elenco),S,,,NAO SEI,calendário CAF não levantado — impossível calcular o máximo,levantar calendário CAF na fonte oficial
+Danilo Santos,Brasil,CONMEBOL,2025-01-01,(ainda no elenco),S,,3,6,fora da lista da FIFA; caberiam até 6 partidas na janela [janela ESTIMADA — confirmar no TMS],candidato a CLAIM — conferir convocação e súmula
+Santi Rodriguez,Uruguai,CONMEBOL,2025-01-01,(ainda no elenco),S,,3,6,fora da lista da FIFA; caberiam até 6 partidas na janela [janela ESTIMADA — confirmar no TMS],candidato a CLAIM — conferir convocação e súmula
+Luis Segovia,Equador,CONMEBOL,2023-01-01,2024-12-31,S,,6,12,fora da lista da FIFA; caberiam até 12 partidas na janela [janela ESTIMADA — confirmar no TMS],candidato a CLAIM — conferir convocação e súmula
+Kadir Barria,Panama,CONCACAF,2025-01-01,(ainda no elenco),S,,,NAO SEI,calendário CONCACAF não levantado — impossível calcular o máximo,levantar calendário CONCACAF na fonte oficial
+Mateo Ponte,Uruguai,CONMEBOL,2023-01-01,(ainda no elenco),S,,9,18,fora da lista da FIFA; caberiam até 18 partidas na janela [janela ESTIMADA — confirmar no TMS],candidato a CLAIM — conferir convocação e súmula
+Alexander Barboza,Argentina,CONMEBOL,2024-01-01,(ainda no elenco),S,,6,12,fora da lista da FIFA; caberiam até 12 partidas na janela [janela ESTIMADA — confirmar no TMS],candidato a CLAIM — conferir convocação e súmula
+Oscar Romero,Paraguai,CONMEBOL,2024-01-01,2024-12-31,S,,3,6,fora da lista da FIFA; caberiam até 6 partidas na janela [janela ESTIMADA — confirmar no TMS],candidato a CLAIM — conferir convocação e súmula
+Diego Hernandez,Uruguai,CONMEBOL,2023-01-01,(ainda no elenco),S,,9,18,fora da lista da FIFA; caberiam até 18 partidas na janela [janela ESTIMADA — confirmar no TMS],candidato a CLAIM — conferir convocação e súmula
+Damian Suarez,Uruguai,CONMEBOL,2024-01-01,(ainda no elenco),S,,6,12,fora da lista da FIFA; caberiam até 12 partidas na janela [janela ESTIMADA — confirmar no TMS],candidato a CLAIM — conferir convocação e súmula
+Mastriani,Uruguai,CONMEBOL,2025-01-01,(ainda no elenco),S,,3,6,fora da lista da FIFA; caberiam até 6 partidas na janela [janela ESTIMADA — confirmar no TMS],candidato a CLAIM — conferir convocação e súmula
+Joaquin Correa,Argentina,CONMEBOL,2025-06-01,(ainda no elenco),S,,2,4,fora da lista da FIFA; caberiam até 4 partidas na janela [janela ESTIMADA — confirmar no TMS],candidato a CLAIM — conferir convocação e súmula
+Alvaro Montoro,Argentina,CONMEBOL,2025-01-01,(ainda no elenco),S,,3,6,fora da lista da FIFA; caberiam até 6 partidas na janela [janela ESTIMADA — confirmar no TMS],candidato a CLAIM — conferir convocação e súmula
+Jordan Barrera,Colombia,CONMEBOL,2025-01-01,(ainda no elenco),S,,3,6,fora da lista da FIFA; caberiam até 6 partidas na janela [janela ESTIMADA — confirmar no TMS],candidato a CLAIM — conferir convocação e súmula
+Chris Ramos,Espanha,UEFA,2025-01-01,(ainda no elenco),S,,,NAO SEI,calendário UEFA não levantado — impossível calcular o máximo,levantar calendário UEFA na fonte oficial
+Nahuel Ferraresi,Venezuela,CONMEBOL,2026-03-09,(ainda no elenco),N,,0,0,fora da lista da FIFA; caberiam até 0 partidas na janela,"sem janela útil, nada a reivindicar"
+Niko Hamalainen,Finlandia,UEFA,2022-04-01,2022-07-31,N,,,NAO SEI,calendário UEFA não levantado — impossível calcular o máximo,levantar calendário UEFA na fonte oficial
