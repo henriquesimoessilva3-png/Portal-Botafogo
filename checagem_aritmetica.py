@@ -15,15 +15,16 @@ Savarino), que é exatamente onde o risco de deixar dinheiro na mesa mora.
 
 DE ONDE VEM CADA NÚMERO
 ------------------------
-  * as 9 janelas da CONMEBOL: seção 4 do CLAUDE.md, marcada CONFIRMADO;
-  * 2 partidas por janela: estrutura do torneio (18 rodadas em 9 janelas),
-    declarada em selecoes_escopo.csv;
-  * as janelas de registro: atletas.csv — quase todas marcadas ESTIMADA,
+  * com `dados/partidas_universo.csv` populado, o cálculo é EXATO: conta as
+    partidas reais daquela seleção que caem dentro da janela de registro. Vale
+    para todas as confederações, inclusive CAF, CONCACAF e UEFA, que não têm o
+    formato regular da CONMEBOL;
+  * sem o universo, cai no limite superior por estrutura — as 9 janelas da
+    CONMEBOL (seção 4 do CLAUDE.md, marcada CONFIRMADO) × 2 partidas cada;
+  * as janelas de registro vêm do atletas.csv — quase todas marcadas ESTIMADA,
     vindas de imprensa. Toda saída que depende delas sai sinalizada.
 
-CAF, CONCACAF e UEFA não têm calendário levantado. Para atletas dessas
-confederações o script diz "não sei" em vez de estimar — que é o que o
-CLAUDE.md manda fazer.
+A coluna `base_do_calculo` diz qual dos dois caminhos foi usado em cada linha.
 
 O QUE ISTO PROVA E O QUE NÃO PROVA
 -----------------------------------
@@ -47,7 +48,7 @@ import csv
 from pathlib import Path
 
 from parser_tabelas import normalizar, parse_data
-from partidas_universo import JANELAS_CONMEBOL
+from partidas_universo import JANELAS_CONMEBOL, carregar_universo
 
 CSV_ATLETAS = Path("atletas.csv")
 CSV_ESCOPO = Path("selecoes_escopo.csv")
@@ -90,7 +91,23 @@ def janelas_alcancadas(ini, fim) -> list[tuple]:
     return tocadas
 
 
-def analisar(a: dict) -> dict:
+def partidas_por_selecao() -> dict[str, list]:
+    """Datas reais de partida por seleção, se o universo já foi coletado.
+
+    Com o universo populado a conta deixa de ser 'quantas janelas ele
+    alcança × 2' e passa a ser 'quantas partidas daquela seleção caem dentro da
+    janela de registro' — exata, e disponível também para CAF, CONCACAF e UEFA,
+    que não têm o formato regular da CONMEBOL.
+    """
+    mapa: dict[str, list] = {}
+    for p in carregar_universo():
+        d = parse_data(p.data)
+        if d:
+            mapa.setdefault(normalizar(p.selecao), []).append(d)
+    return mapa
+
+
+def analisar(a: dict, universo: dict[str, list] | None = None) -> dict:
     nome = a["atleta"]
     selecao = normalizar(a.get("selecao", ""))
     confed = CONFEDERACAO_POR_SELECAO.get(selecao, "?")
@@ -98,6 +115,7 @@ def analisar(a: dict) -> dict:
     fim = parse_data(a.get("registro_fim"))
     estimada = "estimada" in (a.get("origem_da_janela") or "").lower()
     assigned = ASSIGNED_FIFA.get(normalizar(nome))
+    datas = (universo or {}).get(selecao)
 
     r = {
         "atleta": nome, "selecao": a.get("selecao", ""), "confederacao": confed,
@@ -105,16 +123,9 @@ def analisar(a: dict) -> dict:
         "registro_fim": a.get("registro_fim", "") or "(ainda no elenco)",
         "janela_estimada": "S" if estimada else "N",
         "assigned_fifa": "" if assigned is None else str(assigned),
-        "janelas_alcancadas": "", "maximo_possivel": "",
+        "base_do_calculo": "", "janelas_alcancadas": "", "maximo_possivel": "",
         "diagnostico": "", "acao": "",
     }
-
-    if confed != "CONMEBOL":
-        r["maximo_possivel"] = "NAO SEI"
-        r["diagnostico"] = (f"calendário {confed} não levantado — impossível "
-                            f"calcular o máximo")
-        r["acao"] = f"levantar calendário {confed} na fonte oficial"
-        return r
 
     if ini is None and fim is None:
         r["maximo_possivel"] = "NAO SEI"
@@ -122,10 +133,26 @@ def analisar(a: dict) -> dict:
         r["acao"] = "obter janela no TMS antes de qualquer conta"
         return r
 
-    janelas = janelas_alcancadas(ini, fim)
-    maximo = len(janelas) * PARTIDAS_POR_JANELA_CONMEBOL
-    r["janelas_alcancadas"] = str(len(janelas))
-    r["maximo_possivel"] = str(maximo)
+    if datas:
+        # Caminho exato: conta as partidas reais da seleção dentro da janela.
+        no_periodo = [d for d in datas
+                      if (ini is None or d >= ini) and (fim is None or d <= fim)]
+        maximo = len(no_periodo)
+        r["base_do_calculo"] = "partidas reais do universo"
+        r["maximo_possivel"] = str(maximo)
+    elif confed == "CONMEBOL":
+        # Sem universo coletado, cai no limite superior por janelas.
+        janelas = janelas_alcancadas(ini, fim)
+        maximo = len(janelas) * PARTIDAS_POR_JANELA_CONMEBOL
+        r["base_do_calculo"] = "estrutura das janelas CONMEBOL"
+        r["janelas_alcancadas"] = str(len(janelas))
+        r["maximo_possivel"] = str(maximo)
+    else:
+        r["maximo_possivel"] = "NAO SEI"
+        r["diagnostico"] = (f"seleção sem partidas no universo e formato "
+                            f"{confed} não levantado")
+        r["acao"] = f"coletar calendário {confed}"
+        return r
 
     if assigned is None:
         r["diagnostico"] = (f"fora da lista da FIFA; caberiam até {maximo} "
@@ -165,7 +192,13 @@ def main() -> int:
     with CSV_ATLETAS.open(encoding="utf-8") as fh:
         atletas = [a for a in csv.DictReader(fh) if (a.get("atleta") or "").strip()]
 
-    resultados = [analisar(a) for a in atletas]
+    universo = partidas_por_selecao()
+    if universo:
+        print(f"(universo coletado: {sum(len(v) for v in universo.values())} "
+              f"linhas em {len(universo)} seleções — cálculo exato)")
+    else:
+        print("(universo vazio — caindo no limite superior por janelas)")
+    resultados = [analisar(a, universo) for a in atletas]
 
     na_lista = [r for r in resultados if r["assigned_fifa"]]
     fora = [r for r in resultados if not r["assigned_fifa"]]

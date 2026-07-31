@@ -1,0 +1,459 @@
+partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,minutos,clube_detentor,elegivel,origem_do_status,janela_estimada,observacao
+2023-09-07|argentina|equador,Argentina,2023-09-07,Equador,Thiago Almada,1997-04-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-07|argentina|equador,Argentina,2023-09-07,Equador,Alexander Barboza,1995-05-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-07|argentina|equador,Argentina,2023-09-07,Equador,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-07|argentina|equador,Argentina,2023-09-07,Equador,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-07|colombia|venezuela,Colombia,2023-09-07,Venezuela,Jordan Barrera,2006-04-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-07|argentina|equador,Equador,2023-09-07,Argentina,Cristhian Loor,2006-03-09,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-07|argentina|equador,Equador,2023-09-07,Argentina,Luis Segovia,1997-10-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-09-07|paraguai|peru,Paraguai,2023-09-07,Peru,Gatito Fernandez,1988-03-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-09-07|paraguai|peru,Paraguai,2023-09-07,Peru,Oscar Romero,1997-07-04,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-07|colombia|venezuela,Venezuela,2023-09-07,Colombia,Jefferson Savarino,1996-11-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-07|colombia|venezuela,Venezuela,2023-09-07,Colombia,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2023-09-08|bolivia|brasil,Brasil,2023-09-08,Bolivia,Vitinho,1999-07-23,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-08|bolivia|brasil,Brasil,2023-09-08,Bolivia,Lucas Perri,1997-12-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-09-08|bolivia|brasil,Brasil,2023-09-08,Bolivia,Adryelson,1997-12-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-09-08|bolivia|brasil,Brasil,2023-09-08,Bolivia,Luiz Henrique,2001-01-02,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-08|bolivia|brasil,Brasil,2023-09-08,Bolivia,Igor Jesus,2001-01-01,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-08|bolivia|brasil,Brasil,2023-09-08,Bolivia,Alex Telles,1992-12-15,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-08|bolivia|brasil,Brasil,2023-09-08,Bolivia,Danilo Santos,2001-04-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-08|chile|uruguai,Uruguai,2023-09-08,Chile,Santi Rodriguez,2000-01-08,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-08|chile|uruguai,Uruguai,2023-09-08,Chile,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-09-08|chile|uruguai,Uruguai,2023-09-08,Chile,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-09-08|chile|uruguai,Uruguai,2023-09-08,Chile,Damian Suarez,1988-04-27,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-08|chile|uruguai,Uruguai,2023-09-08,Chile,Mastriani,1993-04-28,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|argentina|bolivia,Argentina,2023-09-12,Bolivia,Thiago Almada,1997-04-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|argentina|bolivia,Argentina,2023-09-12,Bolivia,Alexander Barboza,1995-05-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|argentina|bolivia,Argentina,2023-09-12,Bolivia,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|argentina|bolivia,Argentina,2023-09-12,Bolivia,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|brasil|peru,Brasil,2023-09-12,Peru,Vitinho,1999-07-23,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|brasil|peru,Brasil,2023-09-12,Peru,Lucas Perri,1997-12-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-09-12|brasil|peru,Brasil,2023-09-12,Peru,Adryelson,1997-12-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-09-12|brasil|peru,Brasil,2023-09-12,Peru,Luiz Henrique,2001-01-02,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|brasil|peru,Brasil,2023-09-12,Peru,Igor Jesus,2001-01-01,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|brasil|peru,Brasil,2023-09-12,Peru,Alex Telles,1992-12-15,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|brasil|peru,Brasil,2023-09-12,Peru,Danilo Santos,2001-04-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|chile|colombia,Colombia,2023-09-12,Chile,Jordan Barrera,2006-04-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|equador|uruguai,Equador,2023-09-12,Uruguai,Cristhian Loor,2006-03-09,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|equador|uruguai,Equador,2023-09-12,Uruguai,Luis Segovia,1997-10-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-09-12|paraguai|venezuela,Paraguai,2023-09-12,Venezuela,Gatito Fernandez,1988-03-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-09-12|paraguai|venezuela,Paraguai,2023-09-12,Venezuela,Oscar Romero,1997-07-04,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|equador|uruguai,Uruguai,2023-09-12,Equador,Santi Rodriguez,2000-01-08,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|equador|uruguai,Uruguai,2023-09-12,Equador,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-09-12|equador|uruguai,Uruguai,2023-09-12,Equador,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-09-12|equador|uruguai,Uruguai,2023-09-12,Equador,Damian Suarez,1988-04-27,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|equador|uruguai,Uruguai,2023-09-12,Equador,Mastriani,1993-04-28,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|paraguai|venezuela,Venezuela,2023-09-12,Paraguai,Jefferson Savarino,1996-11-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|paraguai|venezuela,Venezuela,2023-09-12,Paraguai,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2023-10-12|argentina|paraguai,Argentina,2023-10-12,Paraguai,Thiago Almada,1997-04-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|argentina|paraguai,Argentina,2023-10-12,Paraguai,Alexander Barboza,1995-05-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|argentina|paraguai,Argentina,2023-10-12,Paraguai,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|argentina|paraguai,Argentina,2023-10-12,Paraguai,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|brasil|venezuela,Brasil,2023-10-12,Venezuela,Vitinho,1999-07-23,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|brasil|venezuela,Brasil,2023-10-12,Venezuela,Lucas Perri,1997-12-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-10-12|brasil|venezuela,Brasil,2023-10-12,Venezuela,Adryelson,1997-12-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-10-12|brasil|venezuela,Brasil,2023-10-12,Venezuela,Luiz Henrique,2001-01-02,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|brasil|venezuela,Brasil,2023-10-12,Venezuela,Igor Jesus,2001-01-01,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|brasil|venezuela,Brasil,2023-10-12,Venezuela,Alex Telles,1992-12-15,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|brasil|venezuela,Brasil,2023-10-12,Venezuela,Danilo Santos,2001-04-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|colombia|uruguai,Colombia,2023-10-12,Uruguai,Jordan Barrera,2006-04-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|bolivia|equador,Equador,2023-10-12,Bolivia,Cristhian Loor,2006-03-09,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|bolivia|equador,Equador,2023-10-12,Bolivia,Luis Segovia,1997-10-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-10-12|argentina|paraguai,Paraguai,2023-10-12,Argentina,Gatito Fernandez,1988-03-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-10-12|argentina|paraguai,Paraguai,2023-10-12,Argentina,Oscar Romero,1997-07-04,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|colombia|uruguai,Uruguai,2023-10-12,Colombia,Santi Rodriguez,2000-01-08,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|colombia|uruguai,Uruguai,2023-10-12,Colombia,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-10-12|colombia|uruguai,Uruguai,2023-10-12,Colombia,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-10-12|colombia|uruguai,Uruguai,2023-10-12,Colombia,Damian Suarez,1988-04-27,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|colombia|uruguai,Uruguai,2023-10-12,Colombia,Mastriani,1993-04-28,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|brasil|venezuela,Venezuela,2023-10-12,Brasil,Jefferson Savarino,1996-11-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|brasil|venezuela,Venezuela,2023-10-12,Brasil,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2023-10-17|argentina|peru,Argentina,2023-10-17,Peru,Thiago Almada,1997-04-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|argentina|peru,Argentina,2023-10-17,Peru,Alexander Barboza,1995-05-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|argentina|peru,Argentina,2023-10-17,Peru,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|argentina|peru,Argentina,2023-10-17,Peru,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|brasil|uruguai,Brasil,2023-10-17,Uruguai,Vitinho,1999-07-23,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|brasil|uruguai,Brasil,2023-10-17,Uruguai,Lucas Perri,1997-12-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-10-17|brasil|uruguai,Brasil,2023-10-17,Uruguai,Adryelson,1997-12-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-10-17|brasil|uruguai,Brasil,2023-10-17,Uruguai,Luiz Henrique,2001-01-02,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|brasil|uruguai,Brasil,2023-10-17,Uruguai,Igor Jesus,2001-01-01,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|brasil|uruguai,Brasil,2023-10-17,Uruguai,Alex Telles,1992-12-15,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|brasil|uruguai,Brasil,2023-10-17,Uruguai,Danilo Santos,2001-04-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|colombia|equador,Colombia,2023-10-17,Equador,Jordan Barrera,2006-04-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|colombia|equador,Equador,2023-10-17,Colombia,Cristhian Loor,2006-03-09,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|colombia|equador,Equador,2023-10-17,Colombia,Luis Segovia,1997-10-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-10-17|bolivia|paraguai,Paraguai,2023-10-17,Bolivia,Gatito Fernandez,1988-03-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-10-17|bolivia|paraguai,Paraguai,2023-10-17,Bolivia,Oscar Romero,1997-07-04,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|brasil|uruguai,Uruguai,2023-10-17,Brasil,Santi Rodriguez,2000-01-08,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|brasil|uruguai,Uruguai,2023-10-17,Brasil,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-10-17|brasil|uruguai,Uruguai,2023-10-17,Brasil,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-10-17|brasil|uruguai,Uruguai,2023-10-17,Brasil,Damian Suarez,1988-04-27,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|brasil|uruguai,Uruguai,2023-10-17,Brasil,Mastriani,1993-04-28,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|chile|venezuela,Venezuela,2023-10-17,Chile,Jefferson Savarino,1996-11-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|chile|venezuela,Venezuela,2023-10-17,Chile,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2023-11-16|angola|cape verde,Angola,2023-11-16,Cape Verde,Bastos,1991-11-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-11-16|argentina|uruguai,Argentina,2023-11-16,Uruguai,Thiago Almada,1997-04-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|argentina|uruguai,Argentina,2023-11-16,Uruguai,Alexander Barboza,1995-05-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|argentina|uruguai,Argentina,2023-11-16,Uruguai,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|argentina|uruguai,Argentina,2023-11-16,Uruguai,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|brasil|colombia,Brasil,2023-11-16,Colombia,Vitinho,1999-07-23,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|brasil|colombia,Brasil,2023-11-16,Colombia,Lucas Perri,1997-12-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-11-16|brasil|colombia,Brasil,2023-11-16,Colombia,Adryelson,1997-12-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-11-16|brasil|colombia,Brasil,2023-11-16,Colombia,Luiz Henrique,2001-01-02,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|brasil|colombia,Brasil,2023-11-16,Colombia,Igor Jesus,2001-01-01,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|brasil|colombia,Brasil,2023-11-16,Colombia,Alex Telles,1992-12-15,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|brasil|colombia,Brasil,2023-11-16,Colombia,Danilo Santos,2001-04-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|brasil|colombia,Colombia,2023-11-16,Brasil,Jordan Barrera,2006-04-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|equador|venezuela,Equador,2023-11-16,Venezuela,Cristhian Loor,2006-03-09,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|equador|venezuela,Equador,2023-11-16,Venezuela,Luis Segovia,1997-10-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-11-16|chile|paraguai,Paraguai,2023-11-16,Chile,Gatito Fernandez,1988-03-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-11-16|chile|paraguai,Paraguai,2023-11-16,Chile,Oscar Romero,1997-07-04,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|argentina|uruguai,Uruguai,2023-11-16,Argentina,Santi Rodriguez,2000-01-08,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|argentina|uruguai,Uruguai,2023-11-16,Argentina,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-11-16|argentina|uruguai,Uruguai,2023-11-16,Argentina,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-11-16|argentina|uruguai,Uruguai,2023-11-16,Argentina,Damian Suarez,1988-04-27,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|argentina|uruguai,Uruguai,2023-11-16,Argentina,Mastriani,1993-04-28,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|equador|venezuela,Venezuela,2023-11-16,Equador,Jefferson Savarino,1996-11-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|equador|venezuela,Venezuela,2023-11-16,Equador,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2023-11-21|angola|mauritius,Angola,2023-11-21,Mauritius,Bastos,1991-11-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-11-21|argentina|brasil,Argentina,2023-11-21,Brasil,Thiago Almada,1997-04-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|argentina|brasil,Argentina,2023-11-21,Brasil,Alexander Barboza,1995-05-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|argentina|brasil,Argentina,2023-11-21,Brasil,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|argentina|brasil,Argentina,2023-11-21,Brasil,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|argentina|brasil,Brasil,2023-11-21,Argentina,Vitinho,1999-07-23,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|argentina|brasil,Brasil,2023-11-21,Argentina,Lucas Perri,1997-12-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-11-21|argentina|brasil,Brasil,2023-11-21,Argentina,Adryelson,1997-12-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-11-21|argentina|brasil,Brasil,2023-11-21,Argentina,Luiz Henrique,2001-01-02,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|argentina|brasil,Brasil,2023-11-21,Argentina,Igor Jesus,2001-01-01,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|argentina|brasil,Brasil,2023-11-21,Argentina,Alex Telles,1992-12-15,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|argentina|brasil,Brasil,2023-11-21,Argentina,Danilo Santos,2001-04-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|colombia|paraguai,Colombia,2023-11-21,Paraguai,Jordan Barrera,2006-04-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|chile|equador,Equador,2023-11-21,Chile,Cristhian Loor,2006-03-09,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|chile|equador,Equador,2023-11-21,Chile,Luis Segovia,1997-10-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-11-21|colombia|paraguai,Paraguai,2023-11-21,Colombia,Gatito Fernandez,1988-03-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-11-21|colombia|paraguai,Paraguai,2023-11-21,Colombia,Oscar Romero,1997-07-04,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|bolivia|uruguai,Uruguai,2023-11-21,Bolivia,Santi Rodriguez,2000-01-08,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|bolivia|uruguai,Uruguai,2023-11-21,Bolivia,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-11-21|bolivia|uruguai,Uruguai,2023-11-21,Bolivia,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2023-11-21|bolivia|uruguai,Uruguai,2023-11-21,Bolivia,Damian Suarez,1988-04-27,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|bolivia|uruguai,Uruguai,2023-11-21,Bolivia,Mastriani,1993-04-28,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|peru|venezuela,Venezuela,2023-11-21,Peru,Jefferson Savarino,1996-11-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|peru|venezuela,Venezuela,2023-11-21,Peru,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2024-06-05|montserrat|nicaragua,Nicaragua,2024-06-05,Montserrat,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
+2024-06-06|guyana|panama,Panama,2024-06-06,Guyana,Kadir Barria,2007-07-18,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-06-07|angola|eswatini,Angola,2024-06-07,Eswatini,Bastos,1991-11-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-06-08|belize|nicaragua,Nicaragua,2024-06-08,Belize,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
+2024-06-09|montserrat|panama,Panama,2024-06-09,Montserrat,Kadir Barria,2007-07-18,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-06-11|angola|cameroon,Angola,2024-06-11,Cameroon,Bastos,1991-11-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-05|argentina|chile,Argentina,2024-09-05,Chile,Thiago Almada,1997-04-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-05|argentina|chile,Argentina,2024-09-05,Chile,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-05|argentina|chile,Argentina,2024-09-05,Chile,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-05|argentina|chile,Argentina,2024-09-05,Chile,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-05|bolivia|venezuela,Venezuela,2024-09-05,Bolivia,Jefferson Savarino,1996-11-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-05|bolivia|venezuela,Venezuela,2024-09-05,Bolivia,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2024-09-06|brasil|equador,Brasil,2024-09-06,Equador,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-06|brasil|equador,Brasil,2024-09-06,Equador,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-06|brasil|equador,Brasil,2024-09-06,Equador,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-06|brasil|equador,Brasil,2024-09-06,Equador,Luiz Henrique,2001-01-02,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-06|brasil|equador,Brasil,2024-09-06,Equador,Igor Jesus,2001-01-01,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-06|brasil|equador,Brasil,2024-09-06,Equador,Alex Telles,1992-12-15,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-06|brasil|equador,Brasil,2024-09-06,Equador,Danilo Santos,2001-04-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-06|colombia|peru,Colombia,2024-09-06,Peru,Jordan Barrera,2006-04-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-06|brasil|equador,Equador,2024-09-06,Brasil,Cristhian Loor,2006-03-09,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-06|brasil|equador,Equador,2024-09-06,Brasil,Luis Segovia,1997-10-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-06|paraguai|uruguai,Paraguai,2024-09-06,Uruguai,Gatito Fernandez,1988-03-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-06|paraguai|uruguai,Paraguai,2024-09-06,Uruguai,Oscar Romero,1997-07-04,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-06|paraguai|uruguai,Uruguai,2024-09-06,Paraguai,Santi Rodriguez,2000-01-08,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-06|paraguai|uruguai,Uruguai,2024-09-06,Paraguai,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-06|paraguai|uruguai,Uruguai,2024-09-06,Paraguai,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-06|paraguai|uruguai,Uruguai,2024-09-06,Paraguai,Damian Suarez,1988-04-27,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-06|paraguai|uruguai,Uruguai,2024-09-06,Paraguai,Mastriani,1993-04-28,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-10|argentina|colombia,Argentina,2024-09-10,Colombia,Thiago Almada,1997-04-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-10|argentina|colombia,Argentina,2024-09-10,Colombia,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-10|argentina|colombia,Argentina,2024-09-10,Colombia,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-10|argentina|colombia,Argentina,2024-09-10,Colombia,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-10|brasil|paraguai,Brasil,2024-09-10,Paraguai,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-10|brasil|paraguai,Brasil,2024-09-10,Paraguai,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-10|brasil|paraguai,Brasil,2024-09-10,Paraguai,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-10|brasil|paraguai,Brasil,2024-09-10,Paraguai,Luiz Henrique,2001-01-02,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-10|brasil|paraguai,Brasil,2024-09-10,Paraguai,Igor Jesus,2001-01-01,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-10|brasil|paraguai,Brasil,2024-09-10,Paraguai,Alex Telles,1992-12-15,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-10|brasil|paraguai,Brasil,2024-09-10,Paraguai,Danilo Santos,2001-04-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-10|argentina|colombia,Colombia,2024-09-10,Argentina,Jordan Barrera,2006-04-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-10|equador|peru,Equador,2024-09-10,Peru,Cristhian Loor,2006-03-09,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-10|equador|peru,Equador,2024-09-10,Peru,Luis Segovia,1997-10-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-10|brasil|paraguai,Paraguai,2024-09-10,Brasil,Gatito Fernandez,1988-03-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-10|brasil|paraguai,Paraguai,2024-09-10,Brasil,Oscar Romero,1997-07-04,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-10|uruguai|venezuela,Uruguai,2024-09-10,Venezuela,Santi Rodriguez,2000-01-08,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-10|uruguai|venezuela,Uruguai,2024-09-10,Venezuela,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-10|uruguai|venezuela,Uruguai,2024-09-10,Venezuela,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-10|uruguai|venezuela,Uruguai,2024-09-10,Venezuela,Damian Suarez,1988-04-27,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-10|uruguai|venezuela,Uruguai,2024-09-10,Venezuela,Mastriani,1993-04-28,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-10|uruguai|venezuela,Venezuela,2024-09-10,Uruguai,Jefferson Savarino,1996-11-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-09-10|uruguai|venezuela,Venezuela,2024-09-10,Uruguai,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2024-10-10|argentina|venezuela,Argentina,2024-10-10,Venezuela,Thiago Almada,1997-04-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-10|argentina|venezuela,Argentina,2024-10-10,Venezuela,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-10|argentina|venezuela,Argentina,2024-10-10,Venezuela,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-10|argentina|venezuela,Argentina,2024-10-10,Venezuela,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-10|brasil|chile,Brasil,2024-10-10,Chile,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-10|brasil|chile,Brasil,2024-10-10,Chile,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-10|brasil|chile,Brasil,2024-10-10,Chile,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-10|brasil|chile,Brasil,2024-10-10,Chile,Luiz Henrique,2001-01-02,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-10|brasil|chile,Brasil,2024-10-10,Chile,Igor Jesus,2001-01-01,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-10|brasil|chile,Brasil,2024-10-10,Chile,Alex Telles,1992-12-15,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-10|brasil|chile,Brasil,2024-10-10,Chile,Danilo Santos,2001-04-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-10|bolivia|colombia,Colombia,2024-10-10,Bolivia,Jordan Barrera,2006-04-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-10|equador|paraguai,Equador,2024-10-10,Paraguai,Cristhian Loor,2006-03-09,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-10|equador|paraguai,Equador,2024-10-10,Paraguai,Luis Segovia,1997-10-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-10|equador|paraguai,Paraguai,2024-10-10,Equador,Gatito Fernandez,1988-03-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-10|equador|paraguai,Paraguai,2024-10-10,Equador,Oscar Romero,1997-07-04,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-10|argentina|venezuela,Venezuela,2024-10-10,Argentina,Jefferson Savarino,1996-11-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-10|argentina|venezuela,Venezuela,2024-10-10,Argentina,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2024-10-11|peru|uruguai,Uruguai,2024-10-11,Peru,Santi Rodriguez,2000-01-08,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-11|peru|uruguai,Uruguai,2024-10-11,Peru,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-11|peru|uruguai,Uruguai,2024-10-11,Peru,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-11|peru|uruguai,Uruguai,2024-10-11,Peru,Damian Suarez,1988-04-27,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-11|peru|uruguai,Uruguai,2024-10-11,Peru,Mastriani,1993-04-28,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-15|argentina|bolivia,Argentina,2024-10-15,Bolivia,Thiago Almada,1997-04-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-15|argentina|bolivia,Argentina,2024-10-15,Bolivia,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-15|argentina|bolivia,Argentina,2024-10-15,Bolivia,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-15|argentina|bolivia,Argentina,2024-10-15,Bolivia,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-15|brasil|peru,Brasil,2024-10-15,Peru,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-15|brasil|peru,Brasil,2024-10-15,Peru,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-15|brasil|peru,Brasil,2024-10-15,Peru,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-15|brasil|peru,Brasil,2024-10-15,Peru,Luiz Henrique,2001-01-02,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-15|brasil|peru,Brasil,2024-10-15,Peru,Igor Jesus,2001-01-01,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-15|brasil|peru,Brasil,2024-10-15,Peru,Alex Telles,1992-12-15,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-15|brasil|peru,Brasil,2024-10-15,Peru,Danilo Santos,2001-04-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-15|chile|colombia,Colombia,2024-10-15,Chile,Jordan Barrera,2006-04-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-15|equador|uruguai,Equador,2024-10-15,Uruguai,Cristhian Loor,2006-03-09,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-15|equador|uruguai,Equador,2024-10-15,Uruguai,Luis Segovia,1997-10-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-15|paraguai|venezuela,Paraguai,2024-10-15,Venezuela,Gatito Fernandez,1988-03-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-15|paraguai|venezuela,Paraguai,2024-10-15,Venezuela,Oscar Romero,1997-07-04,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-15|equador|uruguai,Uruguai,2024-10-15,Equador,Santi Rodriguez,2000-01-08,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-15|equador|uruguai,Uruguai,2024-10-15,Equador,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-15|equador|uruguai,Uruguai,2024-10-15,Equador,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-15|equador|uruguai,Uruguai,2024-10-15,Equador,Damian Suarez,1988-04-27,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-15|equador|uruguai,Uruguai,2024-10-15,Equador,Mastriani,1993-04-28,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-15|paraguai|venezuela,Venezuela,2024-10-15,Paraguai,Jefferson Savarino,1996-11-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-10-15|paraguai|venezuela,Venezuela,2024-10-15,Paraguai,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2024-11-14|argentina|paraguai,Argentina,2024-11-14,Paraguai,Thiago Almada,1997-04-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-14|argentina|paraguai,Argentina,2024-11-14,Paraguai,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-14|argentina|paraguai,Argentina,2024-11-14,Paraguai,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-14|argentina|paraguai,Argentina,2024-11-14,Paraguai,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-14|brasil|venezuela,Brasil,2024-11-14,Venezuela,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-14|brasil|venezuela,Brasil,2024-11-14,Venezuela,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-14|brasil|venezuela,Brasil,2024-11-14,Venezuela,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-14|brasil|venezuela,Brasil,2024-11-14,Venezuela,Luiz Henrique,2001-01-02,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-14|brasil|venezuela,Brasil,2024-11-14,Venezuela,Igor Jesus,2001-01-01,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-14|brasil|venezuela,Brasil,2024-11-14,Venezuela,Alex Telles,1992-12-15,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-14|brasil|venezuela,Brasil,2024-11-14,Venezuela,Danilo Santos,2001-04-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-14|bolivia|equador,Equador,2024-11-14,Bolivia,Cristhian Loor,2006-03-09,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-14|bolivia|equador,Equador,2024-11-14,Bolivia,Luis Segovia,1997-10-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-14|argentina|paraguai,Paraguai,2024-11-14,Argentina,Gatito Fernandez,1988-03-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-14|argentina|paraguai,Paraguai,2024-11-14,Argentina,Oscar Romero,1997-07-04,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-14|brasil|venezuela,Venezuela,2024-11-14,Brasil,Jefferson Savarino,1996-11-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-14|brasil|venezuela,Venezuela,2024-11-14,Brasil,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2024-11-15|colombia|uruguai,Colombia,2024-11-15,Uruguai,Jordan Barrera,2006-04-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-15|colombia|uruguai,Uruguai,2024-11-15,Colombia,Santi Rodriguez,2000-01-08,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-15|colombia|uruguai,Uruguai,2024-11-15,Colombia,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-15|colombia|uruguai,Uruguai,2024-11-15,Colombia,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-15|colombia|uruguai,Uruguai,2024-11-15,Colombia,Damian Suarez,1988-04-27,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-15|colombia|uruguai,Uruguai,2024-11-15,Colombia,Mastriani,1993-04-28,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-19|argentina|peru,Argentina,2024-11-19,Peru,Thiago Almada,1997-04-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-19|argentina|peru,Argentina,2024-11-19,Peru,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-19|argentina|peru,Argentina,2024-11-19,Peru,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-19|argentina|peru,Argentina,2024-11-19,Peru,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-19|brasil|uruguai,Brasil,2024-11-19,Uruguai,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-19|brasil|uruguai,Brasil,2024-11-19,Uruguai,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-19|brasil|uruguai,Brasil,2024-11-19,Uruguai,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-19|brasil|uruguai,Brasil,2024-11-19,Uruguai,Luiz Henrique,2001-01-02,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-19|brasil|uruguai,Brasil,2024-11-19,Uruguai,Igor Jesus,2001-01-01,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-19|brasil|uruguai,Brasil,2024-11-19,Uruguai,Alex Telles,1992-12-15,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-19|brasil|uruguai,Brasil,2024-11-19,Uruguai,Danilo Santos,2001-04-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-19|colombia|equador,Colombia,2024-11-19,Equador,Jordan Barrera,2006-04-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-19|colombia|equador,Equador,2024-11-19,Colombia,Cristhian Loor,2006-03-09,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-19|colombia|equador,Equador,2024-11-19,Colombia,Luis Segovia,1997-10-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-19|bolivia|paraguai,Paraguai,2024-11-19,Bolivia,Gatito Fernandez,1988-03-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-19|bolivia|paraguai,Paraguai,2024-11-19,Bolivia,Oscar Romero,1997-07-04,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-19|brasil|uruguai,Uruguai,2024-11-19,Brasil,Santi Rodriguez,2000-01-08,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-19|brasil|uruguai,Uruguai,2024-11-19,Brasil,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-19|brasil|uruguai,Uruguai,2024-11-19,Brasil,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-19|brasil|uruguai,Uruguai,2024-11-19,Brasil,Damian Suarez,1988-04-27,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-19|brasil|uruguai,Uruguai,2024-11-19,Brasil,Mastriani,1993-04-28,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-19|chile|venezuela,Venezuela,2024-11-19,Chile,Jefferson Savarino,1996-11-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2024-11-19|chile|venezuela,Venezuela,2024-11-19,Chile,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2025-03-20|angola|libya,Angola,2025-03-20,Libya,Bastos,1991-11-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-20|brasil|colombia,Brasil,2025-03-20,Colombia,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-20|brasil|colombia,Brasil,2025-03-20,Colombia,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-03-20|brasil|colombia,Brasil,2025-03-20,Colombia,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-03-20|brasil|colombia,Brasil,2025-03-20,Colombia,Luiz Henrique,2001-01-02,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-20|brasil|colombia,Brasil,2025-03-20,Colombia,Igor Jesus,2001-01-01,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-20|brasil|colombia,Brasil,2025-03-20,Colombia,Alex Telles,1992-12-15,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-20|brasil|colombia,Brasil,2025-03-20,Colombia,Danilo Santos,2001-04-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-20|brasil|colombia,Colombia,2025-03-20,Brasil,Jordan Barrera,2006-04-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-20|chile|paraguai,Paraguai,2025-03-20,Chile,Gatito Fernandez,1988-03-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-03-20|chile|paraguai,Paraguai,2025-03-20,Chile,Oscar Romero,1997-07-04,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-03-21|argentina|uruguai,Argentina,2025-03-21,Uruguai,Thiago Almada,1997-04-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-03-21|argentina|uruguai,Argentina,2025-03-21,Uruguai,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-21|argentina|uruguai,Argentina,2025-03-21,Uruguai,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-03-21|argentina|uruguai,Argentina,2025-03-21,Uruguai,Alvaro Montoro,2007-04-17,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-21|equador|venezuela,Equador,2025-03-21,Venezuela,Cristhian Loor,2006-03-09,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-03-21|equador|venezuela,Equador,2025-03-21,Venezuela,Luis Segovia,1997-10-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-03-21|finlandia|malta,Finlandia,2025-03-21,Malta,Niko Hamalainen,1997-03-05,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2025-03-21|argentina|uruguai,Uruguai,2025-03-21,Argentina,Santi Rodriguez,2000-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-21|argentina|uruguai,Uruguai,2025-03-21,Argentina,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-21|argentina|uruguai,Uruguai,2025-03-21,Argentina,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-21|argentina|uruguai,Uruguai,2025-03-21,Argentina,Damian Suarez,1988-04-27,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-21|argentina|uruguai,Uruguai,2025-03-21,Argentina,Mastriani,1993-04-28,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-21|equador|venezuela,Venezuela,2025-03-21,Equador,Jefferson Savarino,1996-11-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-21|equador|venezuela,Venezuela,2025-03-21,Equador,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2025-03-24|finlandia|lithuania,Finlandia,2025-03-24,Lithuania,Niko Hamalainen,1997-03-05,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2025-03-25|angola|cape verde,Angola,2025-03-25,Cape Verde,Bastos,1991-11-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-25|argentina|brasil,Argentina,2025-03-25,Brasil,Thiago Almada,1997-04-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-03-25|argentina|brasil,Argentina,2025-03-25,Brasil,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-25|argentina|brasil,Argentina,2025-03-25,Brasil,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-03-25|argentina|brasil,Argentina,2025-03-25,Brasil,Alvaro Montoro,2007-04-17,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-25|argentina|brasil,Brasil,2025-03-25,Argentina,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-25|argentina|brasil,Brasil,2025-03-25,Argentina,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-03-25|argentina|brasil,Brasil,2025-03-25,Argentina,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-03-25|argentina|brasil,Brasil,2025-03-25,Argentina,Luiz Henrique,2001-01-02,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-25|argentina|brasil,Brasil,2025-03-25,Argentina,Igor Jesus,2001-01-01,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-25|argentina|brasil,Brasil,2025-03-25,Argentina,Alex Telles,1992-12-15,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-25|argentina|brasil,Brasil,2025-03-25,Argentina,Danilo Santos,2001-04-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-25|colombia|paraguai,Colombia,2025-03-25,Paraguai,Jordan Barrera,2006-04-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-25|chile|equador,Equador,2025-03-25,Chile,Cristhian Loor,2006-03-09,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-03-25|chile|equador,Equador,2025-03-25,Chile,Luis Segovia,1997-10-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-03-25|colombia|paraguai,Paraguai,2025-03-25,Colombia,Gatito Fernandez,1988-03-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-03-25|colombia|paraguai,Paraguai,2025-03-25,Colombia,Oscar Romero,1997-07-04,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-03-25|bolivia|uruguai,Uruguai,2025-03-25,Bolivia,Santi Rodriguez,2000-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-25|bolivia|uruguai,Uruguai,2025-03-25,Bolivia,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-25|bolivia|uruguai,Uruguai,2025-03-25,Bolivia,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-25|bolivia|uruguai,Uruguai,2025-03-25,Bolivia,Damian Suarez,1988-04-27,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-25|bolivia|uruguai,Uruguai,2025-03-25,Bolivia,Mastriani,1993-04-28,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-25|peru|venezuela,Venezuela,2025-03-25,Peru,Jefferson Savarino,1996-11-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-25|peru|venezuela,Venezuela,2025-03-25,Peru,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2025-06-05|argentina|chile,Argentina,2025-06-05,Chile,Thiago Almada,1997-04-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-06-05|argentina|chile,Argentina,2025-06-05,Chile,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-05|argentina|chile,Argentina,2025-06-05,Chile,Joaquin Correa,1994-08-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-05|argentina|chile,Argentina,2025-06-05,Chile,Alvaro Montoro,2007-04-17,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-05|brasil|equador,Brasil,2025-06-05,Equador,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-05|brasil|equador,Brasil,2025-06-05,Equador,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-06-05|brasil|equador,Brasil,2025-06-05,Equador,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-06-05|brasil|equador,Brasil,2025-06-05,Equador,Luiz Henrique,2001-01-02,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-05|brasil|equador,Brasil,2025-06-05,Equador,Igor Jesus,2001-01-01,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-05|brasil|equador,Brasil,2025-06-05,Equador,Alex Telles,1992-12-15,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-05|brasil|equador,Brasil,2025-06-05,Equador,Danilo Santos,2001-04-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-05|brasil|equador,Equador,2025-06-05,Brasil,Cristhian Loor,2006-03-09,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-05|brasil|equador,Equador,2025-06-05,Brasil,Luis Segovia,1997-10-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-06-05|paraguai|uruguai,Paraguai,2025-06-05,Uruguai,Gatito Fernandez,1988-03-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-06-05|paraguai|uruguai,Paraguai,2025-06-05,Uruguai,Oscar Romero,1997-07-04,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-06-05|paraguai|uruguai,Uruguai,2025-06-05,Paraguai,Santi Rodriguez,2000-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-05|paraguai|uruguai,Uruguai,2025-06-05,Paraguai,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-05|paraguai|uruguai,Uruguai,2025-06-05,Paraguai,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-05|paraguai|uruguai,Uruguai,2025-06-05,Paraguai,Damian Suarez,1988-04-27,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-05|paraguai|uruguai,Uruguai,2025-06-05,Paraguai,Mastriani,1993-04-28,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-06|colombia|peru,Colombia,2025-06-06,Peru,Jordan Barrera,2006-04-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-06|guyana|nicaragua,Nicaragua,2025-06-06,Guyana,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
+2025-06-06|bolivia|venezuela,Venezuela,2025-06-06,Bolivia,Jefferson Savarino,1996-11-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-06|bolivia|venezuela,Venezuela,2025-06-06,Bolivia,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2025-06-07|finlandia|netherlands,Finlandia,2025-06-07,Netherlands,Niko Hamalainen,1997-03-05,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2025-06-07|belize|panama,Panama,2025-06-07,Belize,Kadir Barria,2007-07-18,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|argentina|colombia,Argentina,2025-06-10,Colombia,Thiago Almada,1997-04-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-06-10|argentina|colombia,Argentina,2025-06-10,Colombia,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|argentina|colombia,Argentina,2025-06-10,Colombia,Joaquin Correa,1994-08-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|argentina|colombia,Argentina,2025-06-10,Colombia,Alvaro Montoro,2007-04-17,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|brasil|paraguai,Brasil,2025-06-10,Paraguai,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|brasil|paraguai,Brasil,2025-06-10,Paraguai,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-06-10|brasil|paraguai,Brasil,2025-06-10,Paraguai,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-06-10|brasil|paraguai,Brasil,2025-06-10,Paraguai,Luiz Henrique,2001-01-02,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|brasil|paraguai,Brasil,2025-06-10,Paraguai,Igor Jesus,2001-01-01,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|brasil|paraguai,Brasil,2025-06-10,Paraguai,Alex Telles,1992-12-15,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|brasil|paraguai,Brasil,2025-06-10,Paraguai,Danilo Santos,2001-04-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|argentina|colombia,Colombia,2025-06-10,Argentina,Jordan Barrera,2006-04-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|equador|peru,Equador,2025-06-10,Peru,Cristhian Loor,2006-03-09,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|equador|peru,Equador,2025-06-10,Peru,Luis Segovia,1997-10-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-06-10|finlandia|poland,Finlandia,2025-06-10,Poland,Niko Hamalainen,1997-03-05,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2025-06-10|nicaragua|panama,Nicaragua,2025-06-10,Panama,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
+2025-06-10|nicaragua|panama,Panama,2025-06-10,Nicaragua,Kadir Barria,2007-07-18,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|brasil|paraguai,Paraguai,2025-06-10,Brasil,Gatito Fernandez,1988-03-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-06-10|brasil|paraguai,Paraguai,2025-06-10,Brasil,Oscar Romero,1997-07-04,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-06-10|uruguai|venezuela,Uruguai,2025-06-10,Venezuela,Santi Rodriguez,2000-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|uruguai|venezuela,Uruguai,2025-06-10,Venezuela,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|uruguai|venezuela,Uruguai,2025-06-10,Venezuela,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|uruguai|venezuela,Uruguai,2025-06-10,Venezuela,Damian Suarez,1988-04-27,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|uruguai|venezuela,Uruguai,2025-06-10,Venezuela,Mastriani,1993-04-28,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|uruguai|venezuela,Venezuela,2025-06-10,Uruguai,Jefferson Savarino,1996-11-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|uruguai|venezuela,Venezuela,2025-06-10,Uruguai,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2025-09-04|angola|libya,Angola,2025-09-04,Libya,Bastos,1991-11-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|argentina|venezuela,Argentina,2025-09-04,Venezuela,Thiago Almada,1997-04-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-04|argentina|venezuela,Argentina,2025-09-04,Venezuela,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|argentina|venezuela,Argentina,2025-09-04,Venezuela,Joaquin Correa,1994-08-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|argentina|venezuela,Argentina,2025-09-04,Venezuela,Alvaro Montoro,2007-04-17,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|brasil|chile,Brasil,2025-09-04,Chile,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|brasil|chile,Brasil,2025-09-04,Chile,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-04|brasil|chile,Brasil,2025-09-04,Chile,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-04|brasil|chile,Brasil,2025-09-04,Chile,Luiz Henrique,2001-01-02,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-04|brasil|chile,Brasil,2025-09-04,Chile,Igor Jesus,2001-01-01,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-04|brasil|chile,Brasil,2025-09-04,Chile,Alex Telles,1992-12-15,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|brasil|chile,Brasil,2025-09-04,Chile,Danilo Santos,2001-04-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|bolivia|colombia,Colombia,2025-09-04,Bolivia,Jordan Barrera,2006-04-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|equador|paraguai,Equador,2025-09-04,Paraguai,Cristhian Loor,2006-03-09,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|equador|paraguai,Equador,2025-09-04,Paraguai,Luis Segovia,1997-10-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-04|bulgaria|espanha,Espanha,2025-09-04,Bulgaria,Chris Ramos,1997-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|panama|suriname,Panama,2025-09-04,Suriname,Kadir Barria,2007-07-18,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|equador|paraguai,Paraguai,2025-09-04,Equador,Gatito Fernandez,1988-03-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-04|equador|paraguai,Paraguai,2025-09-04,Equador,Oscar Romero,1997-07-04,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-04|peru|uruguai,Uruguai,2025-09-04,Peru,Santi Rodriguez,2000-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|peru|uruguai,Uruguai,2025-09-04,Peru,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|peru|uruguai,Uruguai,2025-09-04,Peru,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|peru|uruguai,Uruguai,2025-09-04,Peru,Damian Suarez,1988-04-27,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|peru|uruguai,Uruguai,2025-09-04,Peru,Mastriani,1993-04-28,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|argentina|venezuela,Venezuela,2025-09-04,Argentina,Jefferson Savarino,1996-11-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|argentina|venezuela,Venezuela,2025-09-04,Argentina,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2025-09-05|costa rica|nicaragua,Nicaragua,2025-09-05,Costa Rica,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
+2025-09-07|espanha|turkey,Espanha,2025-09-07,Turkey,Chris Ramos,1997-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-07|finlandia|poland,Finlandia,2025-09-07,Poland,Niko Hamalainen,1997-03-05,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2025-09-08|guatemala|panama,Panama,2025-09-08,Guatemala,Kadir Barria,2007-07-18,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|angola|mauritius,Angola,2025-09-09,Mauritius,Bastos,1991-11-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|argentina|equador,Argentina,2025-09-09,Equador,Thiago Almada,1997-04-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-09|argentina|equador,Argentina,2025-09-09,Equador,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|argentina|equador,Argentina,2025-09-09,Equador,Joaquin Correa,1994-08-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|argentina|equador,Argentina,2025-09-09,Equador,Alvaro Montoro,2007-04-17,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|bolivia|brasil,Brasil,2025-09-09,Bolivia,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|bolivia|brasil,Brasil,2025-09-09,Bolivia,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-09|bolivia|brasil,Brasil,2025-09-09,Bolivia,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-09|bolivia|brasil,Brasil,2025-09-09,Bolivia,Luiz Henrique,2001-01-02,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-09|bolivia|brasil,Brasil,2025-09-09,Bolivia,Igor Jesus,2001-01-01,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-09|bolivia|brasil,Brasil,2025-09-09,Bolivia,Alex Telles,1992-12-15,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|bolivia|brasil,Brasil,2025-09-09,Bolivia,Danilo Santos,2001-04-29,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|colombia|venezuela,Colombia,2025-09-09,Venezuela,Jordan Barrera,2006-04-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|argentina|equador,Equador,2025-09-09,Argentina,Cristhian Loor,2006-03-09,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|argentina|equador,Equador,2025-09-09,Argentina,Luis Segovia,1997-10-26,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-09|honduras|nicaragua,Nicaragua,2025-09-09,Honduras,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
+2025-09-09|paraguai|peru,Paraguai,2025-09-09,Peru,Gatito Fernandez,1988-03-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-09|paraguai|peru,Paraguai,2025-09-09,Peru,Oscar Romero,1997-07-04,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-09|chile|uruguai,Uruguai,2025-09-09,Chile,Santi Rodriguez,2000-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|chile|uruguai,Uruguai,2025-09-09,Chile,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|chile|uruguai,Uruguai,2025-09-09,Chile,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|chile|uruguai,Uruguai,2025-09-09,Chile,Damian Suarez,1988-04-27,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|chile|uruguai,Uruguai,2025-09-09,Chile,Mastriani,1993-04-28,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|colombia|venezuela,Venezuela,2025-09-09,Colombia,Jefferson Savarino,1996-11-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|colombia|venezuela,Venezuela,2025-09-09,Colombia,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2025-10-08|angola|eswatini,Angola,2025-10-08,Eswatini,Bastos,1991-11-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-10-09|finlandia|lithuania,Finlandia,2025-10-09,Lithuania,Niko Hamalainen,1997-03-05,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2025-10-09|haiti|nicaragua,Nicaragua,2025-10-09,Haiti,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
+2025-10-10|el salvador|panama,Panama,2025-10-10,El Salvador,Kadir Barria,2007-07-18,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-10-11|espanha|georgia,Espanha,2025-10-11,Georgia,Chris Ramos,1997-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-10-12|finlandia|netherlands,Finlandia,2025-10-12,Netherlands,Niko Hamalainen,1997-03-05,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2025-10-13|angola|cameroon,Angola,2025-10-13,Cameroon,Bastos,1991-11-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-10-13|costa rica|nicaragua,Nicaragua,2025-10-13,Costa Rica,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
+2025-10-14|bulgaria|espanha,Espanha,2025-10-14,Bulgaria,Chris Ramos,1997-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-10-14|panama|suriname,Panama,2025-10-14,Suriname,Kadir Barria,2007-07-18,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-11-13|honduras|nicaragua,Nicaragua,2025-11-13,Honduras,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
+2025-11-13|guatemala|panama,Panama,2025-11-13,Guatemala,Kadir Barria,2007-07-18,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-11-14|finlandia|malta,Finlandia,2025-11-14,Malta,Niko Hamalainen,1997-03-05,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2025-11-15|espanha|georgia,Espanha,2025-11-15,Georgia,Chris Ramos,1997-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-11-18|espanha|turkey,Espanha,2025-11-18,Turkey,Chris Ramos,1997-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-11-18|haiti|nicaragua,Nicaragua,2025-11-18,Haiti,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
+2025-11-18|el salvador|panama,Panama,2025-11-18,El Salvador,Kadir Barria,2007-07-18,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS

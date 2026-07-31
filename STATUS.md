@@ -30,6 +30,9 @@ elegibilidade nem para montar fixture.
 salvo e ajustar os seletores ao markup real — **não pôde ser executado aqui**.
 Nenhum byte de Transfermarkt ou oGol chegou a esta máquina.
 
+Uma exceção foi encontrada depois e mudou o resultado da sessão:
+`raw.githubusercontent.com` responde. Ver seção 5b.
+
 ---
 
 ## 2. O que foi feito, já que o passo 1 estava travado
@@ -187,6 +190,103 @@ python partidas_universo.py --validar
 ```
 
 O validador responde na hora se a coleta está íntegra.
+
+---
+
+## 5b. DESTRAVADO — o universo de partidas foi coletado
+
+Depois de mapear host por host o que a política de egresso libera, apareceu uma
+brecha útil: **`raw.githubusercontent.com` responde**. Não a API do GitHub, não
+o `codeload`, não o jsDelivr, não buckets externos — só o raw de arquivo.
+
+Isso bastou. Fonte usada:
+**[martj42/international_results](https://github.com/martj42/international_results)**,
+compilação pública de partidas de seleções desde 1872, com o campo `tournament`
+separando `FIFA World Cup qualification` de `African Cup of Nations
+qualification`, `UEFA Euro qualification`, `Copa América qualification` e
+`Friendly` — exatamente a distinção que o filtro 1 do algoritmo exige.
+
+`dados/partidas_universo.csv` agora tem **232 linhas, 141 partidas distintas**:
+
+| Confederação | Linhas | Cobertura |
+|---|---|---|
+| CONMEBOL | 180 | 90 partidas, as 10 seleções, 18 rodadas |
+| CAF | 18 | Angola (10) e Marrocos (8) |
+| CONCACAF | 20 | Nicarágua (10) e Panamá (10) |
+| UEFA | 14 | Finlândia (8) e Espanha (6) |
+
+Isso fecha o item 4 do backlog do `CLAUDE.md` — "levantar calendários CAF e
+CONCACAF" —, que estava aberto.
+
+### Por que dá para confiar (e até onde)
+
+O validador roda **sem um único erro**. As invariantes que ele checa não são
+formalidade: 90 partidas distintas, cada uma das 10 seleções com exatamente 18
+jogos, 9 em casa e 9 fora, cada confronto acontecendo 2x, uma partida por
+seleção por rodada, e **toda data dentro das 9 janelas de Data FIFA** que o
+`CLAUDE.md` já dava como CONFIRMADAS. Um dataset errado não fecharia tudo isso
+por acaso.
+
+Duas corroborações independentes, que ninguém programou para acontecer:
+
+- o dataset conta **901 partidas de Eliminatórias no mundo** no ciclo. A FIFA
+  declarou **905** no comunicado de 05/06/2026 — o denominador do rateio de
+  USD 2.360. Diferença de 0,4%;
+- os resultados do Brasil batem com o conhecido (5-1 Bolívia, 0-2 Uruguai,
+  0-1 Argentina).
+
+**Mesmo assim: isto é nível 2, CONFERÊNCIA.** Não é a CONMEBOL, não é a FIFA.
+Serve para montar o universo e para saber o que procurar. **Não serve como
+documento de claim.** O `fonte` de cada linha diz isso.
+
+A rodada não vem no dataset — é **deduzida por estrutura**: cada janela tem 2
+rodadas e cada seleção joga uma vez por rodada, então basta abrir rodada nova
+quando uma seleção se repete. Fecha em 18 rodadas com 10 linhas cada. Para CAF,
+CONCACAF e UEFA a rodada fica em branco: o formato dessas confederações não foi
+conferido na fonte oficial.
+
+---
+
+## 5c. O que a coleta mudou na análise
+
+Com datas reais, `checagem_aritmetica.py` deixou de estimar por estrutura e
+passou a **contar as partidas reais da seleção dentro da janela de registro**.
+Três linhas que eram "NÃO SEI" viraram número:
+
+| Atleta | Seleção | Máximo possível |
+|---|---|---|
+| Bastos | Angola | **10** |
+| Kadir Barría | Panamá | **8** |
+| Chris Ramos | Espanha | **6** |
+
+E dois descartes que o `CLAUDE.md` já defendia por argumento saíram **0** por
+aritmética, de forma independente: **Niko Hämäläinen** e **Nahuel Ferraresi**.
+
+`dados/relacoes.csv` tem **458 linhas**. Nenhuma sai ELEGÍVEL — o filtro 3
+continua aberto.
+
+---
+
+## 5d. O que segue bloqueado: os elencos
+
+**Elenco do Botafogo 2022–2026 com nome completo, nascimento, idade e posição
+não foi coletado.** As fontes que têm esse dado estão todas fora:
+Transfermarkt, oGol, ESPN, Wikipédia, e o bucket R2 do dump público do
+Transfermarkt (`transfermarkt-datasets`) — todos 403 no CONNECT. O único repo
+com dados de jogador que o raw alcança (`openfootball/players`) organiza por
+seleção, não por clube, e não tem histórico de elenco.
+
+O que existe: `dados/elencos.csv`, 84 linhas de 2024 e 2025 vindas da planilha
+mestre, com 27 datas de nascimento cruzadas do `atletas.csv`. **2022, 2023 e
+2026 estão vazios.**
+
+Uma checagem que dá alguma tranquilidade: **toda nacionalidade presente nos
+elencos de 2024 e 2025 já consta de `selecoes_escopo.csv`**. Nenhuma seleção
+ficou de fora por esquecimento no período que dá para verificar. As três em
+escopo sem atleta nesses dois anos — Finlândia, Nicarágua e Panamá — são
+exatamente Hämäläinen (2022), Montes (vínculo não confirmado) e Barría (chegou
+depois). Ou seja: o universo de partidas provavelmente está completo, mas isso
+**não pode ser afirmado para 2022, 2023 e 2026**, que seguem sem fonte.
 
 ---
 
