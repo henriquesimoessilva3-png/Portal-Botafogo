@@ -306,6 +306,15 @@ class _ColetorDeTabelas(HTMLParser):
             for f in self._pilha:
                 if f["buffer"] is not None:
                     f["buffer"].append(" ")
+        elif tag == "img":
+            # A nacionalidade no Transfermarkt é a BANDEIRA, não texto: sem ler
+            # o title/alt da imagem, a coluna sai vazia.
+            d = dict(attrs)
+            legenda = (d.get("title") or d.get("alt") or "").strip()
+            if legenda:
+                for f in self._pilha:
+                    if f["buffer"] is not None:
+                        f["buffer"].append(f" [{legenda}] ")
 
     def handle_endtag(self, tag):
         if tag in self._IGNORAR:

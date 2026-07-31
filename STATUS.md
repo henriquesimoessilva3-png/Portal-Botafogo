@@ -160,11 +160,11 @@ e minutos continua sendo hipótese. Por isso todo `Registro` carrega a coluna
 
 ---
 
-## 5. `partidas_universo` — infraestrutura pronta, dados pendentes
+## 5. `partidas_universo` — a infraestrutura
 
-`dados/partidas_universo.csv` **está vazio**. Preenchê-lo de memória seria
-exatamente o que o `CLAUDE.md` proíbe: *"levantar na fonte oficial, não
-estimar"*. Sem rota para conmebol.com nem para a Wikipédia, não há fonte.
+> **Atualização:** esta seção descrevia a tabela ainda vazia. Ela foi coletada
+> depois, na mesma sessão — ver **5b**. O que está aqui segue valendo: é a
+> infraestrutura que validou a coleta.
 
 O que está pronto e testado (`python test_universo.py`):
 
