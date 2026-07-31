@@ -1,14 +1,23 @@
 selecao,confederacao,atletas_botafogo_no_periodo,inicio_campanha,fim_campanha,jogos_da_selecao,formato,status_verificacao
-Brasil,CONMEBOL,"Lucas Perri; Adryelson; Luiz Henrique; Igor Jesus; Alex Telles; Vitinho; John; Danilo Santos",2023-09-07,2025-09-09,18,"Turno e returno, todos contra todos, 10 selecoes, 18 rodadas",CONFIRMADO
-Argentina,CONMEBOL,"Thiago Almada; Alexander Barboza; Alvaro Montoro; Joaquin Correa; Victor Cuesta; Leonel Di Placido; Cristian Medina; Lucas Villalba",2023-09-07,2025-09-09,18,"Mesmo formato",CONFIRMADO
-Uruguai,CONMEBOL,"Mateo Ponte; Diego Hernandez; Damian Suarez; Santi Rodriguez; Mastriani",2023-09-07,2025-09-09,18,"Mesmo formato",CONFIRMADO
-Paraguai,CONMEBOL,"Gatito Fernandez; Oscar Romero",2023-09-07,2025-09-09,18,"Mesmo formato",CONFIRMADO
-Equador,CONMEBOL,"Luis Segovia; Cristhian Loor",2023-09-07,2025-09-09,18,"Mesmo formato",CONFIRMADO
-Venezuela,CONMEBOL,"Jefferson Savarino; Nahuel Ferraresi",2023-09-07,2025-09-09,18,"Mesmo formato",CONFIRMADO
-Colombia,CONMEBOL,"Jordan Barrera; Jhoan Hernandez",2023-09-07,2025-09-09,18,"Mesmo formato",CONFIRMADO
-Angola,CAF,"Bastos",2023-11-01,2025-10-31,10,"Fase de grupos, 9 grupos de 6, turno e returno",A CONFIRMAR
-Nicaragua,CONCACAF,"Jacob Montes",2024-01-01,2025-11-30,,"Multi-rodada, profundidade depende do avanco da selecao",A CONFIRMAR
-Panama,CONCACAF,"Kadir Barria",2024-01-01,2025-11-30,,"Multi-rodada, Panama chegou a rodada final",A CONFIRMAR
-Finlandia,UEFA,"Niko Hamalainen",2025-03-01,2025-11-30,,"Fase de grupos + repescagem em marco de 2026. ATENCAO: Hamalainen saiu do Botafogo em 2022, provavelmente fora de escopo",A CONFIRMAR
-Espanha,UEFA,"Chris Ramos",2025-03-01,2025-11-30,,"Fase de grupos",A CONFIRMAR
-Marrocos,CAF,"Mohamed El Arouch",2023-11-01,2025-10-31,10,"Nascido na Franca. Verificar elegibilidade e se houve convocacao a selecao principal",A CONFIRMAR
+Brasil,CONMEBOL,Lucas Perri; Adryelson; Luiz Henrique; Igor Jesus; Alex Telles; Vitinho; John; Danilo Santos,2023-09-07,2025-09-09,18,"Turno e returno, todos contra todos, 10 selecoes, 18 rodadas",CONFIRMADO
+Argentina,CONMEBOL,Thiago Almada; Alexander Barboza; Alvaro Montoro; Joaquin Correa; Victor Cuesta; Leonel Di Placido; Cristian Medina; Lucas Villalba,2023-09-07,2025-09-09,18,Mesmo formato,CONFIRMADO
+Uruguai,CONMEBOL,Mateo Ponte; Diego Hernandez; Damian Suarez; Santi Rodriguez; Mastriani,2023-09-07,2025-09-09,18,Mesmo formato,CONFIRMADO
+Paraguai,CONMEBOL,Gatito Fernandez; Oscar Romero,2023-09-07,2025-09-09,18,Mesmo formato,CONFIRMADO
+Equador,CONMEBOL,Luis Segovia; Cristhian Loor,2023-09-07,2025-09-09,18,Mesmo formato,CONFIRMADO
+Venezuela,CONMEBOL,Jefferson Savarino; Nahuel Ferraresi,2023-09-07,2025-09-09,18,Mesmo formato,CONFIRMADO
+Colombia,CONMEBOL,Jordan Barrera; Jhoan Hernandez,2023-09-07,2025-09-09,18,Mesmo formato,CONFIRMADO
+Angola,CAF,Bastos,2023-11-01,2025-10-31,10,"Fase de grupos, 9 grupos de 6, turno e returno",A CONFIRMAR
+Nicaragua,CONCACAF,Jacob Montes,2024-01-01,2025-11-30,,"Multi-rodada, profundidade depende do avanco da selecao",A CONFIRMAR
+Panama,CONCACAF,Kadir Barria,2024-01-01,2025-11-30,,"Multi-rodada, Panama chegou a rodada final",A CONFIRMAR
+Finlandia,UEFA,Niko Hamalainen,2025-03-01,2025-11-30,,"Fase de grupos + repescagem em marco de 2026. ATENCAO: Hamalainen saiu do Botafogo em 2022, provavelmente fora de escopo",A CONFIRMAR
+Espanha,UEFA,Chris Ramos,2025-03-01,2025-11-30,,Fase de grupos,A CONFIRMAR
+Marrocos,CAF,Mohamed El Arouch,2023-11-01,2025-10-31,10,Nascido na Franca. Verificar elegibilidade e se houve convocacao a selecao principal,A CONFIRMAR
+Bolivia,CONMEBOL,Sebastian Joffre,2023-09-07,2025-09-09,18,Mesmo formato,CONFIRMADO - descoberto no elenco 2022/23
+Trinidad e Tobago,CONCACAF,Darius Lewis,2024-01-01,2025-11-30,,Multi-rodada,CONFIRMADO - descoberto no elenco 2022/23
+Italia,UEFA,Segundo passaporte: Almada; Alex Telles; Savarino; Montoro; Correa; Mastriani; Ferraresi; Villalba; Perri; Piazon,2025-03-01,2025-11-30,,Fase de grupos + repescagem,POR COMPLETUDE - descarte a documentar
+Portugal,UEFA,Segundo passaporte: Rafael; Allan; Tiquinho Soares; John Victor; Gabriel Pires; Marquinhos,2025-03-01,2025-11-30,,Fase de grupos,POR COMPLETUDE - descarte a documentar
+Belgica,UEFA,Segundo passaporte: Warleson,2025-03-01,2025-11-30,,Fase de grupos,POR COMPLETUDE - descarte a documentar
+Bulgaria,UEFA,Segundo passaporte: Rwan Cruz,2025-03-01,2025-11-30,,Fase de grupos,POR COMPLETUDE - descarte a documentar
+Japao,AFC,Segundo passaporte: Luis Oyama,2023-11-01,2025-11-30,,Multi-rodada AFC,POR COMPLETUDE - descarte a documentar
+Emirados Arabes Unidos,AFC,Segundo passaporte: Igor Jesus; Hugo,2023-11-01,2025-11-30,,Multi-rodada AFC,POR COMPLETUDE - descarte a documentar
+Estados Unidos,CONCACAF,Segundo passaporte: Jacob Montes; Niko Hamalainen; Darius Lewis; Sebastian Joffre; Chris Ramos,,,0,ANFITRIA - nao disputou Eliminatorias,"CONFIRMADO - zero partidas, descarte fechado"

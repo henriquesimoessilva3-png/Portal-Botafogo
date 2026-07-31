@@ -67,7 +67,7 @@ completa, nada oculto por paginação. Soma: **39 partidas** (~USD 92 mil brutos
 | LUCAS PERRI | Brasil | 6 | **ACEITAR** | Convocado set/2023 no lugar de Bento (Bolívia e Peru), ainda no Botafogo. 6 = as 3 janelas de 2023 |
 | ADRYELSON | Brasil | 1 | **ACEITAR + conferir** | Convocado por Diniz em nov/2023. A janela teve 2 jogos — verificar se cabe reivindicar o segundo |
 | LOOR Cristhian | Equador | 1 | **CONFERIR data** | Goleiro, no clube desde 2025 (veio do Independiente del Valle p/ o Mundial de Clubes) |
-| MONTES Jacob | Nicarágua | 2 | **REJEITAR / investigar** | Não aparece no elenco de 2024 nem no de 2025. Vínculo não confirmado |
+| MONTES Jacob | Nicarágua | 2 | **ACEITAR — veredito corrigido** | Estava no elenco: camisa 32 nas temporadas 2022/23 e 2023/24 do Transfermarkt (ID 497494). A Nicarágua só disputou 2 Eliminatórias até jun/2024 — 05/06 e 08/06/2024 —, exatamente as 2 atribuídas. Rejeitar seria devolver ~USD 4.720 |
 | LUIZ HENRIQUE | Brasil | 8 | **ACEITAR** | out/24 + nov/24 + mar/25 + jun/25 = 8. Para exatamente na ida ao Zenit (jul/2025) |
 | SAVARINO Jefferson | Venezuela | 10 | **ACEITAR + conferir faltas** | Maior volume. O risco aqui é o inverso: faltar janela |
 

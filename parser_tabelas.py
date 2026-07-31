@@ -245,6 +245,10 @@ class LinhaBruta:
     celulas: list[str]
     tags: list[str]
     colspans: list[int]
+    # Todos os href da linha. É daqui que sai o ID do atleta no Transfermarkt
+    # (`/spieler/576028`) — e o CLAUDE.md é explícito: a chave é ID + data de
+    # nascimento, nunca o nome.
+    links: list[str] = field(default_factory=list)
 
     @property
     def texto(self) -> str:
@@ -274,7 +278,8 @@ class _ColetorDeTabelas(HTMLParser):
 
     def _nova_moldura(self, tid: int) -> dict:
         return {"tid": tid, "indice": 0, "celulas": None, "tags": None,
-                "colspans": None, "buffer": None, "tag_celula": None}
+                "colspans": None, "buffer": None, "tag_celula": None,
+                "links": None}
 
     # -- estrutura -------------------------------------------------------- #
     def handle_starttag(self, tag, attrs):
@@ -291,6 +296,7 @@ class _ColetorDeTabelas(HTMLParser):
         if tag == "tr":
             self._fechar_linha(m)
             m["celulas"], m["tags"], m["colspans"] = [], [], []
+            m["links"] = []
         elif tag in ("td", "th"):
             if m["celulas"] is None:          # `<td>` sem `<tr>` explícito
                 m["celulas"], m["tags"], m["colspans"] = [], [], []
@@ -306,6 +312,14 @@ class _ColetorDeTabelas(HTMLParser):
             for f in self._pilha:
                 if f["buffer"] is not None:
                     f["buffer"].append(" ")
+        elif tag == "a":
+            href = dict(attrs).get("href")
+            if href:
+                # O link vale para a linha de fora também: no Transfermarkt o
+                # perfil do atleta está numa tabela aninhada dentro da célula.
+                for f in self._pilha:
+                    if f["links"] is not None and href not in f["links"]:
+                        f["links"].append(href)
         elif tag == "img":
             # A nacionalidade no Transfermarkt é a BANDEIRA, não texto: sem ler
             # o title/alt da imagem, a coluna sai vazia.
@@ -364,8 +378,9 @@ class _ColetorDeTabelas(HTMLParser):
                 celulas=list(m["celulas"]),
                 tags=list(m["tags"]),
                 colspans=list(m["colspans"][:len(m["celulas"])]),
+                links=list(m["links"] or []),
             ))
-        m["celulas"] = m["tags"] = m["colspans"] = None
+        m["celulas"] = m["tags"] = m["colspans"] = m["links"] = None
 
     def close(self):
         while self._pilha:

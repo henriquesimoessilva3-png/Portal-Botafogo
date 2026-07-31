@@ -45,7 +45,9 @@ partida_id,selecao,confederacao,competicao,rodada,data,mando,adversario,resultad
 2023-11-16|brasil|colombia,Brasil,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,5,2023-11-16,fora,Colombia,1:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2023-11-16|chile|paraguai,Chile,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,5,2023-11-16,casa,Paraguai,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2023-11-16|brasil|colombia,Colombia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,5,2023-11-16,casa,Brasil,2:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2023-11-16|emirados arabes unidos|nepal,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2023-11-16,casa,Nepal,4:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2023-11-16|equador|venezuela,Equador,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,5,2023-11-16,fora,Venezuela,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2023-11-16|japao|myanmar,Japao,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2023-11-16,casa,Myanmar,5:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2023-11-16|chile|paraguai,Paraguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,5,2023-11-16,fora,Chile,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2023-11-16|bolivia|peru,Peru,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,5,2023-11-16,fora,Bolivia,0:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2023-11-16|argentina|uruguai,Uruguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,5,2023-11-16,fora,Argentina,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
@@ -56,23 +58,36 @@ partida_id,selecao,confederacao,competicao,rodada,data,mando,adversario,resultad
 2023-11-21|argentina|brasil,Brasil,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,6,2023-11-21,casa,Argentina,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2023-11-21|chile|equador,Chile,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,6,2023-11-21,fora,Equador,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2023-11-21|colombia|paraguai,Colombia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,6,2023-11-21,fora,Paraguai,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2023-11-21|bahrain|emirados arabes unidos,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2023-11-21,fora,Bahrain,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2023-11-21|chile|equador,Equador,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,6,2023-11-21,casa,Chile,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2023-11-21|japao|syria,Japao,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2023-11-21,fora,Syria,5:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2023-11-21|marrocos|tanzania,Marrocos,CAF,Eliminatórias da Copa do Mundo FIFA 2026,,2023-11-21,fora,Tanzania,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2023-11-21|colombia|paraguai,Paraguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,6,2023-11-21,casa,Colombia,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2023-11-21|peru|venezuela,Peru,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,6,2023-11-21,casa,Venezuela,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2023-11-21|bolivia|uruguai,Uruguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,6,2023-11-21,casa,Bolivia,3:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2023-11-21|peru|venezuela,Venezuela,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,6,2023-11-21,fora,Peru,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-03-21|emirados arabes unidos|yemen,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-03-21,casa,Yemen,2:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-03-21|japao|north korea,Japao,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-03-21,casa,North Korea,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-03-26|emirados arabes unidos|yemen,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-03-26,fora,Yemen,3:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-06-05|montserrat|nicaragua,Nicaragua,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2024-06-05,casa,Montserrat,4:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-06-05|grenada|trinidad e tobago,Trinidad e Tobago,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2024-06-05,casa,Grenada,2:2,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-06-06|emirados arabes unidos|nepal,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-06-06,fora,Nepal,4:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-06-06|japao|myanmar,Japao,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-06-06,fora,Myanmar,5:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-06-06|guyana|panama,Panama,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2024-06-06,casa,Guyana,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-06-07|angola|eswatini,Angola,CAF,Eliminatórias da Copa do Mundo FIFA 2026,,2024-06-07,casa,Eswatini,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-06-07|marrocos|zambia,Marrocos,CAF,Eliminatórias da Copa do Mundo FIFA 2026,,2024-06-07,casa,Zambia,2:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-06-08|belize|nicaragua,Nicaragua,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2024-06-08,fora,Belize,4:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-06-08|bahamas|trinidad e tobago,Trinidad e Tobago,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2024-06-08,fora,Bahamas,7:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-06-09|montserrat|panama,Panama,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2024-06-09,fora,Montserrat,3:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-06-11|angola|cameroon,Angola,CAF,Eliminatórias da Copa do Mundo FIFA 2026,,2024-06-11,casa,Cameroon,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-06-11|bahrain|emirados arabes unidos,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-06-11,casa,Bahrain,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-06-11|japao|syria,Japao,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-06-11,casa,Syria,5:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-06-11|congo|marrocos,Marrocos,CAF,Eliminatórias da Copa do Mundo FIFA 2026,,2024-06-11,casa,Congo,6:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-09-05|argentina|chile,Argentina,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,7,2024-09-05,casa,Chile,3:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-09-05|bolivia|venezuela,Bolivia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,7,2024-09-05,casa,Venezuela,4:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-09-05|argentina|chile,Chile,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,7,2024-09-05,fora,Argentina,0:3,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-09-05|emirados arabes unidos|qatar,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-09-05,fora,Qatar,3:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-09-05|china|japao,Japao,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-09-05,casa,China,7:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-09-05|bolivia|venezuela,Venezuela,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,7,2024-09-05,fora,Bolivia,0:4,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-09-06|brasil|equador,Brasil,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,7,2024-09-06,casa,Equador,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-09-06|colombia|peru,Colombia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,7,2024-09-06,fora,Peru,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
@@ -85,7 +100,9 @@ partida_id,selecao,confederacao,competicao,rodada,data,mando,adversario,resultad
 2024-09-10|brasil|paraguai,Brasil,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,8,2024-09-10,fora,Paraguai,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-09-10|bolivia|chile,Chile,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,8,2024-09-10,casa,Bolivia,1:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-09-10|argentina|colombia,Colombia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,8,2024-09-10,casa,Argentina,2:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-09-10|emirados arabes unidos|iran,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-09-10,casa,Iran,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-09-10|equador|peru,Equador,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,8,2024-09-10,casa,Peru,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-09-10|bahrain|japao,Japao,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-09-10,fora,Bahrain,5:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-09-10|brasil|paraguai,Paraguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,8,2024-09-10,casa,Brasil,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-09-10|equador|peru,Peru,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,8,2024-09-10,fora,Equador,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-09-10|uruguai|venezuela,Uruguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,8,2024-09-10,fora,Venezuela,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
@@ -95,7 +112,9 @@ partida_id,selecao,confederacao,competicao,rodada,data,mando,adversario,resultad
 2024-10-10|brasil|chile,Brasil,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,9,2024-10-10,fora,Chile,2:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-10-10|brasil|chile,Chile,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,9,2024-10-10,casa,Brasil,1:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-10-10|bolivia|colombia,Colombia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,9,2024-10-10,fora,Bolivia,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-10-10|emirados arabes unidos|north korea,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-10-10,casa,North Korea,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-10-10|equador|paraguai,Equador,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,9,2024-10-10,casa,Paraguai,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-10-10|japao|saudi arabia,Japao,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-10-10,fora,Saudi Arabia,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-10-10|equador|paraguai,Paraguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,9,2024-10-10,fora,Equador,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-10-10|argentina|venezuela,Venezuela,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,9,2024-10-10,casa,Argentina,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-10-11|peru|uruguai,Peru,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,9,2024-10-11,casa,Uruguai,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
@@ -105,7 +124,9 @@ partida_id,selecao,confederacao,competicao,rodada,data,mando,adversario,resultad
 2024-10-15|brasil|peru,Brasil,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,10,2024-10-15,casa,Peru,4:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-10-15|chile|colombia,Chile,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,10,2024-10-15,fora,Colombia,0:4,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-10-15|chile|colombia,Colombia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,10,2024-10-15,casa,Chile,4:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-10-15|emirados arabes unidos|uzbekistan,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-10-15,fora,Uzbekistan,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-10-15|equador|uruguai,Equador,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,10,2024-10-15,fora,Uruguai,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-10-15|australia|japao,Japao,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-10-15,casa,Australia,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-10-15|paraguai|venezuela,Paraguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,10,2024-10-15,casa,Venezuela,2:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-10-15|brasil|peru,Peru,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,10,2024-10-15,fora,Brasil,0:4,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-10-15|equador|uruguai,Uruguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,10,2024-10-15,casa,Equador,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
@@ -113,11 +134,13 @@ partida_id,selecao,confederacao,competicao,rodada,data,mando,adversario,resultad
 2024-11-14|argentina|paraguai,Argentina,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,11,2024-11-14,fora,Paraguai,1:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-11-14|bolivia|equador,Bolivia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,11,2024-11-14,fora,Equador,0:4,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-11-14|brasil|venezuela,Brasil,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,11,2024-11-14,fora,Venezuela,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-11-14|emirados arabes unidos|kyrgyzstan,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-11-14,casa,Kyrgyzstan,3:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-11-14|bolivia|equador,Equador,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,11,2024-11-14,casa,Bolivia,4:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-11-14|argentina|paraguai,Paraguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,11,2024-11-14,casa,Argentina,2:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-11-14|brasil|venezuela,Venezuela,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,11,2024-11-14,casa,Brasil,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-11-15|chile|peru,Chile,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,11,2024-11-15,fora,Peru,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-11-15|colombia|uruguai,Colombia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,11,2024-11-15,fora,Uruguai,2:3,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-11-15|indonesia|japao,Japao,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-11-15,fora,Indonesia,4:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-11-15|chile|peru,Peru,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,11,2024-11-15,casa,Chile,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-11-15|colombia|uruguai,Uruguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,11,2024-11-15,casa,Colombia,3:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-11-19|argentina|peru,Argentina,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,12,2024-11-19,casa,Peru,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
@@ -125,7 +148,9 @@ partida_id,selecao,confederacao,competicao,rodada,data,mando,adversario,resultad
 2024-11-19|brasil|uruguai,Brasil,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,12,2024-11-19,casa,Uruguai,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-11-19|chile|venezuela,Chile,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,12,2024-11-19,casa,Venezuela,4:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-11-19|colombia|equador,Colombia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,12,2024-11-19,casa,Equador,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-11-19|emirados arabes unidos|qatar,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-11-19,casa,Qatar,5:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-11-19|colombia|equador,Equador,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,12,2024-11-19,fora,Colombia,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2024-11-19|china|japao,Japao,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2024-11-19,fora,China,3:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-11-19|bolivia|paraguai,Paraguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,12,2024-11-19,fora,Bolivia,2:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-11-19|argentina|peru,Peru,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,12,2024-11-19,fora,Argentina,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2024-11-19|brasil|uruguai,Uruguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,12,2024-11-19,fora,Brasil,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
@@ -135,6 +160,8 @@ partida_id,selecao,confederacao,competicao,rodada,data,mando,adversario,resultad
 2025-03-20|brasil|colombia,Brasil,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,13,2025-03-20,casa,Colombia,2:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-03-20|chile|paraguai,Chile,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,13,2025-03-20,fora,Paraguai,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-03-20|brasil|colombia,Colombia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,13,2025-03-20,fora,Brasil,1:2,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-03-20|emirados arabes unidos|iran,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2025-03-20,fora,Iran,0:2,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-03-20|bahrain|japao,Japao,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2025-03-20,casa,Bahrain,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-03-20|chile|paraguai,Paraguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,13,2025-03-20,casa,Chile,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-03-20|bolivia|peru,Peru,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,13,2025-03-20,casa,Bolivia,3:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-03-21|argentina|uruguai,Argentina,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,13,2025-03-21,fora,Uruguai,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
@@ -150,7 +177,9 @@ partida_id,selecao,confederacao,competicao,rodada,data,mando,adversario,resultad
 2025-03-25|argentina|brasil,Brasil,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,14,2025-03-25,fora,Argentina,1:4,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-03-25|chile|equador,Chile,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,14,2025-03-25,casa,Equador,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-03-25|colombia|paraguai,Colombia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,14,2025-03-25,casa,Paraguai,2:2,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-03-25|emirados arabes unidos|north korea,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2025-03-25,fora,North Korea,2:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-03-25|chile|equador,Equador,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,14,2025-03-25,fora,Chile,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-03-25|japao|saudi arabia,Japao,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2025-03-25,casa,Saudi Arabia,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-03-25|marrocos|tanzania,Marrocos,CAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-03-25,casa,Tanzania,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-03-25|colombia|paraguai,Paraguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,14,2025-03-25,fora,Colombia,2:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-03-25|peru|venezuela,Peru,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,14,2025-03-25,fora,Venezuela,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
@@ -159,33 +188,45 @@ partida_id,selecao,confederacao,competicao,rodada,data,mando,adversario,resultad
 2025-06-05|argentina|chile,Argentina,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,15,2025-06-05,fora,Chile,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-05|brasil|equador,Brasil,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,15,2025-06-05,fora,Equador,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-05|argentina|chile,Chile,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,15,2025-06-05,casa,Argentina,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-06-05|emirados arabes unidos|uzbekistan,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2025-06-05,casa,Uzbekistan,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-05|brasil|equador,Equador,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,15,2025-06-05,casa,Brasil,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-06-05|australia|japao,Japao,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2025-06-05,fora,Australia,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-05|paraguai|uruguai,Paraguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,15,2025-06-05,casa,Uruguai,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-05|paraguai|uruguai,Uruguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,15,2025-06-05,fora,Paraguai,0:2,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-06-06|belgica|north macedonia,Belgica,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-06-06,fora,North Macedonia,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-06|bolivia|venezuela,Bolivia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,15,2025-06-06,fora,Venezuela,0:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-06|colombia|peru,Colombia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,15,2025-06-06,casa,Peru,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-06-06|italia|norway,Italia,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-06-06,fora,Norway,0:3,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-06|guyana|nicaragua,Nicaragua,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-06-06,casa,Guyana,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-06|colombia|peru,Peru,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,15,2025-06-06,fora,Colombia,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-06-06|saint kitts and nevis|trinidad e tobago,Trinidad e Tobago,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-06-06,casa,Saint Kitts and Nevis,6:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-06|bolivia|venezuela,Venezuela,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,15,2025-06-06,casa,Bolivia,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-07|finlandia|netherlands,Finlandia,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-06-07,casa,Netherlands,0:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-07|belize|panama,Panama,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-06-07,fora,Belize,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-06-09|belgica|wales,Belgica,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-06-09,casa,Wales,4:3,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-06-09|italia|moldova,Italia,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-06-09,casa,Moldova,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-10|argentina|colombia,Argentina,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,16,2025-06-10,casa,Colombia,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-10|bolivia|chile,Bolivia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,16,2025-06-10,casa,Chile,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-10|brasil|paraguai,Brasil,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,16,2025-06-10,casa,Paraguai,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-10|bolivia|chile,Chile,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,16,2025-06-10,fora,Bolivia,0:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-10|argentina|colombia,Colombia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,16,2025-06-10,fora,Argentina,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-06-10|emirados arabes unidos|kyrgyzstan,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2025-06-10,fora,Kyrgyzstan,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-10|equador|peru,Equador,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,16,2025-06-10,fora,Peru,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-10|finlandia|poland,Finlandia,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-06-10,casa,Poland,2:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-06-10|indonesia|japao,Japao,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2025-06-10,casa,Indonesia,6:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-10|nicaragua|panama,Nicaragua,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-06-10,fora,Panama,0:3,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-10|nicaragua|panama,Panama,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-06-10,casa,Nicaragua,3:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-10|brasil|paraguai,Paraguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,16,2025-06-10,fora,Brasil,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-10|equador|peru,Peru,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,16,2025-06-10,casa,Equador,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-06-10|costa rica|trinidad e tobago,Trinidad e Tobago,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-06-10,fora,Costa Rica,1:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-10|uruguai|venezuela,Uruguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,16,2025-06-10,casa,Venezuela,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-06-10|uruguai|venezuela,Venezuela,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,16,2025-06-10,fora,Uruguai,0:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-04|angola|libya,Angola,CAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-04,casa,Libya,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-04|argentina|venezuela,Argentina,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,17,2025-09-04,casa,Venezuela,3:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-09-04|belgica|liechtenstein,Belgica,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-04,fora,Liechtenstein,6:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-04|bolivia|colombia,Bolivia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,17,2025-09-04,fora,Colombia,0:3,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-04|brasil|chile,Brasil,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,17,2025-09-04,casa,Chile,3:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-09-04|bulgaria|spain,Bulgaria,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-04,casa,Spain,0:3,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-04|brasil|chile,Chile,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,17,2025-09-04,fora,Brasil,0:3,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-04|bolivia|colombia,Colombia,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,17,2025-09-04,casa,Bolivia,3:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-04|equador|paraguai,Equador,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,17,2025-09-04,fora,Paraguai,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
@@ -195,10 +236,16 @@ partida_id,selecao,confederacao,competicao,rodada,data,mando,adversario,resultad
 2025-09-04|peru|uruguai,Peru,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,17,2025-09-04,fora,Uruguai,0:3,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-04|peru|uruguai,Uruguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,17,2025-09-04,casa,Peru,3:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-04|argentina|venezuela,Venezuela,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,17,2025-09-04,fora,Argentina,0:3,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-09-05|estonia|italia,Italia,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-05,casa,Estonia,5:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-05|marrocos|niger,Marrocos,CAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-05,casa,Niger,5:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-05|costa rica|nicaragua,Nicaragua,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-05,casa,Costa Rica,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-09-05|curacao|trinidad e tobago,Trinidad e Tobago,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-05,casa,Curaçao,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-09-06|armenia|portugal,Portugal,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-06,fora,Armenia,5:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-09-07|belgica|kazakhstan,Belgica,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-07,casa,Kazakhstan,6:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-09-07|bulgaria|georgia,Bulgaria,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-07,fora,Georgia,0:3,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-07|espanha|turkey,Espanha,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-07,fora,Turkey,6:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-07|finlandia|poland,Finlandia,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-07,fora,Poland,1:3,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-09-08|israel|italia,Italia,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-08,fora,Israel,5:4,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-08|marrocos|zambia,Marrocos,CAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-08,fora,Zambia,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-08|guatemala|panama,Panama,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-08,casa,Guatemala,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-09|angola|mauritius,Angola,CAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-09,casa,Mauritius,3:1,martj42/international_results (results.csv) — nivel CONFERENCIA
@@ -211,23 +258,51 @@ partida_id,selecao,confederacao,competicao,rodada,data,mando,adversario,resultad
 2025-09-09|honduras|nicaragua,Nicaragua,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-09,fora,Honduras,0:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-09|paraguai|peru,Paraguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,18,2025-09-09,fora,Peru,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-09|paraguai|peru,Peru,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,18,2025-09-09,casa,Paraguai,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-09-09|hungary|portugal,Portugal,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-09,fora,Hungary,3:2,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-09-09|jamaica|trinidad e tobago,Trinidad e Tobago,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-09-09,fora,Jamaica,0:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-09|chile|uruguai,Uruguai,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,18,2025-09-09,fora,Chile,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-09-09|colombia|venezuela,Venezuela,CONMEBOL,Eliminatórias da Copa do Mundo FIFA 2026,18,2025-09-09,casa,Colombia,3:6,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-10-08|angola|eswatini,Angola,CAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-08,fora,Eswatini,2:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-10-09|finlandia|lithuania,Finlandia,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-09,casa,Lithuania,2:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-10-09|haiti|nicaragua,Nicaragua,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-09,casa,Haiti,0:3,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-10-10|belgica|north macedonia,Belgica,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-10,casa,North Macedonia,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-10-10|el salvador|panama,Panama,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-10,fora,El Salvador,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-10-10|bermuda|trinidad e tobago,Trinidad e Tobago,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-10,fora,Bermuda,3:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-10-11|bulgaria|turkey,Bulgaria,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-11,casa,Turkey,1:6,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-10-11|emirados arabes unidos|oman,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-11,casa,Oman,2:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-10-11|espanha|georgia,Espanha,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-11,casa,Georgia,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-10-11|estonia|italia,Italia,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-11,fora,Estonia,3:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-10-11|portugal|republic of ireland,Portugal,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-11,casa,Republic of Ireland,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-10-12|finlandia|netherlands,Finlandia,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-12,fora,Netherlands,0:4,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-10-13|angola|cameroon,Angola,CAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-13,fora,Cameroon,0:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-10-13|belgica|wales,Belgica,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-13,fora,Wales,4:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-10-13|costa rica|nicaragua,Nicaragua,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-13,fora,Costa Rica,1:4,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-10-14|bulgaria|spain,Bulgaria,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-14,fora,Spain,0:4,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-10-14|emirados arabes unidos|qatar,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-14,fora,Qatar,1:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-10-14|bulgaria|espanha,Espanha,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-14,casa,Bulgaria,4:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-10-14|israel|italia,Italia,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-14,casa,Israel,3:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-10-14|congo|marrocos,Marrocos,CAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-14,casa,Congo,1:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-10-14|panama|suriname,Panama,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-14,casa,Suriname,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-10-14|hungary|portugal,Portugal,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-14,casa,Hungary,2:2,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-10-14|curacao|trinidad e tobago,Trinidad e Tobago,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-10-14,fora,Curaçao,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-11-13|emirados arabes unidos|iraq,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-13,casa,Iraq,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-11-13|italia|moldova,Italia,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-13,fora,Moldova,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-11-13|honduras|nicaragua,Nicaragua,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-13,casa,Honduras,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-11-13|guatemala|panama,Panama,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-13,fora,Guatemala,3:2,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-11-13|portugal|republic of ireland,Portugal,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-13,fora,Republic of Ireland,0:2,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-11-13|jamaica|trinidad e tobago,Trinidad e Tobago,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-13,casa,Jamaica,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-11-14|finlandia|malta,Finlandia,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-14,casa,Malta,0:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-11-15|belgica|kazakhstan,Belgica,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-15,fora,Kazakhstan,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-11-15|bulgaria|turkey,Bulgaria,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-15,fora,Turkey,0:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-11-15|espanha|georgia,Espanha,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-15,fora,Georgia,4:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-11-16|italia|norway,Italia,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-16,casa,Norway,1:4,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-11-16|armenia|portugal,Portugal,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-16,casa,Armenia,9:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-11-18|belgica|liechtenstein,Belgica,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-18,casa,Liechtenstein,7:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-11-18|bulgaria|georgia,Bulgaria,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-18,casa,Georgia,2:1,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-11-18|emirados arabes unidos|iraq,Emirados Arabes Unidos,AFC,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-18,fora,Iraq,1:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-11-18|espanha|turkey,Espanha,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-18,casa,Turkey,2:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-11-18|haiti|nicaragua,Nicaragua,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-18,fora,Haiti,0:2,martj42/international_results (results.csv) — nivel CONFERENCIA
 2025-11-18|el salvador|panama,Panama,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-18,casa,El Salvador,3:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2025-11-18|bermuda|trinidad e tobago,Trinidad e Tobago,CONCACAF,Eliminatórias da Copa do Mundo FIFA 2026,,2025-11-18,casa,Bermuda,2:2,martj42/international_results (results.csv) — nivel CONFERENCIA
+2026-03-26|italia|northern ireland,Italia,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2026-03-26,casa,Northern Ireland,2:0,martj42/international_results (results.csv) — nivel CONFERENCIA
+2026-03-31|bosnia and herzegovina|italia,Italia,UEFA,Eliminatórias da Copa do Mundo FIFA 2026,,2026-03-31,fora,Bosnia and Herzegovina,1:1,martj42/international_results (results.csv) — nivel CONFERENCIA

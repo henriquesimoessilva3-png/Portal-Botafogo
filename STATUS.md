@@ -290,6 +290,78 @@ depois). Ou seja: o universo de partidas provavelmente está completo, mas isso
 
 ---
 
+## 5e. Os elencos chegaram — e mudaram duas conclusões
+
+O usuário salvou do navegador as cinco páginas de elenco do Transfermarkt e as
+enviou. `importar_elenco.py` leu **302 atletas**, todos com nacionalidade.
+
+### O que o HTML real desmentiu
+
+Os seletores eram hipótese, e estavam errados. Na primeira passada o script
+extraiu **zero** linhas dos cinco arquivos. O que o HTML real mostrou:
+
+- a página salva **não tem data de nascimento**. O título diz "Plantel
+  detalhado", mas o cabeçalho é `# | Jogadores | Idade | Nac. | Clube atual |
+  Valor de mercado` — é a visão compacta. A âncora do parser era justamente a
+  data de nascimento;
+- **a nacionalidade é bandeira, não texto** — só sai do `title` da `<img>`;
+- **o ano do título não é o ano da temporada.** "Plantel detalhado 2024" tem
+  `saison_id=2023`: é a temporada **2023/24**, de julho/2023 a junho/2024, que
+  cobre dois anos-calendário. Rotular pelo título produziria um erro de um ano
+  em todo o levantamento — e num projeto em que a pergunta é *"o clube detinha o
+  registro NA DATA da partida"*, um ano de erro é a diferença entre reivindicar
+  e perder.
+
+A chave de identidade passou a ser o **ID do Transfermarkt**, extraído do link
+do perfil. É melhor que a data de nascimento: é único por definição, e resolve
+os dois "Vitinho" sem depender de conferir data.
+
+### Achado 1 — Jacob Montes estava no elenco. O veredito era errado.
+
+O `CLAUDE.md` dizia *"Não aparece no elenco de 2024 nem no de 2025. Vínculo não
+confirmado"* e recomendava **REJEITAR** as 2 partidas.
+
+O Transfermarkt mostra Jacob Montes (ID 497494, Nicarágua/EUA) com **camisa 32**
+nas temporadas **2022/23 e 2023/24**, além de 2021/22.
+
+E a aritmética fecha: a Nicarágua disputou exatamente **2 Eliminatórias** antes
+de julho/2024 — 05/06/2024 contra Montserrat e 08/06/2024 contra Belize —, dentro
+da temporada 2023/24. São exatamente as 2 que a FIFA atribuiu.
+
+**Rejeitar seria devolver ~USD 4.720 sem motivo.** Veredito corrigido no
+`CLAUDE.md`.
+
+### Achado 2 — faltava seleção no escopo
+
+Cruzando as nacionalidades reais dos 302 atletas contra `selecoes_escopo.csv`:
+
+| Nacionalidade | Atleta | Situação |
+|---|---|---|
+| **Trinidad e Tobago** | Darius Lewis (2022/23) | **não estava no escopo nem no universo** |
+| **Bolívia** | Sebastian Joffre (2022/23) | fora do escopo; já no universo por ser CONMEBOL |
+
+Trinidad e Tobago disputou Eliminatórias da CONCACAF. Era um buraco real — o
+tipo de omissão que a seção 4b existe para evitar.
+
+Entraram também, por completude, as seleções de segundo passaporte (Itália,
+Portugal, Bélgica, Bulgária, Japão, Emirados Árabes Unidos). O `CLAUDE.md` é
+explícito: o descarte precisa ser **documentado, não presumido**. Estados Unidos
+entrou e fecha em zero — anfitriã, não disputou Eliminatórias.
+
+O universo passou de 141 para **216 partidas** (307 linhas), e continua
+validando sem erro. `atletas.csv` ganhou as colunas `tm_id` e `temporadas_tm`,
+com 26 dos 30 atletas já casados por ID.
+
+### O que os elencos NÃO deram
+
+Data de nascimento, nome completo e altura — a visão compacta não traz. Para
+isso é preciso a aba **"Elenco detalhado"** de verdade (`/plus/1` na URL).
+`idade_na_temporada` está gravada, mas não permite derivar ano de nascimento com
+segurança: a idade é referida ao início da temporada europeia, não ao
+ano-calendário.
+
+---
+
 ## 6. `relacoes` — pronto, roda assim que houver universo
 
 `relacoes.py` cruza `partidas_universo` com `atletas.csv`.

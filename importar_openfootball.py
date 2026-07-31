@@ -71,13 +71,33 @@ CONMEBOL = {
     "Bolivia": "Bolivia",
 }
 
+# O CLAUDE.md §4b define o universo como "toda seleção que teve ao menos um
+# atleta daquela nacionalidade no elenco". Aplicando isso à risca sobre os
+# elencos reais de 2021/22 a 2025/26 (302 atletas, coletados do Transfermarkt),
+# apareceram nacionalidades que o selecoes_escopo.csv não previa — inclusive
+# Trinidad e Tobago, que disputou Eliminatórias e não estava em lugar nenhum.
+#
+# As de segundo passaporte (Itália, Portugal, Bélgica...) entram por completude:
+# o documento é explícito em que o descarte precisa ser DOCUMENTADO, não
+# presumido. Se ninguém foi convocado, a tabela `relacoes` mostra isso — mas
+# mostra, em vez de omitir.
 OUTRAS = {
+    # já previstas em selecoes_escopo.csv
     "Angola": ("Angola", "CAF"),
     "Morocco": ("Marrocos", "CAF"),
     "Nicaragua": ("Nicaragua", "CONCACAF"),
     "Panama": ("Panama", "CONCACAF"),
     "Finland": ("Finlandia", "UEFA"),
     "Spain": ("Espanha", "UEFA"),
+    # descobertas nos elencos reais — ver STATUS.md §5e
+    "Trinidad and Tobago": ("Trinidad e Tobago", "CONCACAF"),
+    "United States": ("Estados Unidos", "CONCACAF"),
+    "United Arab Emirates": ("Emirados Arabes Unidos", "AFC"),
+    "Japan": ("Japao", "AFC"),
+    "Italy": ("Italia", "UEFA"),
+    "Portugal": ("Portugal", "UEFA"),
+    "Belgium": ("Belgica", "UEFA"),
+    "Bulgaria": ("Bulgaria", "UEFA"),
 }
 
 

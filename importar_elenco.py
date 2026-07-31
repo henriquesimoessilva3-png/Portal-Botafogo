@@ -59,9 +59,9 @@ from parser_tabelas import extrair_linhas, normalizar, parse_data
 DIR_DADOS = Path("dados")
 CSV_SAIDA = DIR_DADOS / "elencos_coletados.csv"
 
-CAMPOS = ["temporada", "numero", "nome", "nome_completo", "nascimento", "idade",
-          "posicao", "nacionalidade", "altura", "pe", "no_clube_desde",
-          "contrato_ate", "valor_mercado", "fonte", "bruto"]
+CAMPOS = ["temporada_saison_id", "temporada", "tm_id", "numero", "nome",
+          "posicao", "nacionalidade", "nacionalidade_2",
+          "idade_na_temporada", "clube_atual", "valor_mercado", "fonte"]
 
 # "23/07/1999 (26)" — assinatura da célula de nascimento no Transfermarkt.
 RE_NASC_IDADE = re.compile(r"(\d{1,2}/\d{1,2}/\d{4})\s*\((\d{1,2})\)")
@@ -172,48 +172,86 @@ def _limpar_nome(texto: str) -> str:
     return t.strip()
 
 
+RE_SPIELER = re.compile(r"/spieler/(\d+)")
+RE_SAISON = re.compile(r'<option[^>]*selected[^>]*value="(\d{4})"')
+
+
+def temporada_do_html(html: str) -> str:
+    """Lê o saison_id que a própria página declara, em vez de confiar no título.
+
+    ISTO IMPORTA. O título da página do Transfermarkt diz "Plantel detalhado
+    2024", mas o `saison_id` selecionado é 2023: o título usa o ano de FIM da
+    temporada europeia. Ou seja, o arquivo "2024" é a temporada **2023/24**, que
+    vai de julho/2023 a junho/2024 e cobre DOIS anos-calendário.
+
+    Rotular pelo título produziria um erro de um ano em todo o levantamento — e
+    num projeto em que a pergunta é "o clube detinha o registro NA DATA da
+    partida", um ano de erro é a diferença entre reivindicar e perder.
+    """
+    m = RE_SAISON.search(html)
+    return m.group(1) if m else ""
+
+
 def extrair_elenco(html: str, temporada: str, fonte: str) -> list[dict]:
+    """Lê a tabela de elenco do Transfermarkt.
+
+    Estrutura real, conferida no HTML salvo (não é mais hipótese):
+
+        [0] número da camisa
+        [1] bloco do atleta — "[foto] Nome Posição" (tabela aninhada)
+        [2] idade na temporada
+        [3] nacionalidade(s) — bandeiras, viram "[País]"
+        [4] clube ATUAL (não o da temporada)
+        [5] valor de mercado
+
+    A página NÃO traz data de nascimento: esta é a visão compacta. A chave de
+    identidade aqui é o **ID do Transfermarkt**, extraído do link do perfil —
+    que é até melhor que a data, porque é único por definição.
+    """
+    saison = temporada_do_html(html)
+    if saison:
+        rotulo = f"{saison}/{str(int(saison) + 1)[-2:]}"
+    else:
+        rotulo = temporada
+
     saida: list[dict] = []
     vistos: set[str] = set()
 
     for l in extrair_linhas(html):
-        linha = " | ".join(l.celulas)
-        d, idade = _achar_nascimento_e_idade(linha, temporada)
-        if d is None:
+        if l.profundidade != 0 or len(l.celulas) != 6:
             continue
-
-        # A célula do jogador é a maior que sobra depois de tirar data e números.
-        candidatos = [c for c in l.celulas
-                      if len(_limpar_nome(c)) >= 3
-                      and _achar_nascimento_e_idade(c, temporada)[0] is None]
-        nome = _limpar_nome(max(candidatos, key=len)) if candidatos else ""
-        if not nome:
+        if not l.celulas[2].strip().isdigit():
             continue
-
-        numero = next((c.strip() for c in l.celulas[:2]
-                       if RE_NUMERO.match(c.strip())), "")
-        altura = next((am.group(1) for c in l.celulas
-                       if (am := RE_ALTURA.search(c))), "")
-        no_clube = ""
-        for c in l.celulas:
-            dd = parse_data(RE_LEGENDA.sub("", c).strip())
-            if dd and dd != d:
-                no_clube = dd.isoformat()
-                break
-
-        chave = f"{normalizar(nome)}|{d.isoformat()}"
-        if chave in vistos:
+        ids = RE_SPIELER.findall(" ".join(l.links))
+        if not ids:
             continue
-        vistos.add(chave)
+        tm_id = ids[0]
+        if tm_id in vistos:
+            continue
+        vistos.add(tm_id)
+
+        bloco = l.celulas[1]
+        legendas = RE_LEGENDA.findall(bloco)
+        # A última legenda do bloco é a foto do atleta (as anteriores, quando
+        # existem, são escudos de clube emprestador).
+        nome = legendas[-1] if legendas else ""
+        posicao = _limpar_nome(RE_LEGENDA.sub(" ", bloco).replace(nome, " "))
+        nacs = [n for n in RE_LEGENDA.findall(l.celulas[3])
+                if not any(x in normalizar(n) for x in NAO_E_PAIS)]
 
         saida.append({
-            "temporada": temporada, "numero": numero, "nome": nome,
-            "nome_completo": "", "nascimento": d.isoformat(), "idade": idade,
-            "posicao": _achar_posicao(linha),
-            "nacionalidade": _achar_nacionalidade(l.celulas, nome),
-            "altura": altura, "pe": "", "no_clube_desde": no_clube,
-            "contrato_ate": "", "valor_mercado": "", "fonte": fonte,
-            "bruto": linha[:400],
+            "temporada_saison_id": saison,
+            "temporada": rotulo,
+            "tm_id": tm_id,
+            "numero": l.celulas[0].strip(),
+            "nome": nome,
+            "posicao": posicao,
+            "nacionalidade": nacs[0] if nacs else "",
+            "nacionalidade_2": nacs[1] if len(nacs) > 1 else "",
+            "idade_na_temporada": l.celulas[2].strip(),
+            "clube_atual": next(iter(RE_LEGENDA.findall(l.celulas[4])), ""),
+            "valor_mercado": l.celulas[5].strip(),
+            "fonte": fonte,
         })
 
     return saida
@@ -242,10 +280,10 @@ def main() -> int:
         html = caminho.read_text(encoding="utf-8", errors="replace")
         linhas = extrair_elenco(html, temporada,
                                 f"pagina de elenco salva do navegador — {caminho.name}")
+        rot = linhas[0]["temporada"] if linhas else temporada
         com_nac = sum(1 for r in linhas if r["nacionalidade"])
-        com_pos = sum(1 for r in linhas if r["posicao"])
-        print(f"  {caminho.name}: temporada {temporada} · {len(linhas)} atletas "
-              f"· {com_nac} com nacionalidade · {com_pos} com posição")
+        print(f"  {caminho.name}: temporada {rot} · {len(linhas)} atletas "
+              f"· {com_nac} com nacionalidade")
         if not linhas:
             print("     nenhuma linha reconhecida — confira se a página salva é a")
             print("     aba 'Elenco detalhado' e se o HTML veio completo")

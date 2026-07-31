@@ -1,29 +1,31 @@
-atleta,nascimento,selecao,url_transfermarkt,url_ogol,registro_inicio,registro_fim,origem_da_janela
-Thiago Almada,1997-04-26,Argentina,,,2024-04-01,2025-01-31,ESTIMADA - substituir por TMS
-Vitinho,1999-07-23,Brasil,,,2024-08-01,,ESTIMADA - substituir por TMS
-Lucas Perri,1997-12-13,Brasil,,,2023-01-01,2023-12-31,ESTIMADA - substituir por TMS
-Adryelson,1997-12-16,Brasil,,,2023-01-01,2023-12-31,ESTIMADA - substituir por TMS
-Cristhian Loor,2006-03-09,Equador,,,2025-06-01,,ESTIMADA - substituir por TMS
-Jacob Montes,,Nicaragua,,,,,VINCULO NAO CONFIRMADO
-Luiz Henrique,2001-01-02,Brasil,,,2024-01-01,2025-07-31,ESTIMADA - substituir por TMS
-Jefferson Savarino,1996-11-11,Venezuela,,,2024-01-01,,ESTIMADA - substituir por TMS
-Igor Jesus,2001-01-01,Brasil,,,2024-07-01,2025-08-31,ESTIMADA - substituir por TMS
-Alex Telles,1992-12-15,Brasil,,,2024-01-01,,ESTIMADA - substituir por TMS
-Gatito Fernandez,1988-03-29,Paraguai,,,2016-01-01,2024-12-31,ESTIMADA - substituir por TMS
-Bastos,1991-11-23,Angola,,,2023-01-01,,ESTIMADA - substituir por TMS
-Danilo Santos,2001-04-29,Brasil,,,2025-01-01,,ESTIMADA - substituir por TMS
-Santi Rodriguez,2000-01-08,Uruguai,,,2025-01-01,,ESTIMADA - substituir por TMS
-Luis Segovia,1997-10-26,Equador,,,2023-01-01,2024-12-31,ESTIMADA - substituir por TMS
-Kadir Barria,2007-07-18,Panama,,,2025-01-01,,ESTIMADA - substituir por TMS
-Mateo Ponte,2003-05-24,Uruguai,,,2023-01-01,,ESTIMADA - substituir por TMS
-Alexander Barboza,1995-05-16,Argentina,,,2024-01-01,,ESTIMADA - substituir por TMS
-Oscar Romero,1997-07-04,Paraguai,,,2024-01-01,2024-12-31,ESTIMADA - substituir por TMS
-Diego Hernandez,2000-06-22,Uruguai,,,2023-01-01,,ESTIMADA - substituir por TMS
-Damian Suarez,1988-04-27,Uruguai,,,2024-01-01,,ESTIMADA - substituir por TMS
-Mastriani,1993-04-28,Uruguai,,,2025-01-01,,ESTIMADA - substituir por TMS
-Joaquin Correa,1994-08-13,Argentina,,,2025-06-01,,ESTIMADA - substituir por TMS
-Alvaro Montoro,2007-04-17,Argentina,,,2025-01-01,,ESTIMADA - substituir por TMS
-Jordan Barrera,2006-04-11,Colombia,,,2025-01-01,,ESTIMADA - substituir por TMS
-Chris Ramos,1997-01-08,Espanha,,,2025-01-01,,ESTIMADA - substituir por TMS
-Nahuel Ferraresi,1998-11-19,Venezuela,,,2026-03-09,,CONFIRMADA por noticia - fora do ciclo
-Niko Hamalainen,1997-03-05,Finlandia,,,2022-04-01,2022-07-31,CONFIRMADA por noticia - fora do ciclo
+atleta,nascimento,selecao,temporadas_tm,tm_id,url_transfermarkt,url_ogol,registro_inicio,registro_fim,origem_da_janela
+Thiago Almada,1997-04-26,Argentina,2022/23;2023/24;2024/25,576028,,,2024-04-01,2025-01-31,ESTIMADA - substituir por TMS
+Vitinho,1999-07-23,Brasil,2021/22;2023/24;2024/25;2025/26,928096,,,2024-08-01,,ESTIMADA - substituir por TMS
+Lucas Perri,1997-12-13,Brasil,2021/22;2022/23,352041,,,2023-01-01,2023-12-31,ESTIMADA - substituir por TMS
+Adryelson,1997-12-16,Brasil,2021/22;2022/23;2023/24;2024/25,373433,,,2023-01-01,2023-12-31,ESTIMADA - substituir por TMS
+Cristhian Loor,2006-03-09,Equador,2024/25;2025/26,1074501,,,2025-06-01,,ESTIMADA - substituir por TMS
+Jacob Montes,,Nicaragua,2021/22;2022/23;2023/24,497494,,,,,VINCULO NAO CONFIRMADO
+Luiz Henrique,2001-01-02,Brasil,2023/24;2024/25,800175,,,2024-01-01,2025-07-31,ESTIMADA - substituir por TMS
+Jefferson Savarino,1996-11-11,Venezuela,2023/24;2024/25,309193,,,2024-01-01,,ESTIMADA - substituir por TMS
+Igor Jesus,2001-01-01,Brasil,2023/24;2024/25,432164,,,2024-07-01,2025-08-31,ESTIMADA - substituir por TMS
+Alex Telles,1992-12-15,Brasil,2023/24;2024/25;2025/26,255755,,,2024-01-01,,ESTIMADA - substituir por TMS
+Gatito Fernandez,1988-03-29,Paraguai,,,,,2016-01-01,2024-12-31,ESTIMADA - substituir por TMS
+Bastos,1991-11-23,Angola,2022/23;2023/24;2024/25,195810,,,2023-01-01,,ESTIMADA - substituir por TMS
+Danilo Santos,2001-04-29,Brasil,2024/25;2025/26,808509,,,2025-01-01,,ESTIMADA - substituir por TMS
+Santi Rodriguez,2000-01-08,Uruguai,,,,,2025-01-01,,ESTIMADA - substituir por TMS
+Luis Segovia,1997-10-26,Equador,2022/23;2023/24,385639,,,2023-01-01,2024-12-31,ESTIMADA - substituir por TMS
+Kadir Barria,2007-07-18,Panama,2024/25;2025/26,1464878,,,2025-01-01,,ESTIMADA - substituir por TMS
+Mateo Ponte,2003-05-24,Uruguai,2022/23;2023/24;2024/25;2025/26,856047,,,2023-01-01,,ESTIMADA - substituir por TMS
+Alexander Barboza,1995-05-16,Argentina,2023/24;2024/25,379752,,,2024-01-01,,ESTIMADA - substituir por TMS
+Oscar Romero,1997-07-04,Paraguai,2023/24;2024/25,217886,,,2024-01-01,2024-12-31,ESTIMADA - substituir por TMS
+Diego Hernandez,2000-06-22,Uruguai,2022/23;2023/24;2024/25,800732,,,2023-01-01,,ESTIMADA - substituir por TMS
+Damian Suarez,1988-04-27,Uruguai,2023/24,76746,,,2024-01-01,,ESTIMADA - substituir por TMS
+Mastriani,1993-04-28,Uruguai,2024/25,195882,,,2025-01-01,,ESTIMADA - substituir por TMS
+Joaquin Correa,1994-08-13,Argentina,2024/25;2025/26,227081,,,2025-06-01,,ESTIMADA - substituir por TMS
+Alvaro Montoro,2007-04-17,Argentina,2024/25;2025/26,1228194,,,2025-01-01,,ESTIMADA - substituir por TMS
+Jordan Barrera,2006-04-11,Colombia,2024/25;2025/26,1087334,,,2025-01-01,,ESTIMADA - substituir por TMS
+Chris Ramos,1997-01-08,Espanha,2024/25,538810,,,2025-01-01,,ESTIMADA - substituir por TMS
+Nahuel Ferraresi,1998-11-19,Venezuela,2025/26,466336,,,2026-03-09,,CONFIRMADA por noticia - fora do ciclo
+Niko Hamalainen,1997-03-05,Finlandia,2021/22,351546,,,2022-04-01,2022-07-31,CONFIRMADA por noticia - fora do ciclo
+Darius Lewis,,Trinidad e Tobago,2022/23,644884,,,,,DESCOBERTO no elenco do Transfermarkt - janela a obter no TMS
+Sebastian Joffre,,Bolivia,2022/23,663315,,,,,DESCOBERTO no elenco do Transfermarkt - janela a obter no TMS

@@ -10,6 +10,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2023-09-07|paraguai|peru,Paraguai,2023-09-07,Peru,Oscar Romero,1997-07-04,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-09-07|colombia|venezuela,Venezuela,2023-09-07,Colombia,Jefferson Savarino,1996-11-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-09-07|colombia|venezuela,Venezuela,2023-09-07,Colombia,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
+2023-09-08|bolivia|brasil,Bolivia,2023-09-08,Brasil,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2023-09-08|bolivia|brasil,Brasil,2023-09-08,Bolivia,Vitinho,1999-07-23,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-09-08|bolivia|brasil,Brasil,2023-09-08,Bolivia,Lucas Perri,1997-12-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2023-09-08|bolivia|brasil,Brasil,2023-09-08,Bolivia,Adryelson,1997-12-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
@@ -26,6 +27,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2023-09-12|argentina|bolivia,Argentina,2023-09-12,Bolivia,Alexander Barboza,1995-05-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-09-12|argentina|bolivia,Argentina,2023-09-12,Bolivia,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-09-12|argentina|bolivia,Argentina,2023-09-12,Bolivia,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-09-12|argentina|bolivia,Bolivia,2023-09-12,Argentina,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2023-09-12|brasil|peru,Brasil,2023-09-12,Peru,Vitinho,1999-07-23,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-09-12|brasil|peru,Brasil,2023-09-12,Peru,Lucas Perri,1997-12-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2023-09-12|brasil|peru,Brasil,2023-09-12,Peru,Adryelson,1997-12-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
@@ -49,6 +51,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2023-10-12|argentina|paraguai,Argentina,2023-10-12,Paraguai,Alexander Barboza,1995-05-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-10-12|argentina|paraguai,Argentina,2023-10-12,Paraguai,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-10-12|argentina|paraguai,Argentina,2023-10-12,Paraguai,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-12|bolivia|equador,Bolivia,2023-10-12,Equador,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2023-10-12|brasil|venezuela,Brasil,2023-10-12,Venezuela,Vitinho,1999-07-23,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-10-12|brasil|venezuela,Brasil,2023-10-12,Venezuela,Lucas Perri,1997-12-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2023-10-12|brasil|venezuela,Brasil,2023-10-12,Venezuela,Adryelson,1997-12-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
@@ -72,6 +75,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2023-10-17|argentina|peru,Argentina,2023-10-17,Peru,Alexander Barboza,1995-05-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-10-17|argentina|peru,Argentina,2023-10-17,Peru,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-10-17|argentina|peru,Argentina,2023-10-17,Peru,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-10-17|bolivia|paraguai,Bolivia,2023-10-17,Paraguai,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2023-10-17|brasil|uruguai,Brasil,2023-10-17,Uruguai,Vitinho,1999-07-23,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-10-17|brasil|uruguai,Brasil,2023-10-17,Uruguai,Lucas Perri,1997-12-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2023-10-17|brasil|uruguai,Brasil,2023-10-17,Uruguai,Adryelson,1997-12-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
@@ -96,6 +100,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2023-11-16|argentina|uruguai,Argentina,2023-11-16,Uruguai,Alexander Barboza,1995-05-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-11-16|argentina|uruguai,Argentina,2023-11-16,Uruguai,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-11-16|argentina|uruguai,Argentina,2023-11-16,Uruguai,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-16|bolivia|peru,Bolivia,2023-11-16,Peru,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2023-11-16|brasil|colombia,Brasil,2023-11-16,Colombia,Vitinho,1999-07-23,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-11-16|brasil|colombia,Brasil,2023-11-16,Colombia,Lucas Perri,1997-12-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2023-11-16|brasil|colombia,Brasil,2023-11-16,Colombia,Adryelson,1997-12-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
@@ -120,6 +125,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2023-11-21|argentina|brasil,Argentina,2023-11-21,Brasil,Alexander Barboza,1995-05-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-11-21|argentina|brasil,Argentina,2023-11-21,Brasil,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-11-21|argentina|brasil,Argentina,2023-11-21,Brasil,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2023-11-21|bolivia|uruguai,Bolivia,2023-11-21,Uruguai,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2023-11-21|argentina|brasil,Brasil,2023-11-21,Argentina,Vitinho,1999-07-23,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-11-21|argentina|brasil,Brasil,2023-11-21,Argentina,Lucas Perri,1997-12-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2023-11-21|argentina|brasil,Brasil,2023-11-21,Argentina,Adryelson,1997-12-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
@@ -140,15 +146,18 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2023-11-21|peru|venezuela,Venezuela,2023-11-21,Peru,Jefferson Savarino,1996-11-11,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2023-11-21|peru|venezuela,Venezuela,2023-11-21,Peru,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
 2024-06-05|montserrat|nicaragua,Nicaragua,2024-06-05,Montserrat,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
+2024-06-05|grenada|trinidad e tobago,Trinidad e Tobago,2024-06-05,Grenada,Darius Lewis,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2024-06-06|guyana|panama,Panama,2024-06-06,Guyana,Kadir Barria,2007-07-18,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2024-06-07|angola|eswatini,Angola,2024-06-07,Eswatini,Bastos,1991-11-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2024-06-08|belize|nicaragua,Nicaragua,2024-06-08,Belize,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
+2024-06-08|bahamas|trinidad e tobago,Trinidad e Tobago,2024-06-08,Bahamas,Darius Lewis,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2024-06-09|montserrat|panama,Panama,2024-06-09,Montserrat,Kadir Barria,2007-07-18,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2024-06-11|angola|cameroon,Angola,2024-06-11,Cameroon,Bastos,1991-11-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2024-09-05|argentina|chile,Argentina,2024-09-05,Chile,Thiago Almada,1997-04-26,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2024-09-05|argentina|chile,Argentina,2024-09-05,Chile,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2024-09-05|argentina|chile,Argentina,2024-09-05,Chile,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2024-09-05|argentina|chile,Argentina,2024-09-05,Chile,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-05|bolivia|venezuela,Bolivia,2024-09-05,Venezuela,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2024-09-05|bolivia|venezuela,Venezuela,2024-09-05,Bolivia,Jefferson Savarino,1996-11-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2024-09-05|bolivia|venezuela,Venezuela,2024-09-05,Bolivia,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
 2024-09-06|brasil|equador,Brasil,2024-09-06,Equador,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
@@ -172,6 +181,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2024-09-10|argentina|colombia,Argentina,2024-09-10,Colombia,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2024-09-10|argentina|colombia,Argentina,2024-09-10,Colombia,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2024-09-10|argentina|colombia,Argentina,2024-09-10,Colombia,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-09-10|bolivia|chile,Bolivia,2024-09-10,Chile,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2024-09-10|brasil|paraguai,Brasil,2024-09-10,Paraguai,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2024-09-10|brasil|paraguai,Brasil,2024-09-10,Paraguai,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2024-09-10|brasil|paraguai,Brasil,2024-09-10,Paraguai,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
@@ -195,6 +205,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2024-10-10|argentina|venezuela,Argentina,2024-10-10,Venezuela,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2024-10-10|argentina|venezuela,Argentina,2024-10-10,Venezuela,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2024-10-10|argentina|venezuela,Argentina,2024-10-10,Venezuela,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-10|bolivia|colombia,Bolivia,2024-10-10,Colombia,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2024-10-10|brasil|chile,Brasil,2024-10-10,Chile,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2024-10-10|brasil|chile,Brasil,2024-10-10,Chile,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2024-10-10|brasil|chile,Brasil,2024-10-10,Chile,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
@@ -218,6 +229,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2024-10-15|argentina|bolivia,Argentina,2024-10-15,Bolivia,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2024-10-15|argentina|bolivia,Argentina,2024-10-15,Bolivia,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2024-10-15|argentina|bolivia,Argentina,2024-10-15,Bolivia,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-10-15|argentina|bolivia,Bolivia,2024-10-15,Argentina,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2024-10-15|brasil|peru,Brasil,2024-10-15,Peru,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2024-10-15|brasil|peru,Brasil,2024-10-15,Peru,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2024-10-15|brasil|peru,Brasil,2024-10-15,Peru,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
@@ -241,6 +253,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2024-11-14|argentina|paraguai,Argentina,2024-11-14,Paraguai,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2024-11-14|argentina|paraguai,Argentina,2024-11-14,Paraguai,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2024-11-14|argentina|paraguai,Argentina,2024-11-14,Paraguai,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-14|bolivia|equador,Bolivia,2024-11-14,Equador,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2024-11-14|brasil|venezuela,Brasil,2024-11-14,Venezuela,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2024-11-14|brasil|venezuela,Brasil,2024-11-14,Venezuela,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2024-11-14|brasil|venezuela,Brasil,2024-11-14,Venezuela,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
@@ -264,6 +277,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2024-11-19|argentina|peru,Argentina,2024-11-19,Peru,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2024-11-19|argentina|peru,Argentina,2024-11-19,Peru,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2024-11-19|argentina|peru,Argentina,2024-11-19,Peru,Alvaro Montoro,2007-04-17,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2024-11-19|bolivia|paraguai,Bolivia,2024-11-19,Paraguai,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2024-11-19|brasil|uruguai,Brasil,2024-11-19,Uruguai,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2024-11-19|brasil|uruguai,Brasil,2024-11-19,Uruguai,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2024-11-19|brasil|uruguai,Brasil,2024-11-19,Uruguai,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
@@ -284,6 +298,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2024-11-19|chile|venezuela,Venezuela,2024-11-19,Chile,Jefferson Savarino,1996-11-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2024-11-19|chile|venezuela,Venezuela,2024-11-19,Chile,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
 2025-03-20|angola|libya,Angola,2025-03-20,Libya,Bastos,1991-11-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-20|bolivia|peru,Bolivia,2025-03-20,Peru,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-03-20|brasil|colombia,Brasil,2025-03-20,Colombia,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-03-20|brasil|colombia,Brasil,2025-03-20,Colombia,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2025-03-20|brasil|colombia,Brasil,2025-03-20,Colombia,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
@@ -314,6 +329,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2025-03-25|argentina|brasil,Argentina,2025-03-25,Brasil,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-03-25|argentina|brasil,Argentina,2025-03-25,Brasil,Joaquin Correa,1994-08-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2025-03-25|argentina|brasil,Argentina,2025-03-25,Brasil,Alvaro Montoro,2007-04-17,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-03-25|bolivia|uruguai,Bolivia,2025-03-25,Uruguai,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-03-25|argentina|brasil,Brasil,2025-03-25,Argentina,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-03-25|argentina|brasil,Brasil,2025-03-25,Argentina,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2025-03-25|argentina|brasil,Brasil,2025-03-25,Argentina,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
@@ -353,8 +369,10 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2025-06-05|paraguai|uruguai,Uruguai,2025-06-05,Paraguai,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-06-05|paraguai|uruguai,Uruguai,2025-06-05,Paraguai,Damian Suarez,1988-04-27,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-06-05|paraguai|uruguai,Uruguai,2025-06-05,Paraguai,Mastriani,1993-04-28,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-06|bolivia|venezuela,Bolivia,2025-06-06,Venezuela,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-06-06|colombia|peru,Colombia,2025-06-06,Peru,Jordan Barrera,2006-04-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-06-06|guyana|nicaragua,Nicaragua,2025-06-06,Guyana,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
+2025-06-06|saint kitts and nevis|trinidad e tobago,Trinidad e Tobago,2025-06-06,Saint Kitts and Nevis,Darius Lewis,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-06-06|bolivia|venezuela,Venezuela,2025-06-06,Bolivia,Jefferson Savarino,1996-11-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-06-06|bolivia|venezuela,Venezuela,2025-06-06,Bolivia,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
 2025-06-07|finlandia|netherlands,Finlandia,2025-06-07,Netherlands,Niko Hamalainen,1997-03-05,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
@@ -363,6 +381,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2025-06-10|argentina|colombia,Argentina,2025-06-10,Colombia,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-06-10|argentina|colombia,Argentina,2025-06-10,Colombia,Joaquin Correa,1994-08-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-06-10|argentina|colombia,Argentina,2025-06-10,Colombia,Alvaro Montoro,2007-04-17,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-06-10|bolivia|chile,Bolivia,2025-06-10,Chile,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-06-10|brasil|paraguai,Brasil,2025-06-10,Paraguai,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-06-10|brasil|paraguai,Brasil,2025-06-10,Paraguai,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2025-06-10|brasil|paraguai,Brasil,2025-06-10,Paraguai,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
@@ -378,6 +397,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2025-06-10|nicaragua|panama,Panama,2025-06-10,Nicaragua,Kadir Barria,2007-07-18,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-06-10|brasil|paraguai,Paraguai,2025-06-10,Brasil,Gatito Fernandez,1988-03-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2025-06-10|brasil|paraguai,Paraguai,2025-06-10,Brasil,Oscar Romero,1997-07-04,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-06-10|costa rica|trinidad e tobago,Trinidad e Tobago,2025-06-10,Costa Rica,Darius Lewis,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-06-10|uruguai|venezuela,Uruguai,2025-06-10,Venezuela,Santi Rodriguez,2000-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-06-10|uruguai|venezuela,Uruguai,2025-06-10,Venezuela,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-06-10|uruguai|venezuela,Uruguai,2025-06-10,Venezuela,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
@@ -390,6 +410,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2025-09-04|argentina|venezuela,Argentina,2025-09-04,Venezuela,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-09-04|argentina|venezuela,Argentina,2025-09-04,Venezuela,Joaquin Correa,1994-08-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-09-04|argentina|venezuela,Argentina,2025-09-04,Venezuela,Alvaro Montoro,2007-04-17,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-04|bolivia|colombia,Bolivia,2025-09-04,Colombia,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-09-04|brasil|chile,Brasil,2025-09-04,Chile,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-09-04|brasil|chile,Brasil,2025-09-04,Chile,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2025-09-04|brasil|chile,Brasil,2025-09-04,Chile,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
@@ -412,6 +433,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2025-09-04|argentina|venezuela,Venezuela,2025-09-04,Argentina,Jefferson Savarino,1996-11-11,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-09-04|argentina|venezuela,Venezuela,2025-09-04,Argentina,Nahuel Ferraresi,1998-11-19,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
 2025-09-05|costa rica|nicaragua,Nicaragua,2025-09-05,Costa Rica,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
+2025-09-05|curacao|trinidad e tobago,Trinidad e Tobago,2025-09-05,Curaçao,Darius Lewis,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-09-07|espanha|turkey,Espanha,2025-09-07,Turkey,Chris Ramos,1997-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-09-07|finlandia|poland,Finlandia,2025-09-07,Poland,Niko Hamalainen,1997-03-05,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
 2025-09-08|guatemala|panama,Panama,2025-09-08,Guatemala,Kadir Barria,2007-07-18,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
@@ -420,6 +442,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2025-09-09|argentina|equador,Argentina,2025-09-09,Equador,Alexander Barboza,1995-05-16,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-09-09|argentina|equador,Argentina,2025-09-09,Equador,Joaquin Correa,1994-08-13,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-09-09|argentina|equador,Argentina,2025-09-09,Equador,Alvaro Montoro,2007-04-17,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-09-09|bolivia|brasil,Bolivia,2025-09-09,Brasil,Sebastian Joffre,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-09-09|bolivia|brasil,Brasil,2025-09-09,Bolivia,Vitinho,1999-07-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-09-09|bolivia|brasil,Brasil,2025-09-09,Bolivia,Lucas Perri,1997-12-13,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2025-09-09|bolivia|brasil,Brasil,2025-09-09,Bolivia,Adryelson,1997-12-16,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
@@ -433,6 +456,7 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2025-09-09|honduras|nicaragua,Nicaragua,2025-09-09,Honduras,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-09-09|paraguai|peru,Paraguai,2025-09-09,Peru,Gatito Fernandez,1988-03-29,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
 2025-09-09|paraguai|peru,Paraguai,2025-09-09,Peru,Oscar Romero,1997-07-04,,,,,NAO ELEGIVEL - fora da janela de registro,,S,mantido para descarte documentado
+2025-09-09|jamaica|trinidad e tobago,Trinidad e Tobago,2025-09-09,Jamaica,Darius Lewis,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-09-09|chile|uruguai,Uruguai,2025-09-09,Chile,Santi Rodriguez,2000-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-09-09|chile|uruguai,Uruguai,2025-09-09,Chile,Mateo Ponte,2003-05-24,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-09-09|chile|uruguai,Uruguai,2025-09-09,Chile,Diego Hernandez,2000-06-22,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
@@ -444,16 +468,20 @@ partida_id,selecao,data,adversario,atleta,nascimento,status_na_sumula,posicao,mi
 2025-10-09|finlandia|lithuania,Finlandia,2025-10-09,Lithuania,Niko Hamalainen,1997-03-05,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
 2025-10-09|haiti|nicaragua,Nicaragua,2025-10-09,Haiti,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-10-10|el salvador|panama,Panama,2025-10-10,El Salvador,Kadir Barria,2007-07-18,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-10-10|bermuda|trinidad e tobago,Trinidad e Tobago,2025-10-10,Bermuda,Darius Lewis,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-10-11|espanha|georgia,Espanha,2025-10-11,Georgia,Chris Ramos,1997-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-10-12|finlandia|netherlands,Finlandia,2025-10-12,Netherlands,Niko Hamalainen,1997-03-05,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
 2025-10-13|angola|cameroon,Angola,2025-10-13,Cameroon,Bastos,1991-11-23,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-10-13|costa rica|nicaragua,Nicaragua,2025-10-13,Costa Rica,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-10-14|bulgaria|espanha,Espanha,2025-10-14,Bulgaria,Chris Ramos,1997-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-10-14|panama|suriname,Panama,2025-10-14,Suriname,Kadir Barria,2007-07-18,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-10-14|curacao|trinidad e tobago,Trinidad e Tobago,2025-10-14,Curaçao,Darius Lewis,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-11-13|honduras|nicaragua,Nicaragua,2025-11-13,Honduras,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-11-13|guatemala|panama,Panama,2025-11-13,Guatemala,Kadir Barria,2007-07-18,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-11-13|jamaica|trinidad e tobago,Trinidad e Tobago,2025-11-13,Jamaica,Darius Lewis,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-11-14|finlandia|malta,Finlandia,2025-11-14,Malta,Niko Hamalainen,1997-03-05,,,,,NAO ELEGIVEL - fora da janela de registro,,N,mantido para descarte documentado
 2025-11-15|espanha|georgia,Espanha,2025-11-15,Georgia,Chris Ramos,1997-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-11-18|espanha|turkey,Espanha,2025-11-18,Turkey,Chris Ramos,1997-01-08,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
 2025-11-18|haiti|nicaragua,Nicaragua,2025-11-18,Haiti,Jacob Montes,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
 2025-11-18|el salvador|panama,Panama,2025-11-18,El Salvador,Kadir Barria,2007-07-18,,,,,PENDENTE - falta confirmar relação na súmula,,S,janela ESTIMADA (imprensa) — confirmar no TMS
+2025-11-18|bermuda|trinidad e tobago,Trinidad e Tobago,2025-11-18,Bermuda,Darius Lewis,,,,,,CONFERIR - atleta sem janela de registro,,N,vínculo/janela não confirmados no TMS
