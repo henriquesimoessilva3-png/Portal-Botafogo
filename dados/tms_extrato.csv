@@ -1,0 +1,54 @@
+atleta,nome_tms,selecao,data,partida,local,status_plataforma,total_do_atleta,legivel_no_print,observacao
+Adryelson,LIMA SILVA Adryelson Shawann,Brasil,2023-10-17,Uruguay 2 x 0 Brazil,Estadio Centenario,ATRIBUIDA,1,sim,
+Cristhian Loor,LOOR SANTAMARIA Cristhian Joel,Equador,2025-11-13,Canada x Ecuador,BMO Field,ATRIBUIDA,1,sim,AMISTOSO - Canada nao disputou Eliminatorias
+Jacob Montes,MONTES Jacob,Nicaragua,2024-06-05,Nicaragua 4 x 1 Montserrat,Estadio Nacional,ATRIBUIDA,6,sim,
+Jacob Montes,MONTES Jacob,Nicaragua,2024-06-08,Belize 0 x 4 Nicaragua,FFB Stadium,ATRIBUIDA,6,sim,
+Jacob Montes,MONTES Jacob,Nicaragua,2025-06-06,Nicaragua 1 x 0 Guyana,Estadio Nacional,DISPONIVEL_CLAIM,6,sim,fora do vinculo - saiu em ago/2024
+Jacob Montes,MONTES Jacob,Nicaragua,2025-09-05,Nicaragua 1 x 1 Costa Rica,Estadio Nacional,DISPONIVEL_CLAIM,6,sim,fora do vinculo
+Jacob Montes,MONTES Jacob,Nicaragua,2025-09-09,Honduras 2 x 0 Nicaragua,Estadio Nacional Chelato Ucles,DISPONIVEL_CLAIM,6,sim,fora do vinculo
+Jacob Montes,MONTES Jacob,Nicaragua,2025-10-09,Nicaragua 0 x 3 Haiti,Estadio Nacional,DISPONIVEL_CLAIM,6,sim,fora do vinculo
+Vitinho,DA SILVA Victor Alexander,Brasil,2025-09-04,Brazil 3 x 0 Chile,Maracana,ATRIBUIDA,2,sim,
+Vitinho,DA SILVA Victor Alexander,Brasil,2025-09-09,Bolivia 1 x 0 Brazil,Estadio Municipal de El Alto,ATRIBUIDA,2,sim,
+Lucas Perri,ESTELLA PERRI Lucas,Brasil,2023-09-08,Brazil 5 x 1 Bolivia,Mangueirao,ATRIBUIDA,8,sim,
+Lucas Perri,ESTELLA PERRI Lucas,Brasil,2023-09-12,Peru 0 x 1 Brazil,Estadio Nacional,ATRIBUIDA,8,sim,
+Lucas Perri,ESTELLA PERRI Lucas,Brasil,2023-10-12,Brazil 1 x 1 Venezuela,Arena Pantanal,ATRIBUIDA,8,sim,
+Lucas Perri,ESTELLA PERRI Lucas,Brasil,2023-10-17,Uruguay 2 x 0 Brazil,Estadio Centenario,ATRIBUIDA,8,sim,
+Lucas Perri,ESTELLA PERRI Lucas,Brasil,2023-11-16,Colombia 2 x 1 Brazil,Estadio Metropolitano,ATRIBUIDA,8,sim,
+Lucas Perri,ESTELLA PERRI Lucas,Brasil,2023-11-21,Brazil 0 x 1 Argentina,Maracana,ATRIBUIDA,8,sim,
+Lucas Perri,ESTELLA PERRI Lucas,Brasil,2025-03-20,Brazil 2 x 1 Colombia,Estadio Nacional Mane Garrincha,DISPONIVEL_CLAIM,8,sim,fora do vinculo - saiu para o Lyon
+Lucas Perri,ESTELLA PERRI Lucas,Brasil,2025-03-25,Argentina 4 x 1 Brazil,El Monumental,DISPONIVEL_CLAIM,8,sim,fora do vinculo
+Luiz Henrique,ROSA DA SILVA Luiz Henrique Andre,Brasil,2024-09-06,Brazil 1 x 0 Ecuador,Estadio Major Antonio Couto Pereira,ATRIBUIDA,10,sim,
+Luiz Henrique,ROSA DA SILVA Luiz Henrique Andre,Brasil,2024-09-10,Paraguay 1 x 0 Brazil,Estadio Defensores del Chaco,ATRIBUIDA,10,sim,
+Luiz Henrique,ROSA DA SILVA Luiz Henrique Andre,Brasil,2024-10-10,Chile 1 x 2 Brazil,Estadio Nacional Julio Martinez Pradanos,ATRIBUIDA,10,sim,
+Luiz Henrique,ROSA DA SILVA Luiz Henrique Andre,Brasil,2024-10-15,Brazil 4 x 0 Peru,Estadio Nacional Mane Garrincha,ATRIBUIDA,10,sim,
+Luiz Henrique,ROSA DA SILVA Luiz Henrique Andre,Brasil,2024-11-14,Venezuela 1 x 1 Brazil,Estadio Monumental de Maturin,ATRIBUIDA,10,sim,
+Luiz Henrique,ROSA DA SILVA Luiz Henrique Andre,Brasil,2024-11-19,Brazil 1 x 1 Uruguay,Arena Fonte Nova,ATRIBUIDA,10,sim,
+Luiz Henrique,ROSA DA SILVA Luiz Henrique Andre,Brasil,2025-09-04,Brazil 3 x 0 Chile,Maracana,EM_CONFLITO,10,sim,FIFA resolving conflict
+Luiz Henrique,ROSA DA SILVA Luiz Henrique Andre,Brasil,2025-09-09,Bolivia 1 x 0 Brazil,Estadio Municipal de El Alto,EM_CONFLITO,10,sim,FIFA resolving conflict
+Luiz Henrique,ROSA DA SILVA Luiz Henrique Andre,Brasil,,,,NAO_LEGIVEL,10,nao,2 linhas fora do recorte do print
+Thiago Almada,ALMADA Thiago Ezequiel,Argentina,2024-10-10,Venezuela 1 x 1 Argentina,Estadio Monumental de Maturin,ATRIBUIDA,14,sim,
+Thiago Almada,ALMADA Thiago Ezequiel,Argentina,2024-10-15,Argentina 6 x 0 Bolivia,El Monumental,ATRIBUIDA,14,sim,
+Thiago Almada,ALMADA Thiago Ezequiel,Argentina,2024-11-14,Paraguay 2 x 1 Argentina,Estadio Defensores del Chaco,ATRIBUIDA,14,sim,
+Thiago Almada,ALMADA Thiago Ezequiel,Argentina,2024-11-19,Argentina 1 x 0 Peru,La Bombonera,ATRIBUIDA,14,sim,
+Thiago Almada,ALMADA Thiago Ezequiel,Argentina,2025-03-21,Uruguay 0 x 1 Argentina,Estadio Centenario,EM_CONFLITO,14,sim,FIFA resolving conflict
+Thiago Almada,ALMADA Thiago Ezequiel,Argentina,2025-03-25,Argentina 4 x 1 Brazil,El Monumental,EM_CONFLITO,14,sim,FIFA resolving conflict
+Thiago Almada,ALMADA Thiago Ezequiel,Argentina,2025-06-05,Chile 0 x 1 Argentina,Estadio Nacional Julio Martinez Pradanos,EM_CONFLITO,14,sim,FIFA resolving conflict
+Thiago Almada,ALMADA Thiago Ezequiel,Argentina,2025-06-10,Argentina 1 x 1 Colombia,El Monumental,EM_CONFLITO,14,sim,FIFA resolving conflict
+Thiago Almada,ALMADA Thiago Ezequiel,Argentina,2025-09-04,Argentina 3 x 0 Venezuela,El Monumental,EM_CONFLITO,14,sim,FIFA resolving conflict
+Thiago Almada,ALMADA Thiago Ezequiel,Argentina,,,,NAO_LEGIVEL,14,nao,5 linhas fora do recorte do print
+Jefferson Savarino,SAVARINO QUINTERO Jefferson David,Venezuela,2023-09-07,Colombia 1 x 0 Venezuela,Estadio Metropolitano,DISPONIVEL_CLAIM,16,sim,fora do vinculo - chegou em dez/2023
+Jefferson Savarino,SAVARINO QUINTERO Jefferson David,Venezuela,2023-09-12,Venezuela 1 x 0 Paraguay,Estadio Monumental de Maturin,DISPONIVEL_CLAIM,16,sim,fora do vinculo
+Jefferson Savarino,SAVARINO QUINTERO Jefferson David,Venezuela,2023-10-12,Brazil 1 x 1 Venezuela,Arena Pantanal,DISPONIVEL_CLAIM,16,sim,fora do vinculo
+Jefferson Savarino,SAVARINO QUINTERO Jefferson David,Venezuela,2023-10-17,Venezuela 3 x 0 Chile,Estadio Monumental de Maturin,DISPONIVEL_CLAIM,16,sim,fora do vinculo
+Jefferson Savarino,SAVARINO QUINTERO Jefferson David,Venezuela,2023-11-16,Venezuela 0 x 0 Ecuador,Estadio Monumental de Maturin,DISPONIVEL_CLAIM,16,sim,fora do vinculo
+Jefferson Savarino,SAVARINO QUINTERO Jefferson David,Venezuela,2023-11-21,Peru 1 x 1 Venezuela,Estadio Nacional,DISPONIVEL_CLAIM,16,sim,fora do vinculo
+Jefferson Savarino,SAVARINO QUINTERO Jefferson David,Venezuela,2024-09-10,Venezuela 0 x 0 Uruguay,Estadio Monumental de Maturin,ATRIBUIDA,16,sim,
+Jefferson Savarino,SAVARINO QUINTERO Jefferson David,Venezuela,2024-10-10,Venezuela 1 x 1 Argentina,Estadio Monumental de Maturin,ATRIBUIDA,16,sim,
+Jefferson Savarino,SAVARINO QUINTERO Jefferson David,Venezuela,2024-10-15,Paraguay 2 x 1 Venezuela,Estadio Defensores del Chaco,ATRIBUIDA,16,sim,
+Jefferson Savarino,SAVARINO QUINTERO Jefferson David,Venezuela,2024-11-14,Venezuela 1 x 1 Brazil,Estadio Monumental de Maturin,ATRIBUIDA,16,sim,
+Jefferson Savarino,SAVARINO QUINTERO Jefferson David,Venezuela,2024-11-19,Chile 4 x 2 Venezuela,Estadio Nacional Julio Martinez Pradanos,ATRIBUIDA,16,sim,
+Jefferson Savarino,SAVARINO QUINTERO Jefferson David,Venezuela,2025-03-25,Venezuela 1 x 0 Peru,Estadio Monumental de Maturin,ATRIBUIDA,16,sim,
+Jefferson Savarino,SAVARINO QUINTERO Jefferson David,Venezuela,2025-06-06,Venezuela 2 x 0 Bolivia,Estadio Monumental de Maturin,ATRIBUIDA,16,sim,
+Jefferson Savarino,SAVARINO QUINTERO Jefferson David,Venezuela,2025-06-10,Uruguay 2 x 0 Venezuela,Estadio Centenario,ATRIBUIDA,16,sim,
+Jefferson Savarino,SAVARINO QUINTERO Jefferson David,Venezuela,2025-09-04,Argentina 3 x 0 Venezuela,El Monumental,ATRIBUIDA,16,sim,
+Jefferson Savarino,SAVARINO QUINTERO Jefferson David,Venezuela,2025-09-09,Venezuela 3 x 6 Colombia,Estadio Monumental de Maturin,ATRIBUIDA,16,sim,

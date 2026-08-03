@@ -40,19 +40,22 @@ PORTA = 5066
 DADOS = ["dados/partidas_universo.csv", "dados/relacoes.csv",
          "dados/partidas_a_conferir.csv", "dados/elencos_coletados.csv",
          "dados/elencos.csv", "dados/checagem_aritmetica.csv",
-         "dados/parte2_cessao.json"]
+         "dados/parte2_cessao.json",
+         "dados/tms_extrato.csv", "dados/conferencia_tms.json"]
 
 ENTRADAS = ["atletas.csv", "selecoes_escopo.csv"]
 
 CODIGO = ["parser_tabelas.py", "partidas_universo.py", "relacoes.py",
           "checagem_aritmetica.py", "parte2_cessao.py", "gerar_relatorio_web.py",
           "gerar_parte2_pdf.py", "importar_elenco.py", "importar_openfootball.py",
-          "conferencia_selecoes.py", "elencos.py",
+          "conferencia_selecoes.py", "elencos.py", "conferencia_tms.py",
+          "montar_pacote.py",
           "test_parser.py", "test_universo.py"]
 
 DOCUMENTOS = ["levantamento_fifa_botafogo_completo.pdf",
               "levantamento_fifa_botafogo.pdf",
               "CLAUDE.md", "STATUS.md", "HANDOFF_FIFA.md", "COLETA_LOCAL.md",
+              "CONTEXTO_SESSAO_LOCAL.md",
               "FIFA_Club_Benefits_2026_Botafogo.xlsx"]
 
 INICIAR_SH = f"""#!/bin/bash
@@ -85,6 +88,12 @@ LEIAME = f"""# Portal FIFA Club Benefits
 
 Levantamento das cessões do Botafogo para as Eliminatórias da Copa 2026 e para a
 fase final — quais atletas, quais partidas, quanto vale.
+
+## Abrir uma sessão nova aqui no computador
+
+`documentos/CONTEXTO_SESSAO_LOCAL.md` — cole na primeira mensagem. Traz o estado
+atual, as seis tarefas em ordem de valor, o que a plataforma da FIFA revelou e os
+erros que o projeto já cometeu.
 
 ## Rodar
 
@@ -136,6 +145,28 @@ ainda em aberto
 O rateio da FIFA é por *jogador × partida*: o detalhe jogo a jogo tem 49 linhas e
 os contadores por atleta somam 49. Partidas distintas seriam 36. Nem 43 nem 44
 correspondem a critério algum — é erro de agregação.
+
+## O extrato do TMS
+
+O extrato jogo a jogo, recebido do departamento de registro, revelou que a
+plataforma tem **três estados**, não um: partidas já atribuídas a nós (botão
+*Reject*), partidas em conflito com outro clube ("FIFA resolving conflict") e
+partidas disponíveis para reivindicar (*Claim*).
+
+| | |
+|---|---|
+| já atribuídas ao Botafogo | **32** |
+| em conflito com outro clube | **7** |
+| disponíveis, mas fora do vínculo | 12 |
+| ilegíveis nos prints | 7 |
+
+**A FIFA atribuiu um amistoso ao clube.** A única partida de Cristhian Loor é
+Canadá × Equador, 13/11/2025 — o Canadá era anfitrião e não disputou
+Eliminatória nenhuma. Deve ser rejeitada.
+
+**Quatro conflitos do Almada valem disputa**: março e junho de 2025 caem dentro
+do vínculo dele. Três conflitos de setembro de 2025 não — dois do Luiz Henrique
+e um do Almada, todos depois da saída.
 
 ## Três pendências que o documento levanta
 

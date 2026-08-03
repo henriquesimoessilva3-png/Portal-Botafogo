@@ -252,6 +252,110 @@ def cartoes_atletas(d: dict) -> str:
     return "\n".join(saida)
 
 
+def secao_tms() -> str:
+    """A seção do extrato do TMS. Sai vazia se a conferência não foi rodada."""
+    caminho = Path("dados/conferencia_tms.json")
+    if not caminho.exists():
+        return ""
+    c = json.loads(caminho.read_text(encoding="utf-8"))
+    t = c["totais"]
+
+    ESTADO = {"ATRIBUIDA": ("titular", "Nossa"),
+              "EM_CONFLITO": ("banco", "Em conflito"),
+              "DISPONIVEL_CLAIM": ("entrou", "Disponível")}
+
+    mantidas = sum(1 for l in c["linhas"] if l["acao"] == "manter")
+
+    resumo = "".join(
+        f'<tr><td>{r["atleta"]}</td><td class="dim">{sel(r["selecao"])}</td>'
+        f'<td class="n">{r["total_declarado"]}</td>'
+        f'<td class="n">{r["atribuidas"]}</td>'
+        f'<td class="n">{r["conflito"] or "—"}</td>'
+        f'<td class="n dim">{r["claim"] or "—"}</td>'
+        f'<td class="n dim">{r["nao_legiveis"] or "—"}</td></tr>'
+        for r in c["resumo"])
+
+    acoes = [l for l in c["linhas"]
+             if l["acao"].startswith(("REJEITAR", "DISPUTAR", "REIVINDICAR",
+                                      "desistir"))]
+    linhas_acao = "".join(
+        f'<tr><td>{l["atleta"]}</td><td class="dim">{dia(l["data"])}</td>'
+        f'<td>{l["partida"]}</td>'
+        f'<td><span class="chip {ESTADO.get(l["status_plataforma"],("banco",""))[0]}">'
+        f'{ESTADO.get(l["status_plataforma"],("banco",l["status_plataforma"]))[1]}</span></td>'
+        f'<td>{l["acao"]}</td></tr>'
+        for l in sorted(acoes, key=lambda x: (not x["acao"][0].isupper(), x["data"])))
+
+    return f"""
+<h2 class="secao"><span class="num">02</span> O extrato do TMS, jogo a jogo</h2>
+
+<p>Até aqui o levantamento trabalhava com um print que dava só o <b>total</b> por
+atleta — "ALMADA Thiago · 9". O extrato abre partida a partida e mostra o que o
+total escondia: <b>a plataforma tem três estados, não um</b>.</p>
+
+<div class="rolagem"><table><thead><tr>
+  <th>Atleta</th><th>Seleção</th>
+  <th class="n">Total no TMS</th><th class="n">Nossas</th>
+  <th class="n">Em conflito</th><th class="n">Disponíveis</th>
+  <th class="n">Ilegíveis</th>
+</tr></thead><tbody>{resumo}
+<tr class="soma"><td colspan="2">Total</td>
+  <td class="n">{sum(r["total_declarado"] for r in c["resumo"])}</td>
+  <td class="n">{t["atribuidas"]}</td><td class="n">{t["conflito"]}</td>
+  <td class="n">{t["claim"]}</td><td class="n">{t["nao_legiveis"]}</td>
+</tr></tbody></table></div>
+
+<p><b>Nossas</b> são as verdes, com botão <i>Reject</i> — a FIFA já atribuiu ao
+Botafogo. <b>Em conflito</b> trazem "FIFA resolving conflict": outro clube
+reivindicou a mesma partida e a FIFA está arbitrando. <b>Disponíveis</b> são as
+brancas, com botão <i>Claim</i> — partidas do atleta pela seleção que não estão
+com ninguém, quase todas de antes ou depois do vínculo dele conosco.</p>
+
+<div class="aviso">
+  <h2>A FIFA atribuiu um amistoso ao Botafogo</h2>
+  <p>A única partida de <b>Cristhian Loor</b> na plataforma é
+  <b>Canadá × Equador, 13/11/2025, BMO Field, Toronto</b>. Isso não é
+  Eliminatória: o Canadá era <b>anfitrião</b> da Copa 2026 e não disputou
+  nenhuma partida classificatória, e as Eliminatórias do Equador haviam
+  terminado em <b>09/09/2025</b>. É amistoso.</p>
+  <p><b>Deve ser rejeitada.</b> E o caso corrige uma leitura anterior deste
+  documento, que tratava o Loor como evidência de que o critério da FIFA seria
+  cessão e não escalação. A explicação é mais simples e mais mundana: a partida
+  atribuída a ele nunca foi Eliminatória.</p>
+</div>
+
+<h3 class="atleta">O que fazer com cada linha</h3>
+
+<p>Das {len(c["linhas"])} partidas legíveis, <b>{mantidas}</b> se mantêm como
+estão e <b>{len(c["linhas"]) - mantidas - len(acoes)}</b> são partidas do atleta
+fora do nosso vínculo, corretamente não reivindicadas. Sobram
+<b>{len(acoes)}</b> que pedem ação:</p>
+
+<div class="rolagem"><table><thead><tr>
+  <th>Atleta</th><th>Data</th><th>Partida</th><th>Estado no TMS</th><th>Ação</th>
+</tr></thead><tbody>{linhas_acao}</tbody></table></div>
+
+<div class="nota"><p><strong>Os quatro conflitos do Almada valem disputa.</strong>
+Março e junho de 2025 caem <b>dentro</b> do vínculo dele com o Botafogo
+(03/07/2024 a 17/07/2025) — são {4 * VALOR:,} dólares em jogo, e o outro clube
+reivindicou partidas de um período em que o atleta era nosso. Já os três
+conflitos de setembro de 2025 — dois do Luiz Henrique e um do Almada — caem
+<b>fora</b>: nessa altura os dois já haviam saído, e a disputa não se
+sustenta.</p></div>
+
+<p class="nota"><b>{t["nao_legiveis"]} linhas ficaram fora do recorte dos
+prints</b> — 5 do Almada e 2 do Luiz Henrique — e não puderam ser conferidas.
+Vale um print com a lista rolada até o fim antes de qualquer decisão final sobre
+esses dois nomes.</p>
+
+<p><b>E o que o extrato não traz.</b> Nenhum dos atletas que este levantamento
+identificou como reivindicáveis aparece nele — Gatito Fernández, Igor Jesus,
+Alex Telles e Luis Segovia somam <b>14 partidas confirmadas em escalação
+oficial</b> e continuam fora da plataforma. Eles precisam ser buscados um a um
+pela função de pesquisa, e reivindicados.</p>
+"""
+
+
 def construir(d: dict) -> str:
     t, rt = d["totais"], d["recon_totais"]
     sumula, cessao = t["sumula"], t["cessao"]
@@ -346,7 +450,9 @@ conferência, não do registro federativo. <b>O extrato do TMS pode alterar
 qualquer linha</b> — inclusive reduzir. A relação de cada partida, essa sim, é
 oficial.</p></div>
 
-<h2 class="secao"><span class="num">02</span> O critério: relação de partida ou cessão?</h2>
+{secao_tms()}
+
+<h2 class="secao"><span class="num">03</span> O critério: relação de partida ou cessão?</h2>
 
 <p>Este levantamento contou <b>relação de partida</b>. Mas o texto da própria
 plataforma da FIFA não fala em escalação — fala em <b>cessão</b>: <i>"players
@@ -391,7 +497,7 @@ essa rejeição vale de qualquer forma. <b>Adryelson</b> (+1) e <b>Savarino</b>
 (+2) são o efeito da cessão: janelas em que a escalação prova a presença num
 jogo, e o outro passa a contar.</p>
 
-<h2 class="secao"><span class="num">03</span> Atletas com partida confirmada</h2>
+<h2 class="secao"><span class="num">04</span> Atletas com partida confirmada</h2>
 
 <p>Cada linha foi conferida na escalação oficial. <b>As três situações contam
 igual</b> para o cálculo — titular, quem entrou e quem ficou no banco sem
@@ -399,7 +505,7 @@ entrar. Minutos e titularidade são irrelevantes para o rateio.</p>
 
 {cartoes_atletas(d)}
 
-<h2 class="secao"><span class="num">04</span> Atletas nunca conferidos</h2>
+<h2 class="secao"><span class="num">05</span> Atletas nunca conferidos</h2>
 
 <p>Estes estiveram no elenco enquanto a seleção deles disputava Eliminatórias, e
 <b>não têm nenhuma escalação conferida</b>. Ausência aqui não é prova de nada: é
@@ -425,7 +531,7 @@ conferidas</b>.</p></div>
 de técnico, não consequência de calendário: o número diz quanto <i>caberia</i>,
 não quanto <i>há</i>.</p>
 
-<h2 class="secao"><span class="num">05</span> O que fechar, em ordem</h2>
+<h2 class="secao"><span class="num">06</span> O que fechar, em ordem</h2>
 
 <ol class="passos">
 <li><b>Definir o critério com a FIFA.</b> O Loor é o contraexemplo limpo para
