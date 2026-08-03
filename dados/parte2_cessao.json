@@ -1,0 +1,665 @@
+{
+  "atletas": [
+    {
+      "nome": "Jefferson Savarino",
+      "selecao": "Venezuela",
+      "posicao": "Atacante",
+      "vinculo": "2023-12-30 a 2026-01-22",
+      "sumula": 10,
+      "ganho_cessao": 2,
+      "desconhecidas": 0,
+      "janelas": [
+        {
+          "rotulo": "05–10/set/2024",
+          "partidas": 2,
+          "confirmadas": 1,
+          "ganho": 1,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "10–15/out/2024",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "14–19/nov/2024",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "21–25/mar/2025",
+          "partidas": 2,
+          "confirmadas": 1,
+          "ganho": 1,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "06–10/jun/2025",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "04–09/set/2025",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        }
+      ]
+    },
+    {
+      "nome": "Alex Telles",
+      "selecao": "Brasil",
+      "posicao": "Defensor",
+      "vinculo": "2024-09-03 a hoje",
+      "sumula": 3,
+      "ganho_cessao": 1,
+      "desconhecidas": 8,
+      "janelas": [
+        {
+          "rotulo": "06–10/set/2024",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "10–15/out/2024",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "14–19/nov/2024",
+          "partidas": 2,
+          "confirmadas": 1,
+          "ganho": 1,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "20–25/mar/2025",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "05–10/jun/2025",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "04–09/set/2025",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        }
+      ]
+    },
+    {
+      "nome": "Adryelson",
+      "selecao": "Brasil",
+      "posicao": "Defensor",
+      "vinculo": "2022-07-19 a 2023-12-28",
+      "sumula": 1,
+      "ganho_cessao": 1,
+      "desconhecidas": 4,
+      "janelas": [
+        {
+          "rotulo": "08–12/set/2023",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "12–17/out/2023",
+          "partidas": 2,
+          "confirmadas": 1,
+          "ganho": 1,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "16–21/nov/2023",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        }
+      ]
+    },
+    {
+      "nome": "Luis Segovia",
+      "selecao": "Equador",
+      "posicao": "Defensor",
+      "vinculo": "2022-12-15 a 2025-02-01",
+      "sumula": 1,
+      "ganho_cessao": 1,
+      "desconhecidas": 10,
+      "janelas": [
+        {
+          "rotulo": "07–12/set/2023",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "12–17/out/2023",
+          "partidas": 2,
+          "confirmadas": 1,
+          "ganho": 1,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "16–21/nov/2023",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "06–10/set/2024",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "10–15/out/2024",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "14–19/nov/2024",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        }
+      ]
+    },
+    {
+      "nome": "Thiago Almada",
+      "selecao": "Argentina",
+      "posicao": "Meia",
+      "vinculo": "2024-07-03 a 2025-07-17",
+      "sumula": 8,
+      "ganho_cessao": 0,
+      "desconhecidas": 2,
+      "janelas": [
+        {
+          "rotulo": "05–10/set/2024",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "10–15/out/2024",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "14–19/nov/2024",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "21–25/mar/2025",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "05–10/jun/2025",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        }
+      ]
+    },
+    {
+      "nome": "Gatito Fernández",
+      "selecao": "Paraguai",
+      "posicao": "Goleiro",
+      "vinculo": "antes de 2022 a 2024-12-25",
+      "sumula": 6,
+      "ganho_cessao": 0,
+      "desconhecidas": 6,
+      "janelas": [
+        {
+          "rotulo": "07–12/set/2023",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "12–17/out/2023",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "16–21/nov/2023",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "06–10/set/2024",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "10–15/out/2024",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "14–19/nov/2024",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        }
+      ]
+    },
+    {
+      "nome": "Lucas Perri",
+      "selecao": "Brasil",
+      "posicao": "Goleiro",
+      "vinculo": "2022-08-15 a 2023-12-28",
+      "sumula": 6,
+      "ganho_cessao": 0,
+      "desconhecidas": 0,
+      "janelas": [
+        {
+          "rotulo": "08–12/set/2023",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "12–17/out/2023",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "16–21/nov/2023",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        }
+      ]
+    },
+    {
+      "nome": "Luiz Henrique",
+      "selecao": "Brasil",
+      "posicao": "Atacante",
+      "vinculo": "2024-01-31 a 2025-01-20",
+      "sumula": 6,
+      "ganho_cessao": 0,
+      "desconhecidas": 0,
+      "janelas": [
+        {
+          "rotulo": "06–10/set/2024",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "10–15/out/2024",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "14–19/nov/2024",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        }
+      ]
+    },
+    {
+      "nome": "Igor Jesus",
+      "selecao": "Brasil",
+      "posicao": "Atacante",
+      "vinculo": "2024-06-05 a 2025-07-01",
+      "sumula": 4,
+      "ganho_cessao": 0,
+      "desconhecidas": 6,
+      "janelas": [
+        {
+          "rotulo": "06–10/set/2024",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "10–15/out/2024",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "14–19/nov/2024",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        },
+        {
+          "rotulo": "20–25/mar/2025",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "05–10/jun/2025",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        }
+      ]
+    },
+    {
+      "nome": "Jacob Montes",
+      "selecao": "Nicaragua",
+      "posicao": "Meia",
+      "vinculo": "2022-07-25 a 2024-08-01",
+      "sumula": 2,
+      "ganho_cessao": 0,
+      "desconhecidas": 0,
+      "janelas": [
+        {
+          "rotulo": "05–08/jun/2024",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        }
+      ]
+    },
+    {
+      "nome": "Vitinho",
+      "selecao": "Brasil",
+      "posicao": "Defensor",
+      "vinculo": "2024-08-29 a hoje",
+      "sumula": 2,
+      "ganho_cessao": 0,
+      "desconhecidas": 10,
+      "janelas": [
+        {
+          "rotulo": "06–10/set/2024",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "10–15/out/2024",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "14–19/nov/2024",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "20–25/mar/2025",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "05–10/jun/2025",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        },
+        {
+          "rotulo": "04–09/set/2025",
+          "partidas": 2,
+          "confirmadas": 2,
+          "ganho": 0,
+          "situacao": "cessão provada pela escalação",
+          "desconhecidas": 0
+        }
+      ]
+    },
+    {
+      "nome": "Danilo",
+      "selecao": "Brasil",
+      "posicao": "Meia",
+      "vinculo": "2025-07-18 a hoje",
+      "sumula": 0,
+      "ganho_cessao": 0,
+      "desconhecidas": 2,
+      "janelas": [
+        {
+          "rotulo": "04–09/set/2025",
+          "partidas": 2,
+          "confirmadas": 0,
+          "ganho": 0,
+          "situacao": "nenhuma escalação — cessão desconhecida",
+          "desconhecidas": 2
+        }
+      ]
+    }
+  ],
+  "nao_verificados": [
+    {
+      "nome": "Mateo Ponte",
+      "selecao": "Uruguai",
+      "vinculo": "2023-01-01 a hoje",
+      "partidas": 18,
+      "janelas": 9,
+      "estimada": true
+    },
+    {
+      "nome": "Diego Hernandez",
+      "selecao": "Uruguai",
+      "vinculo": "2023-01-01 a hoje",
+      "partidas": 18,
+      "janelas": 9,
+      "estimada": true
+    },
+    {
+      "nome": "Alexander Barboza",
+      "selecao": "Argentina",
+      "vinculo": "2024-01-01 a hoje",
+      "partidas": 12,
+      "janelas": 6,
+      "estimada": true
+    },
+    {
+      "nome": "Damian Suarez",
+      "selecao": "Uruguai",
+      "vinculo": "2024-01-01 a hoje",
+      "partidas": 12,
+      "janelas": 6,
+      "estimada": true
+    },
+    {
+      "nome": "Bastos",
+      "selecao": "Angola",
+      "vinculo": "2023-01-01 a hoje",
+      "partidas": 10,
+      "janelas": 5,
+      "estimada": true
+    },
+    {
+      "nome": "Kadir Barria",
+      "selecao": "Panama",
+      "vinculo": "2025-01-01 a hoje",
+      "partidas": 8,
+      "janelas": 4,
+      "estimada": true
+    },
+    {
+      "nome": "Santi Rodriguez",
+      "selecao": "Uruguai",
+      "vinculo": "2025-01-01 a hoje",
+      "partidas": 6,
+      "janelas": 3,
+      "estimada": true
+    },
+    {
+      "nome": "Oscar Romero",
+      "selecao": "Paraguai",
+      "vinculo": "2024-01-01 a 2024-12-31",
+      "partidas": 6,
+      "janelas": 3,
+      "estimada": true
+    },
+    {
+      "nome": "Mastriani",
+      "selecao": "Uruguai",
+      "vinculo": "2025-01-01 a hoje",
+      "partidas": 6,
+      "janelas": 3,
+      "estimada": true
+    },
+    {
+      "nome": "Alvaro Montoro",
+      "selecao": "Argentina",
+      "vinculo": "2025-01-01 a hoje",
+      "partidas": 6,
+      "janelas": 3,
+      "estimada": true
+    },
+    {
+      "nome": "Jordan Barrera",
+      "selecao": "Colombia",
+      "vinculo": "2025-01-01 a hoje",
+      "partidas": 6,
+      "janelas": 3,
+      "estimada": true
+    },
+    {
+      "nome": "Chris Ramos",
+      "selecao": "Espanha",
+      "vinculo": "2025-01-01 a hoje",
+      "partidas": 6,
+      "janelas": 3,
+      "estimada": true
+    },
+    {
+      "nome": "Cristhian Loor",
+      "selecao": "Equador",
+      "vinculo": "2025-06-01 a hoje",
+      "partidas": 4,
+      "janelas": 2,
+      "estimada": true
+    },
+    {
+      "nome": "Joaquin Correa",
+      "selecao": "Argentina",
+      "vinculo": "2025-06-01 a hoje",
+      "partidas": 4,
+      "janelas": 2,
+      "estimada": true
+    }
+  ],
+  "totais": {
+    "sumula": 49,
+    "ganho_cessao": 5,
+    "desconhecidas": 48,
+    "copa_dias": 34,
+    "cessao": 54
+  }
+}
