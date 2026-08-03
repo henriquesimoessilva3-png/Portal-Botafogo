@@ -23,6 +23,7 @@ antes do número.
 
 from __future__ import annotations
 
+import argparse
 import json
 from datetime import date
 from pathlib import Path
@@ -465,10 +466,18 @@ seleções, validado nas invariantes de cada confederação. Gerado por
 
 
 def main() -> int:
-    d = json.loads(Path("dados/parte2_cessao.json").read_text(encoding="utf-8"))
-    SAIDA.parent.mkdir(parents=True, exist_ok=True)
-    SAIDA.write_text(construir(d), encoding="utf-8")
-    print(f"Gravado: {SAIDA} ({SAIDA.stat().st_size:,} bytes)")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--saida", default=str(SAIDA),
+                    help="onde gravar o HTML (padrão: docs/index.html)")
+    ap.add_argument("--dados", default="dados/parte2_cessao.json")
+    args = ap.parse_args()
+
+    d = json.loads(Path(args.dados).read_text(encoding="utf-8"))
+    destino = Path(args.saida)
+    if destino.parent != Path("."):
+        destino.parent.mkdir(parents=True, exist_ok=True)
+    destino.write_text(construir(d), encoding="utf-8")
+    print(f"Gravado: {destino} ({destino.stat().st_size:,} bytes)")
     print(f"  Eliminatórias confirmadas: {d['totais']['sumula']}")
     print(f"  Em aberto: {d['totais']['desconhecidas'] + sum(r['partidas'] for r in d['nao_verificados'])}")
     return 0
