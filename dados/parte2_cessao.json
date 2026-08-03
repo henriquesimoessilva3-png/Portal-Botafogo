@@ -541,6 +541,530 @@
       ]
     }
   ],
+  "parte1": [
+    {
+      "nome": "Jefferson Savarino",
+      "nome_completo": "Jefferson David Savarino Quintero",
+      "selecao": "Venezuela",
+      "posicao": "Atacante",
+      "nascimento": "1996-11-11",
+      "vinculo_texto": "2023-12-30 a 2026-01-22",
+      "n_elim_declarado": 10,
+      "n_copa": 0,
+      "partidas": [
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-09-10",
+          "casa": "Venezuela",
+          "fora": "Uruguay",
+          "status": "Suplente utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-10-10",
+          "casa": "Venezuela",
+          "fora": "Argentina",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-10-15",
+          "casa": "Venezuela",
+          "fora": "Paraguay",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-11-14",
+          "casa": "Venezuela",
+          "fora": "Brazil",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-11-19",
+          "casa": "Venezuela",
+          "fora": "Chile",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2025-03-25",
+          "casa": "Venezuela",
+          "fora": "Peru",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2025-06-06",
+          "casa": "Venezuela",
+          "fora": "Bolivia",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2025-06-10",
+          "casa": "Venezuela",
+          "fora": "Uruguay",
+          "status": "Suplente utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2025-09-04",
+          "casa": "Venezuela",
+          "fora": "Argentina",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2025-09-09",
+          "casa": "Venezuela",
+          "fora": "Colombia",
+          "status": "Suplente utilizado"
+        }
+      ]
+    },
+    {
+      "nome": "Thiago Almada",
+      "nome_completo": "Thiago Ezequiel Almada",
+      "selecao": "Argentina",
+      "posicao": "Meia",
+      "nascimento": "2001-04-26",
+      "vinculo_texto": "2024-07-03 a 2025-07-17",
+      "n_elim_declarado": 8,
+      "n_copa": 0,
+      "partidas": [
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-10-10",
+          "casa": "Argentina",
+          "fora": "Venezuela",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-10-15",
+          "casa": "Argentina",
+          "fora": "Bolivia",
+          "status": "Suplente utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-11-14",
+          "casa": "Argentina",
+          "fora": "Paraguay",
+          "status": "Suplente não utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-11-19",
+          "casa": "Argentina",
+          "fora": "Peru",
+          "status": "Suplente não utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2025-03-21",
+          "casa": "Argentina",
+          "fora": "Uruguay",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2025-03-25",
+          "casa": "Argentina",
+          "fora": "Brazil",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2025-06-05",
+          "casa": "Argentina",
+          "fora": "Chile",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2025-06-10",
+          "casa": "Argentina",
+          "fora": "Colombia",
+          "status": "Titular"
+        }
+      ]
+    },
+    {
+      "nome": "Gatito Fernández",
+      "nome_completo": "Roberto Júnior Fernández Torres",
+      "selecao": "Paraguai",
+      "posicao": "Goleiro",
+      "nascimento": "1988-03-29",
+      "vinculo_texto": "antes de 2022 a 2024-12-25",
+      "n_elim_declarado": 6,
+      "n_copa": 0,
+      "partidas": [
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-09-06",
+          "casa": "Paraguay",
+          "fora": "Uruguay",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-09-10",
+          "casa": "Paraguay",
+          "fora": "Brazil",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-10-10",
+          "casa": "Paraguay",
+          "fora": "Ecuador",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-10-15",
+          "casa": "Paraguay",
+          "fora": "Venezuela",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-11-14",
+          "casa": "Paraguay",
+          "fora": "Argentina",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-11-19",
+          "casa": "Paraguay",
+          "fora": "Bolivia",
+          "status": "Titular"
+        }
+      ]
+    },
+    {
+      "nome": "Lucas Perri",
+      "nome_completo": "Lucas Estella Perri",
+      "selecao": "Brasil",
+      "posicao": "Goleiro",
+      "nascimento": "1997-12-10",
+      "vinculo_texto": "2022-08-15 a 2023-12-28",
+      "n_elim_declarado": 6,
+      "n_copa": 0,
+      "partidas": [
+        {
+          "torneio": "Eliminatórias",
+          "data": "2023-09-08",
+          "casa": "Brazil",
+          "fora": "Bolivia",
+          "status": "Suplente não utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2023-09-12",
+          "casa": "Brazil",
+          "fora": "Peru",
+          "status": "Suplente não utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2023-10-12",
+          "casa": "Brazil",
+          "fora": "Venezuela",
+          "status": "Suplente não utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2023-10-17",
+          "casa": "Brazil",
+          "fora": "Uruguay",
+          "status": "Suplente não utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2023-11-16",
+          "casa": "Brazil",
+          "fora": "Colombia",
+          "status": "Suplente não utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2023-11-21",
+          "casa": "Brazil",
+          "fora": "Argentina",
+          "status": "Suplente não utilizado"
+        }
+      ]
+    },
+    {
+      "nome": "Luiz Henrique",
+      "nome_completo": "Luiz Henrique André Rosa da Silva",
+      "selecao": "Brasil",
+      "posicao": "Atacante",
+      "nascimento": "2001-01-02",
+      "vinculo_texto": "2024-01-31 a 2025-01-20",
+      "n_elim_declarado": 6,
+      "n_copa": 0,
+      "partidas": [
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-09-06",
+          "casa": "Brazil",
+          "fora": "Ecuador",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-09-10",
+          "casa": "Brazil",
+          "fora": "Paraguay",
+          "status": "Suplente utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-10-10",
+          "casa": "Brazil",
+          "fora": "Chile",
+          "status": "Suplente utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-10-15",
+          "casa": "Brazil",
+          "fora": "Peru",
+          "status": "Suplente utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-11-14",
+          "casa": "Brazil",
+          "fora": "Venezuela",
+          "status": "Suplente utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-11-19",
+          "casa": "Brazil",
+          "fora": "Uruguay",
+          "status": "Suplente utilizado"
+        }
+      ]
+    },
+    {
+      "nome": "Danilo",
+      "nome_completo": "Danilo dos Santos de Oliveira",
+      "selecao": "Brasil",
+      "posicao": "Meia",
+      "nascimento": "2001-04-29",
+      "vinculo_texto": "2025-07-18 a hoje",
+      "n_elim_declarado": 0,
+      "n_copa": 5,
+      "partidas": [
+        {
+          "torneio": "Copa",
+          "data": "2026-06-13",
+          "casa": "Brazil",
+          "fora": "Morocco",
+          "status": "Suplente utilizado"
+        },
+        {
+          "torneio": "Copa",
+          "data": "2026-06-19",
+          "casa": "Brazil",
+          "fora": "Haiti",
+          "status": "Suplente utilizado"
+        },
+        {
+          "torneio": "Copa",
+          "data": "2026-06-24",
+          "casa": "Brazil",
+          "fora": "Scotland",
+          "status": "Suplente não utilizado"
+        },
+        {
+          "torneio": "Copa",
+          "data": "2026-06-29",
+          "casa": "Brazil",
+          "fora": "Japan",
+          "status": "Suplente utilizado"
+        },
+        {
+          "torneio": "Copa",
+          "data": "2026-07-05",
+          "casa": "Brazil",
+          "fora": "Norway",
+          "status": "Suplente utilizado"
+        }
+      ]
+    },
+    {
+      "nome": "Igor Jesus",
+      "nome_completo": "Igor Jesus Maciel da Cruz",
+      "selecao": "Brasil",
+      "posicao": "Atacante",
+      "nascimento": "2001-02-25",
+      "vinculo_texto": "2024-06-05 a 2025-07-01",
+      "n_elim_declarado": 4,
+      "n_copa": 0,
+      "partidas": [
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-10-10",
+          "casa": "Brazil",
+          "fora": "Chile",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-10-15",
+          "casa": "Brazil",
+          "fora": "Peru",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-11-14",
+          "casa": "Brazil",
+          "fora": "Venezuela",
+          "status": "Titular"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-11-19",
+          "casa": "Brazil",
+          "fora": "Uruguay",
+          "status": "Titular"
+        }
+      ]
+    },
+    {
+      "nome": "Alex Telles",
+      "nome_completo": "Alex Nicolao Telles",
+      "selecao": "Brasil",
+      "posicao": "Defensor",
+      "nascimento": "1992-12-15",
+      "vinculo_texto": "2024-09-03 a hoje",
+      "n_elim_declarado": 3,
+      "n_copa": 0,
+      "partidas": [
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-10-10",
+          "casa": "Brazil",
+          "fora": "Chile",
+          "status": "Suplente não utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-10-15",
+          "casa": "Brazil",
+          "fora": "Peru",
+          "status": "Suplente não utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-11-19",
+          "casa": "Brazil",
+          "fora": "Uruguay",
+          "status": "Suplente não utilizado"
+        }
+      ]
+    },
+    {
+      "nome": "Jacob Montes",
+      "nome_completo": "Jacob Christian Montes Hoff",
+      "selecao": "Nicarágua",
+      "posicao": "Meia",
+      "nascimento": "1998-10-20",
+      "vinculo_texto": "2022-07-25 a 2024-08-01",
+      "n_elim_declarado": 2,
+      "n_copa": 0,
+      "partidas": [
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-06-05",
+          "casa": "Nicaragua",
+          "fora": "Montserrat",
+          "status": "Suplente utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2024-06-08",
+          "casa": "Nicaragua",
+          "fora": "Belize",
+          "status": "Titular"
+        }
+      ]
+    },
+    {
+      "nome": "Vitinho",
+      "nome_completo": "Victor Alexander da Silva",
+      "selecao": "Brasil",
+      "posicao": "Defensor",
+      "nascimento": "1999-07-23",
+      "vinculo_texto": "2024-08-29 a hoje",
+      "n_elim_declarado": 2,
+      "n_copa": 0,
+      "partidas": [
+        {
+          "torneio": "Eliminatórias",
+          "data": "2025-09-04",
+          "casa": "Brazil",
+          "fora": "Chile",
+          "status": "Suplente não utilizado"
+        },
+        {
+          "torneio": "Eliminatórias",
+          "data": "2025-09-09",
+          "casa": "Brazil",
+          "fora": "Bolivia",
+          "status": "Titular"
+        }
+      ]
+    },
+    {
+      "nome": "Adryelson",
+      "nome_completo": "Adryelson Shawann Lima Silva",
+      "selecao": "Brasil",
+      "posicao": "Defensor",
+      "nascimento": "1998-03-23",
+      "vinculo_texto": "2022-07-19 a 2023-12-28",
+      "n_elim_declarado": 1,
+      "n_copa": 0,
+      "partidas": [
+        {
+          "torneio": "Eliminatórias",
+          "data": "2023-10-17",
+          "casa": "Brazil",
+          "fora": "Uruguay",
+          "status": "Suplente não utilizado"
+        }
+      ]
+    },
+    {
+      "nome": "Luis Segovia",
+      "nome_completo": "Luis Geovanny Segovia Vega",
+      "selecao": "Equador",
+      "posicao": "Defensor",
+      "nascimento": "1997-10-26",
+      "vinculo_texto": "2022-12-15 a 2025-02-01",
+      "n_elim_declarado": 1,
+      "n_copa": 0,
+      "partidas": [
+        {
+          "torneio": "Eliminatórias",
+          "data": "2023-10-12",
+          "casa": "Ecuador",
+          "fora": "Bolivia",
+          "status": "Suplente não utilizado"
+        }
+      ]
+    }
+  ],
   "nao_verificados": [
     {
       "nome": "Mateo Ponte",

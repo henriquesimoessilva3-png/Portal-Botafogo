@@ -258,6 +258,11 @@ def main() -> int:
     print(f"  linhas de partida no detalhe: {total_lin}")
 
     res = analisar(atletas)
+    # O detalhe jogo a jogo da Parte 1 vai junto: é o que a versão web precisa
+    # para mostrar o levantamento inteiro numa página só.
+    res["parte1"] = [{k: v for k, v in a.items()
+                      if k not in ("vinculo_ini", "vinculo_fim")}
+                     for a in atletas]
     res["nao_verificados"] = nao_verificados(atletas)
 
     # Reconciliação contra a lista original da FIFA. É o teste mais direto de
