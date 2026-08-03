@@ -655,6 +655,93 @@
       "estimada": true
     }
   ],
+  "reconciliacao": [
+    {
+      "nome": "Thiago Almada",
+      "selecao": "Argentina",
+      "fifa": 9,
+      "sumula": 8,
+      "cessao": 8,
+      "d_sumula": -1,
+      "d_cessao": -1,
+      "ausente": false
+    },
+    {
+      "nome": "Vitinho",
+      "selecao": "Brasil",
+      "fifa": 2,
+      "sumula": 2,
+      "cessao": 2,
+      "d_sumula": 0,
+      "d_cessao": 0,
+      "ausente": false
+    },
+    {
+      "nome": "Lucas Perri",
+      "selecao": "Brasil",
+      "fifa": 6,
+      "sumula": 6,
+      "cessao": 6,
+      "d_sumula": 0,
+      "d_cessao": 0,
+      "ausente": false
+    },
+    {
+      "nome": "Adryelson",
+      "selecao": "Brasil",
+      "fifa": 1,
+      "sumula": 1,
+      "cessao": 2,
+      "d_sumula": 0,
+      "d_cessao": 1,
+      "ausente": false
+    },
+    {
+      "nome": "Cristhian Loor",
+      "selecao": "Equador",
+      "fifa": 1,
+      "sumula": 0,
+      "cessao": 0,
+      "d_sumula": -1,
+      "d_cessao": -1,
+      "ausente": true
+    },
+    {
+      "nome": "Jacob Montes",
+      "selecao": "Nicaragua",
+      "fifa": 2,
+      "sumula": 2,
+      "cessao": 2,
+      "d_sumula": 0,
+      "d_cessao": 0,
+      "ausente": false
+    },
+    {
+      "nome": "Luiz Henrique",
+      "selecao": "Brasil",
+      "fifa": 8,
+      "sumula": 6,
+      "cessao": 6,
+      "d_sumula": -2,
+      "d_cessao": -2,
+      "ausente": false
+    },
+    {
+      "nome": "Jefferson Savarino",
+      "selecao": "Venezuela",
+      "fifa": 10,
+      "sumula": 10,
+      "cessao": 12,
+      "d_sumula": 0,
+      "d_cessao": 2,
+      "ausente": false
+    }
+  ],
+  "recon_totais": {
+    "fifa": 39,
+    "sumula": 35,
+    "cessao": 38
+  },
   "totais": {
     "sumula": 49,
     "ganho_cessao": 5,

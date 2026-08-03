@@ -63,6 +63,15 @@ from partidas_universo import carregar_universo
 
 VALOR_POR_PARTIDA = 2360
 
+# Números da lista original da plataforma "Player Releases for S.a.f. Botafogo".
+# Fonte: aba 2 da planilha mestre, conferida em print (rodapé "Page 1 of 1 —
+# Total 8"). É contra isto que os dois critérios são medidos.
+ASSIGNED_FIFA = {
+    "Thiago Almada": 9, "Vitinho": 2, "Lucas Perri": 6, "Adryelson": 1,
+    "Cristhian Loor": 1, "Jacob Montes": 2, "Luiz Henrique": 8,
+    "Jefferson Savarino": 10,
+}
+
 # Nome da seleção no cabeçalho do atleta (PT) -> nome no partidas_universo.
 SELECAO_PT = {
     "venezuela": "Venezuela", "argentina": "Argentina", "paraguai": "Paraguai",
@@ -250,6 +259,30 @@ def main() -> int:
 
     res = analisar(atletas)
     res["nao_verificados"] = nao_verificados(atletas)
+
+    # Reconciliação contra a lista original da FIFA. É o teste mais direto de
+    # qual critério a FIFA usou: o que aproxima mais dos números dela?
+    por = {a["nome"]: a for a in res["atletas"]}
+    # Quem está ausente da Parte 1 não tem seleção vinda do PDF — a linha dele é
+    # justamente a mais importante da tabela, então não pode sair em branco.
+    sel_csv = {r["atleta"]: r.get("selecao", "")
+               for r in csv.DictReader(open("atletas.csv", encoding="utf-8"))}
+    recon = []
+    for nome, atribuidas in ASSIGNED_FIFA.items():
+        a = por.get(nome)
+        sml = a["sumula"] if a else 0
+        ces = (a["sumula"] + a["ganho_cessao"]) if a else 0
+        recon.append({"nome": nome,
+                      "selecao": (a or {}).get("selecao") or sel_csv.get(nome, ""),
+                      "fifa": atribuidas, "sumula": sml, "cessao": ces,
+                      "d_sumula": sml - atribuidas, "d_cessao": ces - atribuidas,
+                      "ausente": a is None})
+    res["reconciliacao"] = recon
+    res["recon_totais"] = {
+        "fifa": sum(r["fifa"] for r in recon),
+        "sumula": sum(r["sumula"] for r in recon),
+        "cessao": sum(r["cessao"] for r in recon),
+    }
     res["totais"] = {
         "sumula": sum(a["sumula"] for a in res["atletas"]),
         "ganho_cessao": sum(a["ganho_cessao"] for a in res["atletas"]),

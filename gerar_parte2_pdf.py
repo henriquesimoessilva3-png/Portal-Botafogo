@@ -122,6 +122,19 @@ def construir_html(d: dict) -> str:
         </tr>"""
         for r in nv)
 
+    rt = d["recon_totais"]
+    linhas_recon = "\n".join(
+        f"""<tr>
+          <td class="nome">{r['nome']}{' <span class="dim" style="font-weight:400">(ausente da Parte 1)</span>' if r['ausente'] else ''}</td>
+          <td class="dim">{sel(r['selecao'])}</td>
+          <td class="n">{r['fifa']}</td>
+          <td class="n">{r['sumula']}</td>
+          <td class="n">{r['d_sumula']:+d}</td>
+          <td class="n">{r['cessao']}</td>
+          <td class="n">{r['d_cessao']:+d}</td>
+        </tr>"""
+        for r in d["reconciliacao"])
+
     # detalhe por janela dos atletas que ganham com o critério de cessão
     ganhadores = [a for a in d["atletas"] if a["ganho_cessao"]]
     blocos = []
@@ -205,7 +218,51 @@ de registro, <b>a FIFA é maior</b>. É exatamente o que se espera se ela conta
 cessão e a Parte 1 conta súmula.
 </div>
 
-<h2>2. Como esta parte calcula — e o que ela não faz</h2>
+<h2>2. O teste: qual critério reconcilia com a lista da FIFA?</h2>
+
+<p>Há um jeito de testar a hipótese sem depender de interpretação. A FIFA já
+publicou os números dela. Basta perguntar qual dos dois critérios chega mais
+perto.</p>
+
+<table><thead><tr>
+  <th>Atleta</th><th>Seleção</th>
+  <th class="n">FIFA atribuiu</th>
+  <th class="n">Súmula</th><th class="n">Δ</th>
+  <th class="n">Cessão</th><th class="n">Δ</th>
+</tr></thead><tbody>
+{linhas_recon}
+<tr class="tot">
+  <td colspan="2">TOTAL</td>
+  <td class="n">{rt['fifa']}</td>
+  <td class="n">{rt['sumula']}</td><td class="n">{rt['sumula'] - rt['fifa']:+d}</td>
+  <td class="n">{rt['cessao']}</td><td class="n">{rt['cessao'] - rt['fifa']:+d}</td>
+</tr>
+</tbody></table>
+
+<div class="alerta">
+<b>O critério de cessão reconcilia; o da súmula não.</b> Medido contra os
+números da própria FIFA, o critério da súmula erra por
+<b>{abs(rt['sumula'] - rt['fifa'])} partidas</b>. O de cessão erra por
+<b>{abs(rt['cessao'] - rt['fifa'])}</b>. Não é prova do regulamento, mas é o
+tipo de convergência que dificilmente acontece por acaso — e vai na mesma
+direção do texto da plataforma.
+</div>
+
+<p><b>Cristhian Loor é a linha que mais fala.</b> A FIFA atribuiu 1 partida.
+Nenhum dos dois critérios encontra essa partida, porque ele não figurou em
+escalação alguma — é goleiro jovem, cedido e nunca relacionado. Se a FIFA
+contasse súmula, ele não estaria na lista. <b>Ele está.</b> Esse nome sozinho
+mostra que a base da FIFA é outra, e por isso ele deve ser <b>aceito</b>, não
+ignorado.</p>
+
+<p>As demais divergências têm explicação conhecida e diferente entre si:
+<b>Luiz Henrique</b> (−2) é questão de <i>data de registro</i>, não de critério
+— ele saiu para o Zenit em janeiro de 2025 e a FIFA contou a janela de março; o
+TMS resolve. <b>Adryelson</b> (+1) e <b>Savarino</b> (+2) são o efeito da
+cessão: janelas em que a escalação prova a presença num jogo e o outro passa a
+contar.</p>
+
+<h2>3. Como esta parte calcula — e o que ela não faz</h2>
 
 <p>A regra usada aqui é conservadora e ancorada em prova, não em suposição:</p>
 
@@ -223,7 +280,7 @@ só a convocação oficial da federação resolve.</p>
 expectativa. Convocação é decisão de técnico, não consequência de calendário.
 O número diz quanto <i>caberia</i>, não quanto <i>há</i>.</p>
 
-<h2>3. Efeito por atleta</h2>
+<h2>4. Efeito por atleta</h2>
 
 <table><thead><tr>
   <th>Atleta</th><th>Seleção</th>
@@ -247,7 +304,7 @@ convocação.</p>
 
 <div class="quebra"></div>
 
-<h2>4. Correção aritmética da Parte 1</h2>
+<h2>5. Correção aritmética da Parte 1</h2>
 
 <p>O cabeçalho da Parte 1 informa <b>44 jogos · {moeda(44 * VALOR)}</b>. Mas as
 linhas de detalhe do próprio documento somam <b>{sumula}</b>, e os contadores por
@@ -272,7 +329,7 @@ no gerador.)</p>
     <td class="n">{moeda(sumula * VALOR + t['copa_dias'] * VALOR_DIA_COPA)}</td></tr>
 </tbody></table>
 
-<h2>5. Atletas nunca conferidos</h2>
+<h2>6. Atletas nunca conferidos</h2>
 
 <p>Estes atletas estiveram no elenco enquanto a seleção deles disputava
 Eliminatórias, e <b>não aparecem na Parte 1</b>. Ausência aqui não é prova de
@@ -302,7 +359,7 @@ conferidas</b>.
 do TMS, e estão marcados como estimados. O extrato do TMS pode alterar qualquer
 linha — inclusive reduzir.</p>
 
-<h2>6. O que fechar, em ordem</h2>
+<h2>7. O que fechar, em ordem</h2>
 
 <ol>
 <li><b>Definir o critério com a FIFA.</b> O Loor é o contraexemplo limpo para
